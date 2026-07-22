@@ -11,6 +11,10 @@
   "min_upside_pct": 10,
   "max_recom": 2.0,
   "slippage_bps": 5,
+  "auto_paper": {
+    "enabled": true,
+    "notes": "When true, automation_cycle.py writes paper fills (not dry-run)"
+  },
   "kill_switch": {
     "max_daily_loss_pct": 3.0,
     "halt_on_trigger": true

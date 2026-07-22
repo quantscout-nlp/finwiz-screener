@@ -16,8 +16,8 @@
     }
   },
   "metrics": {
-    "price": 205.85,
-    "market_cap": 4983022.09,
+    "price": 204.7,
+    "market_cap": 4953739.93,
     "sales_growth_yoy": 70.68,
     "eps_growth_yoy": 109.57,
     "peg": 0.34,
@@ -27,7 +27,7 @@
     "debt_equity": 0.07,
     "recom": 1.23,
     "target_price": 314.29,
-    "pe": 31.53
+    "pe": 31.35
   },
   "technicals": {
     "rsi14": 52.24,
@@ -58,7 +58,7 @@
     "growth"
   ],
   "finviz_url": "https://finviz.com/quote.ashx?t=NVDA",
-  "deep_dive_path": null,
+  "deep_dive_path": "deep-dives/NVDA-2026-08-26.md",
   "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T06:51:51"
+  "finviz_elite_sync": "2026-07-22T08:23:00"
 }

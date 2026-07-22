@@ -107,9 +107,34 @@ Opens at **http://localhost:8501** with these pages:
 | **Ticker Intel** | Full profile, news bullets, markdown deep dives |
 | **Query Lab** | Same NL/structured query engine as `scripts/query.py` |
 | **Controls & Export** | Toggle SMA/tight BUY/capitulation in UI, rebuild index, Finviz URLs |
-| **Paper Trading** | Read-only paper ledger view |
+| **Paper Trading** | Paper auto-trade cycle + ledger (simulated fills only) |
 
-Use **Rebuild index** in the sidebar after editing ticker JSON or toggles from the CLI.
+Sidebar + **Controls & Export**: switchable **SMA ON/OFF** and period **9 / 20 / 50 / 100 / 200**, plus **Tight BUY ON/OFF**.
+
+### Always-on automation (Windows Task Scheduler)
+
+```powershell
+# Install background job (every 15 minutes): Elite sync → rebuild → deep-dive stubs → paper trades
+.\scripts\install_scheduled_task.ps1
+.\scripts\install_scheduled_task.ps1 -Minutes 15
+
+# Run one cycle now
+powershell -File .\scripts\run_automation.ps1
+# or
+py -3 scripts\automation_cycle.py --deep-dives
+
+# Paper auto-trade only (writes ledger)
+py -3 bot\run_paper.py
+
+# Auto deep-dives / auto-add candidates
+py -3 scripts\auto_deep_dive.py --all-core
+py -3 scripts\auto_add_tickers.py --tickers AMD,ARM --status candidate
+
+# Uninstall task
+.\scripts\install_scheduled_task.ps1 -Uninstall
+```
+
+Logs: `data\automation_logs\`
 
 ### Live features
 
@@ -117,6 +142,7 @@ Use **Rebuild index** in the sidebar after editing ticker JSON or toggles from t
 - **Finviz Elite sync** — set `FINVIZ_API_KEY` (from [elite.finviz.com/api_explanation](https://elite.finviz.com/api_explanation)); auto-runs on rebuild/refresh
 - **Price charts** — yfinance OHLC + SMA overlays + analyst target on Ticker Intel, Growth Screener, Query Lab
 - **LLM rerank** — Query Lab checkbox; uses `OPENAI_API_KEY` or paste a key in-session (`gpt-4o-mini` default)
+- **Paper auto-trade** — simulated BUY/SELL fills into `bot/ledger/paper_ledger.json` (not live broker)
 
 ### Environment variables (Windows)
 
@@ -135,3 +161,5 @@ Manual Elite sync:
 ```powershell
 py -3 scripts\sync_finviz_elite.py
 ```
+
+**GitHub:** https://github.com/quantscout-nlp/finwiz-screener

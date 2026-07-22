@@ -16,8 +16,8 @@
     }
   },
   "metrics": {
-    "price": 416.86,
-    "market_cap": 2162035.98,
+    "price": 412.31,
+    "market_cap": 2138437.56,
     "sales_growth_yoy": 34.6,
     "eps_growth_yoy": 54.8,
     "peg": 0.54,
@@ -27,7 +27,7 @@
     "debt_equity": 0.15,
     "recom": 1.21,
     "target_price": 523.9,
-    "pe": 30.09
+    "pe": 29.76
   },
   "technicals": {
     "rsi14": 49.41,
@@ -59,7 +59,7 @@
     "growth"
   ],
   "finviz_url": "https://finviz.com/quote.ashx?t=TSM",
-  "deep_dive_path": null,
+  "deep_dive_path": "deep-dives/TSM-auto-2026-07-22.md",
   "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T06:51:51"
+  "finviz_elite_sync": "2026-07-22T08:23:00"
 }

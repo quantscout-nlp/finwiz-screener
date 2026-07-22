@@ -66,11 +66,11 @@
       "action_rank": 4,
       "analyst_label": "Strong Buy",
       "recom": 1.23,
-      "upside_pct": 52.68,
+      "upside_pct": 53.54,
       "action_reasons": [
         "passes deep-dive gate",
         "analyst Strong Buy (recom 1.23 <= 1.5)",
-        "upside 52.68% >= 15.0%",
+        "upside 53.54% >= 15.0%",
         "SMA200 filter ON=True (7.64% via sma200_pct)",
         "RSI 52.24 in 40.0-65.0",
         "composite 87.3"
@@ -101,8 +101,8 @@
         "growth"
       ],
       "metrics": {
-        "price": 205.85,
-        "market_cap": 4983022.09,
+        "price": 204.7,
+        "market_cap": 4953739.93,
         "sales_growth_yoy": 70.68,
         "eps_growth_yoy": 109.57,
         "peg": 0.34,
@@ -112,7 +112,7 @@
         "debt_equity": 0.07,
         "recom": 1.23,
         "target_price": 314.29,
-        "pe": 31.53
+        "pe": 31.35
       },
       "technicals": {
         "rsi14": 52.24,
@@ -135,9 +135,9 @@
         "next_catalyst": "Q2 FY27 earnings",
         "catalyst_date": "2026-08-26"
       },
-      "deep_dive_path": null,
+      "deep_dive_path": "deep-dives/NVDA-2026-08-26.md",
       "finviz_url": "https://finviz.com/quote.ashx?t=NVDA",
-      "blob": "nvda nvidia corp technology semiconductors exceptional workable news_flow exceptional technicals workable strong news workable technicals buy strong buy action buy analyst strong buy   ai infrastructure anchor; elite margins/peg; consolidating above sma200 with dense catalyst news into aug 26 earnings. ai semiconductors mega-cap core growth bristol myers vera rubin dgx superpod for drug discovery chip rebound ahead of big-tech earnings / capex commentary oppenheimer 'best of the best' momentum mention q2 fy27 earnings neutral consolidation above sma200; not overbought {\"price\": 205.85, \"market_cap\": 4983022.09, \"sales_growth_yoy\": 70.68, \"eps_growth_yoy\": 109.57, \"peg\": 0.34, \"forward_pe\": 16.25, \"gross_margin\": 74.15, \"profit_margin\": 62.97, \"debt_equity\": 0.07, \"recom\": 1.23, \"target_price\": 314.29, \"pe\": 31.53}",
+      "blob": "nvda nvidia corp technology semiconductors exceptional workable news_flow exceptional technicals workable strong news workable technicals buy strong buy action buy analyst strong buy   ai infrastructure anchor; elite margins/peg; consolidating above sma200 with dense catalyst news into aug 26 earnings. ai semiconductors mega-cap core growth bristol myers vera rubin dgx superpod for drug discovery chip rebound ahead of big-tech earnings / capex commentary oppenheimer 'best of the best' momentum mention q2 fy27 earnings neutral consolidation above sma200; not overbought {\"price\": 204.7, \"market_cap\": 4953739.93, \"sales_growth_yoy\": 70.68, \"eps_growth_yoy\": 109.57, \"peg\": 0.34, \"forward_pe\": 16.25, \"gross_margin\": 74.15, \"profit_margin\": 62.97, \"debt_equity\": 0.07, \"recom\": 1.23, \"target_price\": 314.29, \"pe\": 31.35}",
       "toggles": {
         "screener_enabled": true,
         "sma_filter": {
@@ -175,11 +175,11 @@
       "action_rank": 4,
       "analyst_label": "Strong Buy",
       "recom": 1.21,
-      "upside_pct": 25.68,
+      "upside_pct": 27.06,
       "action_reasons": [
         "passes deep-dive gate",
         "analyst Strong Buy (recom 1.21 <= 1.5)",
-        "upside 25.68% >= 15.0%",
+        "upside 27.06% >= 15.0%",
         "SMA200 filter ON=True (20.27% via sma200_pct)",
         "RSI 49.41 in 40.0-65.0",
         "composite 86.7"
@@ -212,8 +212,8 @@
         "growth"
       ],
       "metrics": {
-        "price": 416.86,
-        "market_cap": 2162035.98,
+        "price": 412.31,
+        "market_cap": 2138437.56,
         "sales_growth_yoy": 34.6,
         "eps_growth_yoy": 54.8,
         "peg": 0.54,
@@ -223,7 +223,7 @@
         "debt_equity": 0.15,
         "recom": 1.21,
         "target_price": 523.9,
-        "pe": 30.09
+        "pe": 29.76
       },
       "technicals": {
         "rsi14": 49.41,
@@ -246,9 +246,9 @@
         "next_catalyst": "Hyperscaler capex commentary / next quarter guide",
         "catalyst_date": null
       },
-      "deep_dive_path": null,
+      "deep_dive_path": "deep-dives/TSM-auto-2026-07-22.md",
       "finviz_url": "https://finviz.com/quote.ashx?t=TSM",
-      "blob": "tsm taiwan semiconductor manufacturing adr technology semiconductors exceptional workable news_flow exceptional technicals workable strong news workable technicals buy strong buy action buy analyst strong buy capitulation oversold mean reversion ai foundry bottleneck; record q2 + arizona expansion; price-hike / surcharge news; strong buy recom 1.21; above sma200 after chip selloff bounce. ai foundry semiconductors mega-cap core growth wafer price hike 5\u201310% from 2027 + ai chip surcharge talks arizona investment expanded to ~$265b; record q2 profit multi-year ai chip demand affirmed on earnings call hyperscaler capex commentary / next quarter guide post-earnings digests; above sma200; rsi neutral after +5.5% bounce {\"price\": 416.86, \"market_cap\": 2162035.98, \"sales_growth_yoy\": 34.6, \"eps_growth_yoy\": 54.8, \"peg\": 0.54, \"forward_pe\": 19.81, \"gross_margin\": 63.38, \"profit_margin\": 50.31, \"debt_equity\": 0.15, \"recom\": 1.21, \"target_price\": 523.9, \"pe\": 30.09}",
+      "blob": "tsm taiwan semiconductor manufacturing adr technology semiconductors exceptional workable news_flow exceptional technicals workable strong news workable technicals buy strong buy action buy analyst strong buy capitulation oversold mean reversion ai foundry bottleneck; record q2 + arizona expansion; price-hike / surcharge news; strong buy recom 1.21; above sma200 after chip selloff bounce. ai foundry semiconductors mega-cap core growth wafer price hike 5\u201310% from 2027 + ai chip surcharge talks arizona investment expanded to ~$265b; record q2 profit multi-year ai chip demand affirmed on earnings call hyperscaler capex commentary / next quarter guide post-earnings digests; above sma200; rsi neutral after +5.5% bounce {\"price\": 412.31, \"market_cap\": 2138437.56, \"sales_growth_yoy\": 34.6, \"eps_growth_yoy\": 54.8, \"peg\": 0.54, \"forward_pe\": 19.81, \"gross_margin\": 63.38, \"profit_margin\": 50.31, \"debt_equity\": 0.15, \"recom\": 1.21, \"target_price\": 523.9, \"pe\": 29.76}",
       "toggles": {
         "screener_enabled": true,
         "sma_filter": {
@@ -286,11 +286,11 @@
       "action_rank": 4,
       "analyst_label": "Strong Buy",
       "recom": 1.31,
-      "upside_pct": 66.18,
+      "upside_pct": 69.59,
       "action_reasons": [
         "passes deep-dive gate",
         "analyst Strong Buy (recom 1.31 <= 1.5)",
-        "upside 66.18% >= 15.0%",
+        "upside 69.59% >= 15.0%",
         "SMA200 filter ON=True (97.92% via sma200_pct)",
         "RSI 51.04 in 40.0-65.0",
         "composite 83.0"
@@ -323,8 +323,8 @@
         "growth"
       ],
       "metrics": {
-        "price": 944.0,
-        "market_cap": 1065071.3,
+        "price": 925.0,
+        "market_cap": 1044688.59,
         "sales_growth_yoy": 166.98,
         "eps_growth_yoy": 701.44,
         "peg": 0.04,
@@ -334,7 +334,7 @@
         "debt_equity": 0.06,
         "recom": 1.31,
         "target_price": 1568.74,
-        "pe": 21.35
+        "pe": 20.94
       },
       "technicals": {
         "rsi14": 51.04,
@@ -356,9 +356,9 @@
         "next_catalyst": "Next earnings / HBM demand updates",
         "catalyst_date": null
       },
-      "deep_dive_path": null,
+      "deep_dive_path": "deep-dives/MU-auto-2026-07-22.md",
       "finviz_url": "https://finviz.com/quote.ashx?t=MU",
-      "blob": "mu micron technology inc technology semiconductors strong workable news_flow strong technicals workable strong news workable technicals buy strong buy action buy analyst strong buy   ai memory supercycle; extreme eps/sales growth; bofa buy $1550; high beta pullback still +98% vs sma200 \u2014 torque name, size small. ai memory semiconductors high-beta cyclical core growth bofa reiterates buy, $1,550 target on ai memory + buyback path memory supercycle narrative after massive yoy growth prints next earnings / hbm demand updates volatile rebound day (+12%); far above sma200 but \u221223% from high \u2014 cyclical memory risk {\"price\": 944.0, \"market_cap\": 1065071.3, \"sales_growth_yoy\": 166.98, \"eps_growth_yoy\": 701.44, \"peg\": 0.04, \"forward_pe\": 6.28, \"gross_margin\": 72.6, \"profit_margin\": 55.91, \"debt_equity\": 0.06, \"recom\": 1.31, \"target_price\": 1568.74, \"pe\": 21.35}",
+      "blob": "mu micron technology inc technology semiconductors strong workable news_flow strong technicals workable strong news workable technicals buy strong buy action buy analyst strong buy   ai memory supercycle; extreme eps/sales growth; bofa buy $1550; high beta pullback still +98% vs sma200 \u2014 torque name, size small. ai memory semiconductors high-beta cyclical core growth bofa reiterates buy, $1,550 target on ai memory + buyback path memory supercycle narrative after massive yoy growth prints next earnings / hbm demand updates volatile rebound day (+12%); far above sma200 but \u221223% from high \u2014 cyclical memory risk {\"price\": 925.0, \"market_cap\": 1044688.59, \"sales_growth_yoy\": 166.98, \"eps_growth_yoy\": 701.44, \"peg\": 0.04, \"forward_pe\": 6.28, \"gross_margin\": 72.6, \"profit_margin\": 55.91, \"debt_equity\": 0.06, \"recom\": 1.31, \"target_price\": 1568.74, \"pe\": 20.94}",
       "toggles": {
         "screener_enabled": true,
         "sma_filter": {
@@ -396,11 +396,11 @@
       "action_rank": 4,
       "analyst_label": "Strong Buy",
       "recom": 1.14,
-      "upside_pct": 32.48,
+      "upside_pct": 35.07,
       "action_reasons": [
         "passes deep-dive gate",
         "analyst Strong Buy (recom 1.14 <= 1.5)",
-        "upside 32.48% >= 15.0%",
+        "upside 35.07% >= 15.0%",
         "SMA200 filter ON=True (36.87% via sma200_pct)",
         "RSI 46.38 in 40.0-65.0",
         "composite 81.4"
@@ -433,8 +433,8 @@
         "growth"
       ],
       "metrics": {
-        "price": 219.0,
-        "market_cap": 40838.65,
+        "price": 214.8,
+        "market_cap": 40055.45,
         "sales_growth_yoy": 205.68,
         "eps_growth_yoy": 755.03,
         "peg": 0.52,
@@ -444,7 +444,7 @@
         "debt_equity": 0.01,
         "recom": 1.14,
         "target_price": 290.14,
-        "pe": 88.31
+        "pe": 86.62
       },
       "technicals": {
         "rsi14": 46.38,
@@ -466,9 +466,9 @@
         "next_catalyst": "Next earnings (est. late Aug / early Sep)",
         "catalyst_date": null
       },
-      "deep_dive_path": null,
+      "deep_dive_path": "deep-dives/CRDO-auto-2026-07-22.md",
       "finviz_url": "https://finviz.com/quote.ashx?t=CRDO",
-      "blob": "crdo credo technology group holding ltd technology semiconductors strong workable news_flow strong technicals workable strong news workable technicals buy strong buy action buy analyst strong buy capitulation oversold mean reversion fastest ai connectivity growth in the set; pullback with rsi mid-40s still above sma200 \u2014 high torque, high beta. ai connectivity semiconductors high-beta core growth ai connectivity demand narrative driving large up days evercore and other buys initiated into ai interconnect theme next earnings (est. late aug / early sep) pullback bounce; elevated atr/beta \u2014 size small {\"price\": 219.0, \"market_cap\": 40838.65, \"sales_growth_yoy\": 205.68, \"eps_growth_yoy\": 755.03, \"peg\": 0.52, \"forward_pe\": 24.76, \"gross_margin\": 68.01, \"profit_margin\": 35.37, \"debt_equity\": 0.01, \"recom\": 1.14, \"target_price\": 290.14, \"pe\": 88.31}",
+      "blob": "crdo credo technology group holding ltd technology semiconductors strong workable news_flow strong technicals workable strong news workable technicals buy strong buy action buy analyst strong buy capitulation oversold mean reversion fastest ai connectivity growth in the set; pullback with rsi mid-40s still above sma200 \u2014 high torque, high beta. ai connectivity semiconductors high-beta core growth ai connectivity demand narrative driving large up days evercore and other buys initiated into ai interconnect theme next earnings (est. late aug / early sep) pullback bounce; elevated atr/beta \u2014 size small {\"price\": 214.8, \"market_cap\": 40055.45, \"sales_growth_yoy\": 205.68, \"eps_growth_yoy\": 755.03, \"peg\": 0.52, \"forward_pe\": 24.76, \"gross_margin\": 68.01, \"profit_margin\": 35.37, \"debt_equity\": 0.01, \"recom\": 1.14, \"target_price\": 290.14, \"pe\": 86.62}",
       "toggles": {
         "screener_enabled": true,
         "sma_filter": {
@@ -506,11 +506,11 @@
       "action_rank": 4,
       "analyst_label": "Strong Buy",
       "recom": 1.32,
-      "upside_pct": 38.74,
+      "upside_pct": 39.77,
       "action_reasons": [
         "passes deep-dive gate",
         "analyst Strong Buy (recom 1.32 <= 1.5)",
-        "upside 38.74% >= 15.0%",
+        "upside 39.77% >= 15.0%",
         "SMA200 filter ON=True (6.14% via sma200_pct)",
         "RSI 49.9 in 40.0-65.0",
         "composite 81.2"
@@ -544,8 +544,8 @@
         "manual-override"
       ],
       "metrics": {
-        "price": 381.0,
-        "market_cap": 1812638.01,
+        "price": 378.18,
+        "market_cap": 1799230.17,
         "sales_growth_yoy": 32.29,
         "eps_growth_yoy": 125.17,
         "peg": 0.35,
@@ -555,7 +555,7 @@
         "debt_equity": 0.74,
         "recom": 1.32,
         "target_price": 528.6,
-        "pe": 63.43
+        "pe": 62.96
       },
       "technicals": {
         "rsi14": 49.9,
@@ -577,9 +577,9 @@
         "next_catalyst": "Next earnings (est. ~September)",
         "catalyst_date": null
       },
-      "deep_dive_path": null,
+      "deep_dive_path": "deep-dives/AVGO-auto-2026-07-22.md",
       "finviz_url": "https://finviz.com/quote.ashx?t=AVGO",
-      "blob": "avgo broadcom inc technology semiconductors strong workable news_flow strong technicals workable strong news workable technicals buy strong buy action buy analyst strong buy capitulation oversold mean reversion custom ai asics + software; peg ~0.35 after chip selloff; manual override for d/e above strict screener cutoff. ai asic semiconductors software core growth manual-override apple custom silicon partnership narrative morgan stanley: avgo/nvda best value among chips post-selloff next earnings (est. ~september) mid-range after selloff; neutral rsi above sma200 {\"price\": 381.0, \"market_cap\": 1812638.01, \"sales_growth_yoy\": 32.29, \"eps_growth_yoy\": 125.17, \"peg\": 0.35, \"forward_pe\": 19.82, \"gross_margin\": 65.66, \"profit_margin\": 38.85, \"debt_equity\": 0.74, \"recom\": 1.32, \"target_price\": 528.6, \"pe\": 63.43}",
+      "blob": "avgo broadcom inc technology semiconductors strong workable news_flow strong technicals workable strong news workable technicals buy strong buy action buy analyst strong buy capitulation oversold mean reversion custom ai asics + software; peg ~0.35 after chip selloff; manual override for d/e above strict screener cutoff. ai asic semiconductors software core growth manual-override apple custom silicon partnership narrative morgan stanley: avgo/nvda best value among chips post-selloff next earnings (est. ~september) mid-range after selloff; neutral rsi above sma200 {\"price\": 378.18, \"market_cap\": 1799230.17, \"sales_growth_yoy\": 32.29, \"eps_growth_yoy\": 125.17, \"peg\": 0.35, \"forward_pe\": 19.82, \"gross_margin\": 65.66, \"profit_margin\": 38.85, \"debt_equity\": 0.74, \"recom\": 1.32, \"target_price\": 528.6, \"pe\": 62.96}",
       "toggles": {
         "screener_enabled": true,
         "sma_filter": {
@@ -617,9 +617,9 @@
       "action_rank": 3,
       "analyst_label": "Strong Buy",
       "recom": 1.12,
-      "upside_pct": 12.29,
+      "upside_pct": 12.05,
       "action_reasons": [
-        "gate PASS but misses BUY: upside 12.29% < tight min 15.0%"
+        "gate PASS but misses BUY: upside 12.05% < tight min 15.0%"
       ],
       "sma_period": 200,
       "sma_pct": 20.42,
@@ -647,8 +647,8 @@
         "growth"
       ],
       "metrics": {
-        "price": 171.07,
-        "market_cap": 215411.81,
+        "price": 171.44,
+        "market_cap": 215877.7,
         "sales_growth_yoy": 30.57,
         "eps_growth_yoy": 22.96,
         "peg": 1.74,
@@ -658,7 +658,7 @@
         "debt_equity": 0.0,
         "recom": 1.12,
         "target_price": 192.1,
-        "pe": 58.58
+        "pe": 58.7
       },
       "technicals": {
         "rsi14": 53.75,
@@ -680,9 +680,9 @@
         "next_catalyst": "Q2 2026 earnings",
         "catalyst_date": "2026-08-04"
       },
-      "deep_dive_path": null,
+      "deep_dive_path": "deep-dives/ANET-2026-08-04.md",
       "finviz_url": "https://finviz.com/quote.ashx?t=ANET",
-      "blob": "anet arista networks inc technology computer hardware strong constructive news_flow strong technicals constructive strong news workable technicals hold strong buy action hold analyst strong buy   ai networking leader; zero debt; above all smas; strong buy recom 1.12; aug 4 earnings catalyst. ai networking zero-debt earnings-soon core growth ai-driven edge threat management for velocloud sd-wan unveiled consensus strong buy (recom 1.12); target ~$192 q2 2026 earnings constructive uptrend above all smas; rsi neutral {\"price\": 171.07, \"market_cap\": 215411.81, \"sales_growth_yoy\": 30.57, \"eps_growth_yoy\": 22.96, \"peg\": 1.74, \"forward_pe\": 39.08, \"gross_margin\": 63.54, \"profit_margin\": 38.32, \"debt_equity\": 0.0, \"recom\": 1.12, \"target_price\": 192.1, \"pe\": 58.58}",
+      "blob": "anet arista networks inc technology computer hardware strong constructive news_flow strong technicals constructive strong news workable technicals hold strong buy action hold analyst strong buy   ai networking leader; zero debt; above all smas; strong buy recom 1.12; aug 4 earnings catalyst. ai networking zero-debt earnings-soon core growth ai-driven edge threat management for velocloud sd-wan unveiled consensus strong buy (recom 1.12); target ~$192 q2 2026 earnings constructive uptrend above all smas; rsi neutral {\"price\": 171.44, \"market_cap\": 215877.7, \"sales_growth_yoy\": 30.57, \"eps_growth_yoy\": 22.96, \"peg\": 1.74, \"forward_pe\": 39.08, \"gross_margin\": 63.54, \"profit_margin\": 38.32, \"debt_equity\": 0.0, \"recom\": 1.12, \"target_price\": 192.1, \"pe\": 58.7}",
       "toggles": {
         "screener_enabled": true,
         "sma_filter": {
@@ -720,9 +720,9 @@
       "action_rank": 3,
       "analyst_label": "Buy",
       "recom": 1.61,
-      "upside_pct": 11.53,
+      "upside_pct": 11.44,
       "action_reasons": [
-        "gate PASS but misses BUY: recom 1.61 > tight max 1.5; upside 11.53% < tight min 15.0%"
+        "gate PASS but misses BUY: recom 1.61 > tight max 1.5; upside 11.44% < tight min 15.0%"
       ],
       "sma_period": 200,
       "sma_pct": 16.27,
@@ -750,8 +750,8 @@
         "growth"
       ],
       "metrics": {
-        "price": 1171.89,
-        "market_cap": 1103617.33,
+        "price": 1172.83,
+        "market_cap": 1104502.51,
         "sales_growth_yoy": 47.44,
         "eps_growth_yoy": 130.02,
         "peg": 0.89,
@@ -761,7 +761,7 @@
         "debt_equity": 1.39,
         "recom": 1.61,
         "target_price": 1306.96,
-        "pe": 42.18
+        "pe": 42.22
       },
       "technicals": {
         "rsi14": 53.52,
@@ -784,9 +784,9 @@
         "next_catalyst": "Q2 2026 earnings",
         "catalyst_date": "2026-08-05"
       },
-      "deep_dive_path": "deep-dives/LLY-aug5-2026.md",
+      "deep_dive_path": "deep-dives/LLY-2026-08-05.md",
       "finviz_url": "https://finviz.com/quote.ashx?t=LLY",
-      "blob": "lly eli lilly & co healthcare drug manufacturers - general strong constructive news_flow strong technicals constructive strong news workable technicals hold buy action hold analyst buy   best non-tech growth diversifier; glp-1 megatrend with clean uptrend above sma200 into aug 5 earnings. healthcare glp-1 mega-cap diversifier core growth ataibeckley acquisition for neuroscience pipeline zepbound/mounjaro demand still driving large beats novo nordisk false-advertising lawsuit (noise watch) q2 2026 earnings clean uptrend; lowest beta in the core five {\"price\": 1171.89, \"market_cap\": 1103617.33, \"sales_growth_yoy\": 47.44, \"eps_growth_yoy\": 130.02, \"peg\": 0.89, \"forward_pe\": 26.0, \"gross_margin\": 82.83, \"profit_margin\": 34.98, \"debt_equity\": 1.39, \"recom\": 1.61, \"target_price\": 1306.96, \"pe\": 42.18}",
+      "blob": "lly eli lilly & co healthcare drug manufacturers - general strong constructive news_flow strong technicals constructive strong news workable technicals hold buy action hold analyst buy   best non-tech growth diversifier; glp-1 megatrend with clean uptrend above sma200 into aug 5 earnings. healthcare glp-1 mega-cap diversifier core growth ataibeckley acquisition for neuroscience pipeline zepbound/mounjaro demand still driving large beats novo nordisk false-advertising lawsuit (noise watch) q2 2026 earnings clean uptrend; lowest beta in the core five {\"price\": 1172.83, \"market_cap\": 1104502.51, \"sales_growth_yoy\": 47.44, \"eps_growth_yoy\": 130.02, \"peg\": 0.89, \"forward_pe\": 26.0, \"gross_margin\": 82.83, \"profit_margin\": 34.98, \"debt_equity\": 1.39, \"recom\": 1.61, \"target_price\": 1306.96, \"pe\": 42.22}",
       "toggles": {
         "screener_enabled": true,
         "sma_filter": {
@@ -824,7 +824,7 @@
       "action_rank": 3,
       "analyst_label": "Buy",
       "recom": 1.94,
-      "upside_pct": 42.96,
+      "upside_pct": 43.33,
       "action_reasons": [
         "gate PASS but misses BUY: recom 1.94 > tight max 1.5; composite 79.5 < 80.0; fails SMA200 filter (-14.5% via sma200_pct)"
       ],
@@ -856,8 +856,8 @@
         "growth"
       ],
       "metrics": {
-        "price": 132.96,
-        "market_cap": 318746.66,
+        "price": 132.62,
+        "market_cap": 317931.55,
         "sales_growth_yoy": 67.71,
         "eps_growth_yoy": 283.83,
         "peg": 1.07,
@@ -867,7 +867,7 @@
         "debt_equity": 0.03,
         "recom": 1.94,
         "target_price": 190.08,
-        "pe": 149.8
+        "pe": 149.41
       },
       "technicals": {
         "rsi14": 52.83,
@@ -891,9 +891,9 @@
         "next_catalyst": "Q2 2026 earnings",
         "catalyst_date": "2026-08-03"
       },
-      "deep_dive_path": "deep-dives/PLTR-aug3-2026.md",
+      "deep_dive_path": "deep-dives/PLTR-2026-08-03.md",
       "finviz_url": "https://finviz.com/quote.ashx?t=PLTR",
-      "blob": "pltr palantir technologies inc technology software - infrastructure exceptional workable news_flow exceptional technicals workable strong news workable technicals hold buy action hold analyst buy   highest near-term leverage into aug 3 earnings; strong news (nvidia pact, commercial wins, upgrades) with recovery technicals still below sma200. ai software government commercial earnings-soon core growth q2 earnings set for aug 3 amc nvidia sovereign ai / government platform partnership mexico gnp seguros commercial expansion da davidson upgrade to buy q2 2026 earnings short-term bounce inside larger correction; below sma200 {\"price\": 132.96, \"market_cap\": 318746.66, \"sales_growth_yoy\": 67.71, \"eps_growth_yoy\": 283.83, \"peg\": 1.07, \"forward_pe\": 63.83, \"gross_margin\": 84.07, \"profit_margin\": 43.67, \"debt_equity\": 0.03, \"recom\": 1.94, \"target_price\": 190.08, \"pe\": 149.8}",
+      "blob": "pltr palantir technologies inc technology software - infrastructure exceptional workable news_flow exceptional technicals workable strong news workable technicals hold buy action hold analyst buy   highest near-term leverage into aug 3 earnings; strong news (nvidia pact, commercial wins, upgrades) with recovery technicals still below sma200. ai software government commercial earnings-soon core growth q2 earnings set for aug 3 amc nvidia sovereign ai / government platform partnership mexico gnp seguros commercial expansion da davidson upgrade to buy q2 2026 earnings short-term bounce inside larger correction; below sma200 {\"price\": 132.62, \"market_cap\": 317931.55, \"sales_growth_yoy\": 67.71, \"eps_growth_yoy\": 283.83, \"peg\": 1.07, \"forward_pe\": 63.83, \"gross_margin\": 84.07, \"profit_margin\": 43.67, \"debt_equity\": 0.03, \"recom\": 1.94, \"target_price\": 190.08, \"pe\": 149.41}",
       "toggles": {
         "screener_enabled": true,
         "sma_filter": {

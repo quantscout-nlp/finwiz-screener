@@ -117,11 +117,49 @@ def sidebar() -> str:
         st.divider()
         idx = st.session_state.index
         toggles = st.session_state.toggles
-        sma = toggles.get("sma_filter", {})
         st.caption(f"Index: {idx.get('updated')} · {idx.get('count', 0)} names")
+        st.markdown("**Screener toggles**")
+        sma = dict(toggles.get("sma_filter") or {})
+        periods = sma.get("allowed_periods", [9, 20, 50, 100, 200])
+        sma_on = st.toggle(
+            "SMA filter ON/OFF",
+            value=bool(sma.get("enabled", True)),
+            key="sidebar_sma_on",
+            help="When ON, BUY requires price above selected SMA",
+        )
+        _cur_period = sma.get("period", 200)
+        if _cur_period not in periods:
+            _cur_period = 200
+        sma_period_sel = st.selectbox(
+            "SMA period",
+            periods,
+            index=periods.index(_cur_period),
+            key="sidebar_sma_period",
+        )
+        tight_on = st.toggle(
+            "Tight BUY ON/OFF",
+            value=bool(toggles.get("tight_buy", {}).get("enabled", True)),
+            key="sidebar_tight_on",
+        )
+        cap_on = st.toggle(
+            "Capitulation mode",
+            value=bool(toggles.get("capitulation_mode", {}).get("enabled", True)),
+            key="sidebar_cap_on",
+        )
+        if st.button("Apply toggles & rebuild", use_container_width=True, type="primary"):
+            new_t = dict(toggles)
+            new_t.setdefault("sma_filter", {})["enabled"] = sma_on
+            new_t["sma_filter"]["period"] = int(sma_period_sel)
+            new_t.setdefault("tight_buy", {})["enabled"] = tight_on
+            new_t.setdefault("capitulation_mode", {})["enabled"] = cap_on
+            write_toggles(new_t)
+            refresh_index(sync_elite=True)
+            st.session_state.toggles = read_toggles()
+            st.session_state.last_sync = datetime.now().strftime("%H:%M:%S")
+            st.rerun()
         st.caption(
-            f"SMA{sma.get('period', 200)} {'ON' if sma.get('enabled') else 'OFF'}"
-            f" · Tight BUY {'ON' if toggles.get('tight_buy', {}).get('enabled') else 'OFF'}"
+            f"Active: SMA{sma_period_sel} {'ON' if sma_on else 'OFF'}"
+            f" · Tight {'ON' if tight_on else 'OFF'}"
         )
         try:
             sys.path.insert(0, str(SCRIPTS))
@@ -525,25 +563,34 @@ def page_query_lab() -> None:
 def page_controls() -> None:
     toggles = dict(st.session_state.toggles)
 
-    render_header("Controls & Export", "Dashboard control panel — mirrors CLI toggles and Finviz export.")
+    render_header(
+        "Controls & Export",
+        "SMA / Tight BUY toggles (also in sidebar), Finviz Elite sync, automation, and exports.",
+    )
 
-    st.markdown("**Master switches**")
+    st.markdown("**Master switches (same as sidebar)**")
     c1, c2 = st.columns(2)
     with c1:
-        toggles["screener_enabled"] = st.toggle("Screener enabled", toggles.get("screener_enabled", True))
+        toggles["screener_enabled"] = st.toggle("Screener enabled", toggles.get("screener_enabled", True), key="ctl_screener")
         toggles.setdefault("growth_mode", {})["enabled"] = st.toggle(
-            "Growth mode", toggles.get("growth_mode", {}).get("enabled", True)
+            "Growth mode", toggles.get("growth_mode", {}).get("enabled", True), key="ctl_growth"
         )
         toggles.setdefault("capitulation_mode", {})["enabled"] = st.toggle(
-            "Capitulation mode", toggles.get("capitulation_mode", {}).get("enabled", True)
+            "Capitulation mode", toggles.get("capitulation_mode", {}).get("enabled", True), key="ctl_cap"
         )
     with c2:
         sma = toggles.setdefault("sma_filter", {})
-        sma["enabled"] = st.toggle("SMA filter", sma.get("enabled", True))
+        sma["enabled"] = st.toggle("SMA filter ON/OFF", sma.get("enabled", True), key="ctl_sma")
         periods = sma.get("allowed_periods", [9, 20, 50, 100, 200])
-        sma["period"] = st.selectbox("SMA period", periods, index=periods.index(sma.get("period", 200)))
+        _p = sma.get("period", 200)
+        sma["period"] = st.selectbox(
+            "SMA period (9 / 20 / 50 / 100 / 200)",
+            periods,
+            index=periods.index(_p) if _p in periods else periods.index(200),
+            key="ctl_sma_period",
+        )
         tight = toggles.setdefault("tight_buy", {})
-        tight["enabled"] = st.toggle("Tight BUY rules", tight.get("enabled", True))
+        tight["enabled"] = st.toggle("Tight BUY ON/OFF", tight.get("enabled", True), key="ctl_tight")
 
     if st.button("Save toggles & rebuild", type="primary"):
         write_toggles(toggles)
@@ -566,6 +613,53 @@ def page_controls() -> None:
     last_elite = st.session_state.get("last_elite_sync")
     if last_elite:
         st.caption(f"Last Elite sync: {last_elite}")
+
+    st.divider()
+    st.markdown("**Automation (always-on)**")
+    st.code(
+        "py -3 scripts\\install_scheduled_task.ps1\n"
+        "py -3 scripts\\automation_cycle.py --deep-dives\n"
+        "py -3 scripts\\auto_add_tickers.py --tickers AMD,ARM --status candidate\n"
+        "py -3 scripts\\auto_deep_dive.py --all-core",
+        language="powershell",
+    )
+    ac1, ac2 = st.columns(2)
+    with ac1:
+        if st.button("Run automation cycle now"):
+            import subprocess
+
+            r = subprocess.run(
+                [sys.executable, str(ROOT / "scripts" / "automation_cycle.py"), "--deep-dives"],
+                cwd=str(ROOT),
+                capture_output=True,
+                text=True,
+            )
+            st.code(r.stdout or r.stderr)
+            refresh_index(sync_elite=False)
+            st.rerun()
+    with ac2:
+        add_sym = st.text_input("Auto-add tickers (comma-separated)", placeholder="AMD,ARM,ASML")
+        if st.button("Add candidates to watchlist") and add_sym.strip():
+            import subprocess
+
+            r = subprocess.run(
+                [
+                    sys.executable,
+                    str(ROOT / "scripts" / "auto_add_tickers.py"),
+                    "--tickers",
+                    add_sym,
+                    "--status",
+                    "candidate",
+                ],
+                cwd=str(ROOT),
+                capture_output=True,
+                text=True,
+            )
+            st.code(r.stdout or r.stderr)
+            refresh_index(sync_elite=False)
+            st.rerun()
+
+    st.divider()
     st.markdown("**Finviz export URLs (your screened tickers)**")
     for fname, label in [
         ("finviz-buy-hits.url.txt", "BUY hits"),
@@ -586,18 +680,67 @@ def page_controls() -> None:
 
 
 def page_paper() -> None:
-    render_header("Paper Trading", "Read-only view of the paper ledger scaffold (bot/run_paper.py).")
+    render_header(
+        "Paper Trading",
+        "Simulated fills into bot/ledger/paper_ledger.json — no live broker orders.",
+    )
+
+    c1, c2, c3 = st.columns(3)
+    with c1:
+        if st.button("Run paper cycle (LIVE paper fills)", type="primary"):
+            import subprocess
+
+            r = subprocess.run(
+                [sys.executable, str(ROOT / "bot" / "run_paper.py")],
+                cwd=str(ROOT),
+                capture_output=True,
+                text=True,
+            )
+            st.code(r.stdout or r.stderr)
+            st.rerun()
+    with c2:
+        if st.button("Dry-run (no ledger write)"):
+            import subprocess
+
+            r = subprocess.run(
+                [sys.executable, str(ROOT / "bot" / "run_paper.py"), "--dry-run"],
+                cwd=str(ROOT),
+                capture_output=True,
+                text=True,
+            )
+            st.code(r.stdout or r.stderr)
+    with c3:
+        if st.button("Full automation cycle"):
+            import subprocess
+
+            r = subprocess.run(
+                [sys.executable, str(ROOT / "scripts" / "automation_cycle.py"), "--deep-dives"],
+                cwd=str(ROOT),
+                capture_output=True,
+                text=True,
+            )
+            st.code(r.stdout or r.stderr)
+            st.rerun()
 
     ledger = read_paper_ledger()
     if not ledger:
-        st.info("No paper ledger yet. Run: `py -3 bot/run_paper.py --dry-run`")
-        st.code("py -3 bot/run_paper.py --dry-run", language="powershell")
+        st.info("No paper ledger yet — click **Run paper cycle** above.")
         return
 
-    st.json(ledger)
-    positions = ledger.get("positions") or ledger.get("holdings") or []
+    m1, m2, m3 = st.columns(3)
+    m1.metric("Cash", f"${ledger.get('cash', 0):,.2f}")
+    m2.metric("Positions", str(len(ledger.get("positions") or {})))
+    m3.metric("Halted", "YES" if ledger.get("halted") else "no")
+    positions = ledger.get("positions") or {}
     if positions:
-        st.dataframe(pd.DataFrame(positions), use_container_width=True)
+        rows = [{"Ticker": k, **v} for k, v in positions.items()]
+        st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+    trades = ledger.get("trades") or []
+    if trades:
+        st.subheader("Recent trades")
+        st.dataframe(pd.DataFrame(trades[::-1][:50]), use_container_width=True, hide_index=True)
+    with st.expander("Raw ledger JSON"):
+        st.json(ledger)
 
 
 def main() -> None:

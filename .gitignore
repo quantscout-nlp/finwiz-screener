@@ -7,6 +7,8 @@ venv/
 !.env.example
 data/raw/*.csv
 data/raw/*.html
+data/automation_logs/*
+!data/automation_logs/.gitkeep
 *.xlsx
 .DS_Store
 Thumbs.db

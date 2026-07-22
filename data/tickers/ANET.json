@@ -16,8 +16,8 @@
     }
   },
   "metrics": {
-    "price": 171.07,
-    "market_cap": 215411.81,
+    "price": 171.44,
+    "market_cap": 215877.7,
     "sales_growth_yoy": 30.57,
     "eps_growth_yoy": 22.96,
     "peg": 1.74,
@@ -27,7 +27,7 @@
     "debt_equity": 0.0,
     "recom": 1.12,
     "target_price": 192.1,
-    "pe": 58.58
+    "pe": 58.7
   },
   "technicals": {
     "rsi14": 53.75,
@@ -58,7 +58,7 @@
     "growth"
   ],
   "finviz_url": "https://finviz.com/quote.ashx?t=ANET",
-  "deep_dive_path": null,
+  "deep_dive_path": "deep-dives/ANET-2026-08-04.md",
   "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T06:51:51"
+  "finviz_elite_sync": "2026-07-22T08:23:00"
 }
