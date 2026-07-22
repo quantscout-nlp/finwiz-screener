@@ -9,6 +9,11 @@ data/raw/*.csv
 data/raw/*.html
 data/automation_logs/*
 !data/automation_logs/.gitkeep
+data/backtests/*
+!data/backtests/.gitkeep
+!data/backtests/latest-summary.json
+!data/backtests/latest-equity.csv
+!data/backtests/advanced-latest.json
 *.xlsx
 .DS_Store
 Thumbs.db

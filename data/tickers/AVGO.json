@@ -16,8 +16,8 @@
     }
   },
   "metrics": {
-    "price": 378.18,
-    "market_cap": 1799230.17,
+    "price": 391.8,
+    "market_cap": 1864035.06,
     "sales_growth_yoy": 32.29,
     "eps_growth_yoy": 125.17,
     "peg": 0.35,
@@ -27,7 +27,7 @@
     "debt_equity": 0.74,
     "recom": 1.32,
     "target_price": 528.6,
-    "pe": 62.96
+    "pe": 65.22
   },
   "technicals": {
     "rsi14": 49.9,
@@ -61,5 +61,5 @@
   "finviz_url": "https://finviz.com/quote.ashx?t=AVGO",
   "deep_dive_path": "deep-dives/AVGO-auto-2026-07-22.md",
   "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T08:23:00"
+  "finviz_elite_sync": "2026-07-22T11:23:01"
 }

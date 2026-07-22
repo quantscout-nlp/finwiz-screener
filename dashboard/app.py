@@ -75,6 +75,7 @@ PAGES = [
     "Query Lab",
     "Controls & Export",
     "Paper Trading",
+    "Backtest",
 ]
 
 
@@ -743,6 +744,164 @@ def page_paper() -> None:
         st.json(ledger)
 
 
+def page_backtest() -> None:
+    render_header(
+        "Backtest",
+        "Retro 5–10y multi-provider prices (Massive/Alpaca/Tiingo/yfinance) + IS/OOS Sharpe, "
+        "drawdown, CAGR, and Monte Carlo stress paths.",
+    )
+
+    latest = ROOT / "data" / "backtests" / "latest-summary.json"
+    equity_path = ROOT / "data" / "backtests" / "latest-equity.csv"
+    advanced_path = ROOT / "data" / "backtests" / "advanced-latest.json"
+
+    st.markdown("**Advanced (recommended)**")
+    a1, a2, a3, a4 = st.columns(4)
+    with a1:
+        years = st.selectbox("Lookback years", [5, 7, 10], index=2)
+    with a2:
+        provider = st.selectbox(
+            "Price provider",
+            ["auto", "lean", "massive", "alpaca", "tiingo", "yfinance"],
+            index=0,
+            help="lean = F:/LeanData DuckDB/parquet (1m/5m/15m/1h/day)",
+        )
+    with a3:
+        mode = st.selectbox("Fundamentals mode", ["pit", "static", "technicals_only"], index=0, key="bt_mode")
+    with a4:
+        mc_sims = st.selectbox("Monte Carlo sims", [200, 500, 1000, 2000], index=2)
+
+    b1, b2, b3 = st.columns(3)
+    with b1:
+        oos_ratio = st.slider("OOS fraction", 0.2, 0.4, 0.30, 0.05)
+    with b2:
+        sma_period = st.selectbox("SMA period", [9, 20, 50, 100, 200], index=4, key="bt_sma")
+    with b3:
+        resolution = st.selectbox("Bar resolution", ["Day", "1Hour", "15Min", "5Min", "1Min"], index=0)
+
+    if st.button("Run 5–10y MC + IS/OOS backtest", type="primary"):
+        with st.spinner("Fetching LeanData/API history + PIT ratings + Monte Carlo…"):
+            sys.path.insert(0, str(SCRIPTS))
+            from lib_backtest_mc import AdvancedBacktestConfig, run_advanced_backtest  # noqa: E402
+            from lib_market_data import provider_status  # noqa: E402
+
+            st.caption("Providers: " + ", ".join(f"{k}={'on' if v else 'off'}" for k, v in provider_status().items()))
+            report = run_advanced_backtest(
+                cfg=AdvancedBacktestConfig(
+                    years=float(years),
+                    oos_ratio=float(oos_ratio),
+                    mc_sims=int(mc_sims),
+                    price_provider=provider,
+                    fundamentals_mode=mode,
+                    sma_period=int(sma_period),
+                    bar_resolution=resolution,
+                )
+            )
+            st.session_state.advanced_backtest = report
+            st.success("Advanced backtest complete")
+            st.rerun()
+
+    adv = st.session_state.get("advanced_backtest")
+    if not adv and advanced_path.exists():
+        import json
+
+        adv = json.loads(advanced_path.read_text(encoding="utf-8"))
+
+    if adv and adv.get("ok"):
+        base = adv.get("base_summary") or {}
+        is_oos = adv.get("is_oos") or {}
+        mc = adv.get("monte_carlo") or {}
+        render_kpi_row(
+            [
+                ("Full CAGR", f"{base.get('cagr_pct', '—')}%", f"{base.get('start')} → {base.get('end')}"),
+                ("IS Sharpe", f"{(is_oos.get('in_sample') or {}).get('sharpe', '—')}", f"IS CAGR {(is_oos.get('in_sample') or {}).get('cagr_pct')}%"),
+                ("OOS Sharpe", f"{(is_oos.get('out_of_sample') or {}).get('sharpe', '—')}", f"OOS CAGR {(is_oos.get('out_of_sample') or {}).get('cagr_pct')}%"),
+                ("Max DD", f"{base.get('max_drawdown_pct', '—')}%", f"MC p50 DD {(mc.get('max_drawdown_pct') or {}).get('p50')}%"),
+                ("MC CAGR p50", f"{(mc.get('cagr_pct') or {}).get('p50', '—')}%", f"p5–p95 {(mc.get('cagr_pct') or {}).get('p5')}–{(mc.get('cagr_pct') or {}).get('p95')}"),
+            ]
+        )
+        c1, c2 = st.columns(2)
+        with c1:
+            st.markdown("**In-sample vs out-of-sample**")
+            st.json({"in_sample": is_oos.get("in_sample"), "out_of_sample": is_oos.get("out_of_sample"), "split": {"is_end": is_oos.get("is_end_date"), "oos_start": is_oos.get("oos_start_date")}})
+        with c2:
+            st.markdown("**Monte Carlo percentiles**")
+            st.json({k: mc.get(k) for k in ("cagr_pct", "sharpe", "max_drawdown_pct", "total_return_pct", "n_sims")})
+        if equity_path.exists():
+            eq = pd.read_csv(equity_path, parse_dates=["Date"])
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=eq["Date"], y=eq["equity"], name="Finwiz strategy", line=dict(color="#3dd68c", width=2)))
+            if "buy_hold" in eq.columns:
+                fig.add_trace(go.Scatter(x=eq["Date"], y=eq["buy_hold"], name="Equal-weight buy&hold", line=dict(color="#f5c842", width=1.5)))
+            if is_oos.get("is_end_date"):
+                fig.add_vline(x=is_oos["is_end_date"], line_dash="dot", line_color="#8b9cb3", annotation_text="OOS→")
+            fig.update_layout(height=380, margin=dict(l=10, r=10, t=30, b=10), title="Equity curve (IS | OOS)", template="plotly_dark")
+            st.plotly_chart(fig, use_container_width=True)
+        with st.expander("Providers / notes / full report"):
+            st.json({"providers_configured": adv.get("providers_configured"), "config": adv.get("config"), "notes": adv.get("notes")})
+            st.json(base)
+        return
+
+    st.divider()
+    st.markdown("**Quick backtest (shorter / legacy)**")
+    c1, c2, c3, c4 = st.columns(4)
+    with c1:
+        start = st.text_input("Start", "2023-01-01")
+    with c2:
+        mode_q = st.selectbox("Fundamentals", ["static", "technicals_only"], index=0, key="bt_mode_q")
+    with c3:
+        sma_q = st.selectbox("SMA", [9, 20, 50, 100, 200], index=4, key="bt_sma_q")
+    with c4:
+        max_pos = st.number_input("Max positions", 1, 8, 5)
+
+    if st.button("Run quick retro backtest"):
+        with st.spinner("Downloading history and simulating…"):
+            toggles = dict(st.session_state.toggles)
+            toggles.setdefault("sma_filter", {})["period"] = int(sma_q)
+            toggles["sma_filter"]["enabled"] = True
+            sys.path.insert(0, str(SCRIPTS))
+            from lib_backtest import BacktestConfig, run_backtest, save_backtest  # noqa: E402
+
+            cfg = BacktestConfig(
+                start=start,
+                max_open_positions=int(max_pos),
+                fundamentals_mode=mode_q,
+                price_provider="auto",
+            )
+            result = run_backtest(cfg=cfg, toggles=toggles)
+            save_backtest(result, tag="core")
+            st.session_state.backtest_summary = result.summary
+            st.session_state.backtest_notes = result.notes
+            st.success("Quick backtest complete")
+            st.rerun()
+
+    summary = None
+    if latest.exists():
+        import json
+
+        summary = json.loads(latest.read_text(encoding="utf-8"))
+    s = st.session_state.get("backtest_summary") or ((summary or {}).get("summary") if summary else None)
+    if not s:
+        st.info("Run the advanced backtest above, or: `py -3 scripts\\backtest_advanced.py --years 10`")
+        return
+    render_kpi_row(
+        [
+            ("Total return", f"{s.get('total_return_pct', '—')}%", f"{s.get('start')} → {s.get('end')}"),
+            ("CAGR", f"{s.get('cagr_pct', '—')}%", f"vs BH {s.get('buy_hold_cagr_pct')}%"),
+            ("Max DD", f"{s.get('max_drawdown_pct', '—')}%", f"Sharpe ~{s.get('sharpe_approx')}"),
+            ("Trades", str(s.get("trades", "—")), f"Win rate {s.get('win_rate_pct')}%"),
+            ("Ending equity", f"${s.get('ending_equity', 0):,.0f}", f"BH ${s.get('buy_hold_ending', 0):,.0f}"),
+        ]
+    )
+    if equity_path.exists():
+        eq = pd.read_csv(equity_path, parse_dates=["Date"])
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=eq["Date"], y=eq["equity"], name="Finwiz strategy", line=dict(color="#3dd68c", width=2)))
+        if "buy_hold" in eq.columns:
+            fig.add_trace(go.Scatter(x=eq["Date"], y=eq["buy_hold"], name="Equal-weight buy&hold", line=dict(color="#f5c842", width=1.5)))
+        fig.update_layout(height=380, margin=dict(l=10, r=10, t=30, b=10), title="Equity curve", template="plotly_dark")
+        st.plotly_chart(fig, use_container_width=True)
+
 def main() -> None:
     ensure_state()
     page = sidebar()
@@ -754,6 +913,7 @@ def main() -> None:
         "Query Lab": page_query_lab,
         "Controls & Export": page_controls,
         "Paper Trading": page_paper,
+        "Backtest": page_backtest,
     }
     routes[page]()
 

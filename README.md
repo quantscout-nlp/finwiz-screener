@@ -107,7 +107,7 @@ Opens at **http://localhost:8501** with these pages:
 | **Ticker Intel** | Full profile, news bullets, markdown deep dives |
 | **Query Lab** | Same NL/structured query engine as `scripts/query.py` |
 | **Controls & Export** | Toggle SMA/tight BUY/capitulation in UI, rebuild index, Finviz URLs |
-| **Paper Trading** | Paper auto-trade cycle + ledger (simulated fills only) |
+| **Backtest** | Retro yfinance simulation vs equal-weight buy&hold |
 
 Sidebar + **Controls & Export**: switchable **SMA ON/OFF** and period **9 / 20 / 50 / 100 / 200**, plus **Tight BUY ON/OFF**.
 
@@ -163,3 +163,35 @@ py -3 scripts\sync_finviz_elite.py
 ```
 
 **GitHub:** https://github.com/quantscout-nlp/finwiz-screener
+
+## Retro backtest (yfinance)
+
+Heads-up simulation of BUY/HOLD timing on historical prices. Current Finviz fundamentals act as a **static eligibility** filter (true point-in-time Finviz history is not stored yet).
+
+```powershell
+py -3 scripts\backtest.py
+py -3 scripts\backtest.py --start 2022-01-01 --sma-period 200
+py -3 scripts\backtest.py --fundamentals-mode technicals_only
+```
+
+Results: `data\backtests\latest-summary.json` + `latest-equity.csv`  
+Dashboard page: **Backtest**
+
+### Advanced 5–10y Monte Carlo + IS/OOS (Massive / Alpaca / Tiingo / LeanData)
+
+Uses your Windows env keys (`MASSIVE_API_KEY`, `ALPACA_API_KEY`/`SECRET`, `TIINGO_API_KEY`, optional `BENZINGA_API_KEY`) **and/or** local depot `F:\LeanData` (DuckDB + parquet bars: 1Min / 5Min / 15Min / 1Hour / Day).
+
+```powershell
+# Point-in-time fundamentals (Massive + Benzinga ratings) + LeanData prices preferred
+py -3 scripts\backtest_advanced.py --years 10 --fundamentals-mode pit --provider auto
+
+# Force local LeanData only (no API calls for bars)
+py -3 scripts\backtest_advanced.py --years 10 --provider lean --resolution Day --fundamentals-mode pit
+
+# Intraday Lean bars resampled to daily signals
+py -3 scripts\backtest_advanced.py --years 5 --provider lean --resolution 15Min --mc-sims 500
+```
+
+Set optional override: `$env:LEANDATA_ROOT = "F:\LeanData"`
+
+Outputs IS/OOS **Sharpe, CAGR, max drawdown** plus Monte Carlo p5/p50/p95 → `data\backtests\advanced-latest.json`.

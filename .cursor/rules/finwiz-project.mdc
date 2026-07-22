@@ -1,5 +1,5 @@
 ---
-description: Finwiz Screener project identity, GitHub remote, and API key conventions
+description: Finwiz Screener project identity, GitHub remote, providers, LeanData, and backtest verdict
 alwaysApply: true
 ---
 
@@ -10,6 +10,7 @@ alwaysApply: true
 - **Local root:** `D:\Finwiz Screener for Promising Growth Stocks`
 - **Dashboard:** `.\launch_dashboard.ps1` → http://localhost:8501
 - **CLI launcher:** `.\launch.ps1`
+- **Core basket (8):** NVDA, CRDO, PLTR, LLY, AVGO, ANET, TSM, MU
 
 ## Environment variables (never commit values)
 
@@ -17,6 +18,11 @@ alwaysApply: true
 |---------|---------|
 | Finviz Elite export | `FINVIZ_API_KEY` |
 | OpenAI Query Lab | `OPENAI_API_KEY` or `FINWIZ_LLM_API_KEY` |
+| Massive (bars + Benzinga ratings/income) | `MASSIVE_API_KEY` (alias `POLYGON_API_KEY`) |
+| Alpaca bars | `ALPACA_API_KEY` / `ALPACA_API_SECRET` |
+| Tiingo bars | `TIINGO_API_KEY` |
+| Benzinga (if used directly) | `BENZINGA_API_KEY` |
+| LeanData root override | `LEANDATA_ROOT` (default `F:\LeanData`) |
 | Paper bot | Local ledger only — no API key required |
 
 Never commit `.env`, API tokens, or secrets. Prefer User-level Windows env vars.
@@ -27,3 +33,21 @@ Never commit `.env`, API tokens, or secrets. Prefer User-level Windows env vars.
 - Core data: `data/tickers/*.json`, `data/index/search_index.json`, `config/toggles.json`
 - Dashboard: Streamlit multi-page app in `dashboard/app.py`
 - Elite sync: `scripts/sync_finviz_elite.py` / `scripts/finviz_elite.py`
+- Price providers (`scripts/lib_market_data.py`): **LeanData → Massive → Alpaca → Tiingo → yfinance**
+- LeanData reader: `scripts/lib_leandata.py` — DuckDB `F:\LeanData\data\depot.duckdb` + parquet under `MarketData/bars/{Day,1Hour,15Min,5Min,1Min}`
+- PIT eligibility: `scripts/lib_pit_eligibility.py` — Massive/Benzinga ratings + income (+ Lean statements fallback); advanced default `--fundamentals-mode pit`
+- Advanced backtest: `scripts/backtest_advanced.py` (IS/OOS + Monte Carlo); results → `data/backtests/advanced-latest.json`
+
+## Backtest verdict (committed 2026-07-22)
+
+10y Lean Day + PIT on all 8 tickers (2016-07-22 → 2026-07-21):
+
+- **Verdict:** risk-first filter, **not** an alpha engine vs buy-and-hold
+- Strategy: +31% total / **~2.7% CAGR**, max DD **~−10%**, Sharpe **~0.5**, 351 trades, ~51% win rate
+- OOS CAGR **~6.5%** > IS **~1.2%** (did not only curve-fit early years)
+- Equal-weight buy-and-hold on same basket ~**41% CAGR** — SMA200 + Tight BUY + PIT keep capital out of mega-runs
+- Use for **when/whether** to engage quality growth; do not expect timing to match B&H return on this set
+
+```powershell
+py -3 scripts\backtest_advanced.py --years 10 --provider lean --fundamentals-mode pit --resolution Day --tickers NVDA,CRDO,PLTR,LLY,AVGO,ANET,TSM,MU
+```

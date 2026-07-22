@@ -51,13 +51,19 @@ def render_ticker_card(doc: dict, sma_period: int = 200) -> None:
     cap_flag = "YES" if doc.get("capitulation_pass") else "no"
     sma_pct = doc.get("sma_pct")
     sma_key = f"SMA{sma_period}"
+    price = m.get("price")
+    target = m.get("target_price")
+    price_txt = f"${price:,.2f}" if isinstance(price, (int, float)) else (f"${price}" if price is not None else "—")
+    target_txt = f"${target:,.2f}" if isinstance(target, (int, float)) else (f"${target}" if target is not None else "—")
 
     st.markdown(
         f"""
         <div class="ticker-card">
             <div class="ticker-head">{doc.get("ticker")} — {doc.get("company")}</div>
             <div class="ticker-meta">
-                <span class="{cls}">ACTION: {action}</span>
+                <span style="color:#eef2f8;font-weight:700;font-size:1.05rem;">Price: {price_txt}</span>
+                &nbsp;|&nbsp; Target: {target_txt}
+                &nbsp;|&nbsp; <span class="{cls}">ACTION: {action}</span>
                 &nbsp;|&nbsp; Analyst: {doc.get("analyst_label")} ({doc.get("recom")})
                 &nbsp;|&nbsp; Upside: {doc.get("upside_pct")}%
             </div>

@@ -16,8 +16,8 @@
     }
   },
   "metrics": {
-    "price": 1172.83,
-    "market_cap": 1104502.51,
+    "price": 1162.72,
+    "market_cap": 1094979.22,
     "sales_growth_yoy": 47.44,
     "eps_growth_yoy": 130.02,
     "peg": 0.89,
@@ -27,7 +27,7 @@
     "debt_equity": 1.39,
     "recom": 1.61,
     "target_price": 1306.96,
-    "pe": 42.22
+    "pe": 41.85
   },
   "technicals": {
     "rsi14": 53.52,
@@ -61,5 +61,5 @@
   "finviz_url": "https://finviz.com/quote.ashx?t=LLY",
   "deep_dive_path": "deep-dives/LLY-2026-08-05.md",
   "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T08:23:00"
+  "finviz_elite_sync": "2026-07-22T11:23:01"
 }

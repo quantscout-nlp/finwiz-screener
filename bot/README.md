@@ -43,7 +43,7 @@ bot/broker_paper.py → fills + ledger
 |-------|-------------|--------|
 | **0** | Screener + action ranks + query | Done |
 | **1** | Paper bot: signals → simulated fills → ledger | Scaffold in `bot/` |
-| **2** | Backtest harness on historical Finviz snapshots | Next |
+| **2** | Backtest harness on historical Finviz snapshots / yfinance | Done — `scripts/backtest.py` (static fundamentals + historical timing) |
 | **3** | Broker adapter (Alpaca/IBKR paper accounts) | On request |
 | **4** | Live unlock with kill-switch + audit log | Explicit opt-in only |
 
