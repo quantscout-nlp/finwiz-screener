@@ -1,0 +1,1 @@
+https://finviz.com/screener.ashx?v=111&f=cap_largeover,ta_rsi_oversold30,ta_perf4w_u5,ta_sma50_pb&o=ticker

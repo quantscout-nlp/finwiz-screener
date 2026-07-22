@@ -1,0 +1,26 @@
+{
+  "news_flow": {
+    "weak": 20,
+    "moderate": 50,
+    "strong": 80,
+    "exceptional": 95
+  },
+  "technicals": {
+    "broken": 10,
+    "fragile": 35,
+    "workable": 65,
+    "constructive": 80,
+    "strong": 95
+  },
+  "composite": {
+    "news_flow": 0.30,
+    "technicals": 0.25,
+    "fundamentals": 0.25,
+    "analyst": 0.20
+  },
+  "gate": {
+    "min_news_flow": "strong",
+    "min_technicals": "workable",
+    "min_composite": 65
+  }
+}

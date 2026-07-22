@@ -1,0 +1,7 @@
+{
+  "name": "core-eight",
+  "description": "Core growth set after deep-dive gate + analyst-aware action ranking",
+  "updated": "2026-07-22",
+  "tickers": ["NVDA", "CRDO", "PLTR", "LLY", "AVGO", "ANET", "TSM", "MU"],
+  "finviz_compare_url": "https://finviz.com/screener.ashx?v=111&t=NVDA,CRDO,PLTR,LLY,AVGO,ANET,TSM,MU"
+}

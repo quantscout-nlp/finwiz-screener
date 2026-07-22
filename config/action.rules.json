@@ -1,0 +1,51 @@
+{
+  "description": "Tightened deterministic action ranking. Finviz Recom: 1=Strong Buy … 5=Strong Sell. SMA filter controlled by config/toggles.json.",
+  "finviz_recom_bands": {
+    "strong_buy": [1.0, 1.5],
+    "buy": [1.5, 2.5],
+    "hold": [2.5, 3.5],
+    "sell": [3.5, 4.5],
+    "strong_sell": [4.5, 5.0]
+  },
+  "action_priority": ["BUY", "HOLD", "SELL", "AVOID"],
+  "rules": {
+    "AVOID": {
+      "any_of": [
+        "fails_deep_dive_gate",
+        "recom_gte_3.5",
+        "technicals_broken",
+        "upside_lt_-20",
+        "screener_disabled"
+      ]
+    },
+    "SELL": {
+      "any_of": [
+        "recom_gte_2.5_and_sma_filter_negative",
+        "upside_lt_0_and_rsi_gt_70",
+        "technicals_fragile_and_recom_gte_2.0"
+      ]
+    },
+    "BUY": {
+      "all_of": [
+        "passes_deep_dive_gate",
+        "growth_mode_enabled",
+        "recom_lte_tight_max",
+        "upside_gte_tight_min",
+        "technicals_workable_or_better",
+        "composite_gte_tight_min",
+        "rsi_in_tight_band",
+        "sma_filter_pass"
+      ]
+    },
+    "HOLD": {
+      "fallback": true,
+      "notes": "Gate PASS but misses tightened BUY (SMA / recom / RSI / upside)"
+    }
+  },
+  "weights_for_action_score": {
+    "analyst": 0.30,
+    "deep_dive_composite": 0.35,
+    "upside": 0.20,
+    "technicals": 0.15
+  }
+}

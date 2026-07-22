@@ -1,0 +1,29 @@
+---
+description: Finwiz Screener project identity, GitHub remote, and API key conventions
+alwaysApply: true
+---
+
+# Finwiz Screener — project memory
+
+- **Project name:** Finwiz Screener for Promising Growth Stocks
+- **GitHub:** https://github.com/quantscout-nlp/finwiz-screener
+- **Local root:** `D:\Finwiz Screener for Promising Growth Stocks`
+- **Dashboard:** `.\launch_dashboard.ps1` → http://localhost:8501
+- **CLI launcher:** `.\launch.ps1`
+
+## Environment variables (never commit values)
+
+| Purpose | Env var |
+|---------|---------|
+| Finviz Elite export | `FINVIZ_API_KEY` |
+| OpenAI Query Lab | `OPENAI_API_KEY` or `FINWIZ_LLM_API_KEY` |
+| Paper bot | Local ledger only — no API key required |
+
+Never commit `.env`, API tokens, or secrets. Prefer User-level Windows env vars.
+
+## Architecture reminders
+
+- Finwiz = this local project; Finviz = data source (finviz.com / Elite)
+- Core data: `data/tickers/*.json`, `data/index/search_index.json`, `config/toggles.json`
+- Dashboard: Streamlit multi-page app in `dashboard/app.py`
+- Elite sync: `scripts/sync_finviz_elite.py` / `scripts/finviz_elite.py`

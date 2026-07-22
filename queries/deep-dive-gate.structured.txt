@@ -1,0 +1,1 @@
+news_flow>=strong technicals>=workable passes_gate=true composite>=65

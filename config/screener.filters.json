@@ -1,0 +1,30 @@
+{
+  "name": "quality-large-cap-growth",
+  "description": "Large-cap+ growth with quality margins, low leverage, and price above SMA200",
+  "source": "finviz",
+  "updated": "2026-07-22",
+  "filters": {
+    "cap": "largeover",
+    "fa_salesgrowth": "o25",
+    "fa_epsgrowth": "o25",
+    "fa_grossmargin": "o50",
+    "fa_debteq": "u0.5",
+    "fa_netprofitmargin": "o10",
+    "ta_sma200": "pa"
+  },
+  "sort": "-salesgrowth",
+  "urls": {
+    "custom": "https://finviz.com/screener.ashx?v=152&f=cap_largeover,fa_salesgrowth_o25,fa_epsgrowth_o25,fa_grossmargin_o50,fa_debteq_u0.5,fa_netprofitmargin_o10,ta_sma200_pa&ft=4&o=-salesgrowth",
+    "technical": "https://finviz.com/screener.ashx?v=171&f=cap_largeover,fa_salesgrowth_o25,fa_epsgrowth_o25,fa_grossmargin_o50,fa_debteq_u0.5,fa_netprofitmargin_o10,ta_sma200_pa&o=-salesgrowth",
+    "overview": "https://finviz.com/screener.ashx?v=111&f=cap_largeover,fa_salesgrowth_o25,fa_epsgrowth_o25,fa_grossmargin_o50,fa_debteq_u0.5,fa_netprofitmargin_o10,ta_sma200_pa&o=-salesgrowth"
+  },
+  "deep_dive_gate": {
+    "require_news_flow_min": "strong",
+    "require_technicals_min": "workable",
+    "notes": "Passing the Finviz filter alone is not enough; names must also clear news + technical deep-dive gates before entering watchlists/core."
+  },
+  "expandable": true,
+  "manual_overrides": {
+    "AVGO": "Allowed despite D/E ~0.74 (above u0.5) due to AI ASIC + software mix and post-selloff technicals"
+  }
+}

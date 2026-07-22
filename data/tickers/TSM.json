@@ -1,0 +1,65 @@
+{
+  "ticker": "TSM",
+  "company": "Taiwan Semiconductor Manufacturing ADR",
+  "status": "core",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "exceptional",
+    "technicals": "workable",
+    "included_reason": "AI foundry bottleneck; record Q2 + Arizona expansion; price-hike / surcharge news; Strong Buy recom 1.21; above SMA200 after chip selloff bounce.",
+    "scores": {
+      "news_flow": 94,
+      "technicals": 68,
+      "fundamentals": 90,
+      "analyst": 94.8
+    }
+  },
+  "metrics": {
+    "price": 416.86,
+    "market_cap": 2162035.98,
+    "sales_growth_yoy": 34.6,
+    "eps_growth_yoy": 54.8,
+    "peg": 0.54,
+    "forward_pe": 19.81,
+    "gross_margin": 63.38,
+    "profit_margin": 50.31,
+    "debt_equity": 0.15,
+    "recom": 1.21,
+    "target_price": 523.9,
+    "pe": 30.09
+  },
+  "technicals": {
+    "rsi14": 49.41,
+    "sma20_pct": -1.76,
+    "sma50_pct": -0.22,
+    "sma200_pct": 20.27,
+    "perf_ytd": 39.72,
+    "from_52w_high_pct": -11.35,
+    "beta": 1.39,
+    "setup": "Post-earnings digests; above SMA200; RSI neutral after +5.5% bounce",
+    "perf_month": -8.12,
+    "perf_quarter": 15.94
+  },
+  "news": {
+    "headline_bullets": [
+      "Wafer price hike 5\u201310% from 2027 + AI chip surcharge talks",
+      "Arizona investment expanded to ~$265B; record Q2 profit",
+      "Multi-year AI chip demand affirmed on earnings call"
+    ],
+    "next_catalyst": "Hyperscaler capex commentary / next quarter guide",
+    "catalyst_date": null
+  },
+  "tags": [
+    "ai",
+    "foundry",
+    "semiconductors",
+    "mega-cap",
+    "core",
+    "growth"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=TSM",
+  "deep_dive_path": null,
+  "updated": "2026-07-22",
+  "finviz_elite_sync": "2026-07-22T06:51:51"
+}

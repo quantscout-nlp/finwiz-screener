@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FinwizTickerProfile",
+  "type": "object",
+  "required": ["ticker", "company", "status", "deep_dive", "metrics", "technicals", "news", "tags"],
+  "properties": {
+    "ticker": { "type": "string" },
+    "company": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["candidate", "core", "watch", "archived"]
+    },
+    "sector": { "type": "string" },
+    "industry": { "type": "string" },
+    "deep_dive": {
+      "type": "object",
+      "required": ["news_flow", "technicals", "included_reason"],
+      "properties": {
+        "news_flow": {
+          "type": "string",
+          "enum": ["weak", "moderate", "strong", "exceptional"],
+          "description": "Catalyst density: analyst actions, partnerships, product/earnings news"
+        },
+        "technicals": {
+          "type": "string",
+          "enum": ["broken", "fragile", "workable", "constructive", "strong"],
+          "description": "Chart tradability: structure, SMAs, RSI, relative volume"
+        },
+        "included_reason": { "type": "string" },
+        "scores": {
+          "type": "object",
+          "properties": {
+            "news_flow": { "type": "number", "minimum": 0, "maximum": 100 },
+            "technicals": { "type": "number", "minimum": 0, "maximum": 100 },
+            "fundamentals": { "type": "number", "minimum": 0, "maximum": 100 },
+            "composite": { "type": "number", "minimum": 0, "maximum": 100 }
+          }
+        }
+      }
+    },
+    "metrics": { "type": "object" },
+    "technicals": { "type": "object" },
+    "news": {
+      "type": "object",
+      "properties": {
+        "headline_bullets": { "type": "array", "items": { "type": "string" } },
+        "next_catalyst": { "type": "string" },
+        "catalyst_date": { "type": ["string", "null"] }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "finviz_url": { "type": "string" },
+    "deep_dive_path": { "type": ["string", "null"] },
+    "updated": { "type": "string" }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "core-five",
+  "description": "Original five — see core-eight.json for full set including ANET/TSM/MU",
+  "updated": "2026-07-22",
+  "tickers": ["NVDA", "CRDO", "PLTR", "LLY", "AVGO"],
+  "finviz_compare_url": "https://finviz.com/screener.ashx?v=111&t=NVDA,CRDO,PLTR,LLY,AVGO"
+}

@@ -1,0 +1,64 @@
+{
+  "ticker": "NVDA",
+  "company": "NVIDIA Corp",
+  "status": "core",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "exceptional",
+    "technicals": "workable",
+    "included_reason": "AI infrastructure anchor; elite margins/PEG; consolidating above SMA200 with dense catalyst news into Aug 26 earnings.",
+    "scores": {
+      "news_flow": 95,
+      "technicals": 68,
+      "fundamentals": 92,
+      "composite": 84
+    }
+  },
+  "metrics": {
+    "price": 205.85,
+    "market_cap": 4983022.09,
+    "sales_growth_yoy": 70.68,
+    "eps_growth_yoy": 109.57,
+    "peg": 0.34,
+    "forward_pe": 16.25,
+    "gross_margin": 74.15,
+    "profit_margin": 62.97,
+    "debt_equity": 0.07,
+    "recom": 1.23,
+    "target_price": 314.29,
+    "pe": 31.53
+  },
+  "technicals": {
+    "rsi14": 52.24,
+    "sma20_pct": 2.78,
+    "sma50_pct": -1.17,
+    "sma200_pct": 7.64,
+    "perf_ytd": 11.15,
+    "from_52w_high_pct": -12.37,
+    "beta": 2.22,
+    "setup": "Neutral consolidation above SMA200; not overbought",
+    "perf_month": -1.61,
+    "perf_quarter": 2.59
+  },
+  "news": {
+    "headline_bullets": [
+      "Bristol Myers Vera Rubin DGX SuperPOD for drug discovery",
+      "Chip rebound ahead of big-tech earnings / capex commentary",
+      "Oppenheimer 'Best of the Best' momentum mention"
+    ],
+    "next_catalyst": "Q2 FY27 earnings",
+    "catalyst_date": "2026-08-26"
+  },
+  "tags": [
+    "ai",
+    "semiconductors",
+    "mega-cap",
+    "core",
+    "growth"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NVDA",
+  "deep_dive_path": null,
+  "updated": "2026-07-22",
+  "finviz_elite_sync": "2026-07-22T06:51:51"
+}

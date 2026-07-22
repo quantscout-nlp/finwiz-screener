@@ -1,0 +1,50 @@
+{
+  "ticker": "TICK",
+  "company": "Company Name",
+  "status": "candidate",
+  "sector": "",
+  "industry": "",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Why this name clears (or almost clears) the deep-dive gate",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "composite": 61
+    }
+  },
+  "metrics": {
+    "price": null,
+    "market_cap": null,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": null,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": null,
+    "sma20_pct": null,
+    "sma50_pct": null,
+    "sma200_pct": null,
+    "perf_ytd": null,
+    "from_52w_high_pct": null,
+    "beta": null,
+    "setup": ""
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": ["growth"],
+  "finviz_url": "https://finviz.com/quote.ashx?t=TICK",
+  "deep_dive_path": null,
+  "updated": "YYYY-MM-DD"
+}

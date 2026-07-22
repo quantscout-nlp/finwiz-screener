@@ -1,0 +1,1 @@
+https://finviz.com/screener.ashx?v=171&t=TSM,CRDO,AVGO&f=ta_sma50_pb

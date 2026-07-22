@@ -1,0 +1,64 @@
+{
+  "ticker": "ANET",
+  "company": "Arista Networks Inc",
+  "status": "core",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "deep_dive": {
+    "news_flow": "strong",
+    "technicals": "constructive",
+    "included_reason": "AI networking leader; zero debt; above all SMAs; Strong Buy recom 1.12; Aug 4 earnings catalyst.",
+    "scores": {
+      "news_flow": 82,
+      "technicals": 82,
+      "fundamentals": 80,
+      "analyst": 97
+    }
+  },
+  "metrics": {
+    "price": 171.07,
+    "market_cap": 215411.81,
+    "sales_growth_yoy": 30.57,
+    "eps_growth_yoy": 22.96,
+    "peg": 1.74,
+    "forward_pe": 39.08,
+    "gross_margin": 63.54,
+    "profit_margin": 38.32,
+    "debt_equity": 0.0,
+    "recom": 1.12,
+    "target_price": 192.1,
+    "pe": 58.58
+  },
+  "technicals": {
+    "rsi14": 53.75,
+    "sma20_pct": 2.19,
+    "sma50_pct": 7.92,
+    "sma200_pct": 20.42,
+    "perf_ytd": 33.24,
+    "from_52w_high_pct": -8.03,
+    "beta": 1.6,
+    "setup": "Constructive uptrend above all SMAs; RSI neutral",
+    "perf_month": 2.89,
+    "perf_quarter": 4.63
+  },
+  "news": {
+    "headline_bullets": [
+      "AI-driven Edge Threat Management for VeloCloud SD-WAN unveiled",
+      "Consensus Strong Buy (recom 1.12); target ~$192"
+    ],
+    "next_catalyst": "Q2 2026 earnings",
+    "catalyst_date": "2026-08-04"
+  },
+  "tags": [
+    "ai",
+    "networking",
+    "zero-debt",
+    "earnings-soon",
+    "core",
+    "growth"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ANET",
+  "deep_dive_path": null,
+  "updated": "2026-07-22",
+  "finviz_elite_sync": "2026-07-22T06:51:51"
+}

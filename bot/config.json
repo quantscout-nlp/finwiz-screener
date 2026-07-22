@@ -1,0 +1,23 @@
+{
+  "mode": "paper",
+  "starting_cash": 100000,
+  "max_position_pct": 0.10,
+  "max_open_positions": 5,
+  "only_gate_pass": true,
+  "open_on_actions": ["BUY"],
+  "close_on_actions": ["SELL", "AVOID"],
+  "hold_actions": ["HOLD"],
+  "min_composite": 70,
+  "min_upside_pct": 10,
+  "max_recom": 2.0,
+  "slippage_bps": 5,
+  "kill_switch": {
+    "max_daily_loss_pct": 3.0,
+    "halt_on_trigger": true
+  },
+  "live": {
+    "enabled": false,
+    "require_env": "FINWIZ_LIVE_TRADING",
+    "broker": "none"
+  }
+}

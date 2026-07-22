@@ -1,0 +1,25 @@
+{
+  "name": "mean-reversion-capitulation",
+  "description": "Second screener: oversold / capitulation candidates during active corrections (5–50% drawdown over ~30–90 days)",
+  "enabled_by_toggle": "capitulation_mode",
+  "logic": {
+    "drawdown_source": ["perf_month", "perf_quarter", "from_52w_high_pct"],
+    "drawdown_min_pct": 5,
+    "drawdown_max_pct": 50,
+    "rsi_max": 40,
+    "prefer_below_sma": true,
+    "default_sma_period": 50,
+    "max_recom_for_quality": 2.5
+  },
+  "finviz_urls_market_discovery": {
+    "oversold_quality": "https://finviz.com/screener.ashx?v=111&f=cap_largeover,ta_rsi_oversold30,ta_perf4w_u5,ta_sma50_pb&o=ticker",
+    "correction_30_90d": "https://finviz.com/screener.ashx?v=141&f=cap_largeover,ta_perf4w_u10,ta_perf13w_u10&o=perf4w",
+    "deep_drawdown": "https://finviz.com/screener.ashx?v=111&f=cap_largeover,ta_perf13w_u20,ta_rsi_os40&o=perf13w"
+  },
+  "notes": "YOUR Finwiz hit URLs are generated at runtime with &t=TICKERS by scripts/screen_capitulation.py and scripts/export_finviz_hits.py. Market discovery URLs scan the whole market and will NOT match your local BUY/HOLD list.",
+  "query_examples": [
+    "capitulation",
+    "oversold mean reversion",
+    "mode=capitulation drawdown>=5"
+  ]
+}

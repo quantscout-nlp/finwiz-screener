@@ -1,0 +1,10 @@
+# Finwiz dashboard + optional LLM query rerank
+streamlit>=1.37.0
+pandas>=2.0.0
+plotly>=5.18.0
+yfinance>=0.2.40
+
+# Optional: only needed for LLM-ranked queries
+openai>=1.40.0
+
+pyyaml>=6.0.1

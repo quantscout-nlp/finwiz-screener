@@ -1,0 +1,65 @@
+{
+  "ticker": "MU",
+  "company": "Micron Technology Inc",
+  "status": "core",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "strong",
+    "technicals": "workable",
+    "included_reason": "AI memory supercycle; extreme EPS/sales growth; BofA Buy $1550; high beta pullback still +98% vs SMA200 \u2014 torque name, size small.",
+    "scores": {
+      "news_flow": 85,
+      "technicals": 64,
+      "fundamentals": 92,
+      "analyst": 92.3
+    }
+  },
+  "metrics": {
+    "price": 944.0,
+    "market_cap": 1065071.3,
+    "sales_growth_yoy": 166.98,
+    "eps_growth_yoy": 701.44,
+    "peg": 0.04,
+    "forward_pe": 6.28,
+    "gross_margin": 72.6,
+    "profit_margin": 55.91,
+    "debt_equity": 0.06,
+    "recom": 1.31,
+    "target_price": 1568.74,
+    "pe": 21.35
+  },
+  "technicals": {
+    "rsi14": 51.04,
+    "sma20_pct": -2.72,
+    "sma50_pct": 2.82,
+    "sma200_pct": 97.92,
+    "perf_ytd": 240.15,
+    "from_52w_high_pct": -22.64,
+    "beta": 2.17,
+    "setup": "Volatile rebound day (+12%); far above SMA200 but \u221223% from high \u2014 cyclical memory risk",
+    "perf_month": -14.39,
+    "perf_quarter": 116.5
+  },
+  "news": {
+    "headline_bullets": [
+      "BofA reiterates Buy, $1,550 target on AI memory + buyback path",
+      "Memory supercycle narrative after massive YoY growth prints"
+    ],
+    "next_catalyst": "Next earnings / HBM demand updates",
+    "catalyst_date": null
+  },
+  "tags": [
+    "ai",
+    "memory",
+    "semiconductors",
+    "high-beta",
+    "cyclical",
+    "core",
+    "growth"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MU",
+  "deep_dive_path": null,
+  "updated": "2026-07-22",
+  "finviz_elite_sync": "2026-07-22T06:51:51"
+}

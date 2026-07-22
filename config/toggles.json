@@ -1,0 +1,46 @@
+{
+  "description": "Master ON/OFF switches for Finwiz Screener growth + capitulation modes",
+  "screener_enabled": true,
+  "growth_mode": {
+    "enabled": true,
+    "label": "Promising Growth (primary)"
+  },
+  "sma_filter": {
+    "enabled": true,
+    "period": 200,
+    "allowed_periods": [
+      9,
+      20,
+      50,
+      100,
+      200
+    ],
+    "require_above": true,
+    "notes": "When enabled, BUY requires price above selected SMA (pct > 0). Periods 9/100 use proxies if raw fields missing."
+  },
+  "tight_buy": {
+    "enabled": true,
+    "max_recom": 1.5,
+    "min_upside_pct": 15,
+    "min_composite": 80,
+    "rsi_min": 40,
+    "rsi_max": 65,
+    "notes": "Stricter BUY band so fewer names qualify"
+  },
+  "capitulation_mode": {
+    "enabled": true,
+    "label": "Mean Reversion / Capitulation (second screener)",
+    "drawdown_min_pct": 5,
+    "drawdown_max_pct": 50,
+    "windows": [
+      "perf_month",
+      "perf_quarter"
+    ],
+    "rsi_max": 40,
+    "prefer_below_sma": true,
+    "sma_period": 50,
+    "min_quality_recom": 2.5,
+    "notes": "Oversold names with 5\u201350% drawdown over ~30\u201390 days (Perf Month / Perf Quarter)"
+  },
+  "updated": "2026-07-22"
+}

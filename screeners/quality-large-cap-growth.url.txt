@@ -1,0 +1,1 @@
+https://finviz.com/screener.ashx?v=152&f=cap_largeover,fa_salesgrowth_o25,fa_epsgrowth_o25,fa_grossmargin_o50,fa_debteq_u0.5,fa_netprofitmargin_o10,ta_sma200_pa&ft=4&o=-salesgrowth

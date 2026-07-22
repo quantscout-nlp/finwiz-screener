@@ -1,0 +1,67 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir Technologies Inc",
+  "status": "core",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "exceptional",
+    "technicals": "workable",
+    "included_reason": "Highest near-term leverage into Aug 3 earnings; strong news (Nvidia pact, commercial wins, upgrades) with recovery technicals still below SMA200.",
+    "scores": {
+      "news_flow": 94,
+      "technicals": 66,
+      "fundamentals": 78,
+      "composite": 79
+    }
+  },
+  "metrics": {
+    "price": 132.96,
+    "market_cap": 318746.66,
+    "sales_growth_yoy": 67.71,
+    "eps_growth_yoy": 283.83,
+    "peg": 1.07,
+    "forward_pe": 63.83,
+    "gross_margin": 84.07,
+    "profit_margin": 43.67,
+    "debt_equity": 0.03,
+    "recom": 1.94,
+    "target_price": 190.08,
+    "pe": 149.8
+  },
+  "technicals": {
+    "rsi14": 52.83,
+    "sma20_pct": 5.09,
+    "sma50_pct": 0.19,
+    "sma200_pct": -14.49,
+    "perf_ytd": -25.37,
+    "from_52w_high_pct": -36.07,
+    "beta": 1.58,
+    "setup": "Short-term bounce inside larger correction; below SMA200",
+    "perf_month": 3.26,
+    "perf_quarter": -9.07
+  },
+  "news": {
+    "headline_bullets": [
+      "Q2 earnings set for Aug 3 AMC",
+      "Nvidia sovereign AI / government platform partnership",
+      "Mexico GNP Seguros commercial expansion",
+      "DA Davidson upgrade to Buy"
+    ],
+    "next_catalyst": "Q2 2026 earnings",
+    "catalyst_date": "2026-08-03"
+  },
+  "tags": [
+    "ai",
+    "software",
+    "government",
+    "commercial",
+    "earnings-soon",
+    "core",
+    "growth"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=PLTR",
+  "deep_dive_path": "deep-dives/PLTR-aug3-2026.md",
+  "updated": "2026-07-22",
+  "finviz_elite_sync": "2026-07-22T06:51:51"
+}
