@@ -16,8 +16,8 @@
     }
   },
   "metrics": {
-    "price": 972.53,
-    "market_cap": 1098367.64,
+    "price": 974.49,
+    "market_cap": 1100582.24,
     "sales_growth_yoy": 166.98,
     "eps_growth_yoy": 701.44,
     "peg": 0.04,
@@ -27,7 +27,7 @@
     "debt_equity": 0.06,
     "recom": 1.31,
     "target_price": 1568.74,
-    "pe": 22.02
+    "pe": 22.06
   },
   "technicals": {
     "rsi14": 51.04,
@@ -61,5 +61,5 @@
   "finviz_url": "https://finviz.com/quote.ashx?t=MU",
   "deep_dive_path": "deep-dives/MU-auto-2026-07-22.md",
   "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T11:23:01"
+  "finviz_elite_sync": "2026-07-22T12:08:01"
 }
