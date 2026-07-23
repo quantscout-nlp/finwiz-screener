@@ -44,8 +44,10 @@ bot/broker_paper.py → fills + ledger
 | **0** | Screener + action ranks + query | Done |
 | **1** | Paper bot: signals → simulated fills → ledger | Scaffold in `bot/` |
 | **2** | Backtest harness on historical Finviz snapshots / yfinance | Done — `scripts/backtest.py` (static fundamentals + historical timing) |
-| **3** | Broker adapter (Alpaca/IBKR paper accounts) | On request |
+| **3** | Broker adapter (Alpaca Paper first) | **Next** — local paper does not hit Alpaca; MCP/LLM never submits orders |
 | **4** | Live unlock with kill-switch + audit log | Explicit opt-in only |
+
+**Agreed path:** local paper ledger → Alpaca Paper adapter → side-by-side → live only with `FINWIZ_LIVE_TRADING=1` + tiny size. Alpaca API keys today power **bars**, not trades.
 
 ## Run paper bot
 

@@ -1,5 +1,5 @@
 ---
-description: Finwiz Screener project identity, GitHub remote, providers, LeanData, and backtest verdict
+description: Finwiz Screener project identity, GitHub remote, providers, LeanData, backtest verdict, and trading path
 alwaysApply: true
 ---
 
@@ -19,11 +19,12 @@ alwaysApply: true
 | Finviz Elite export | `FINVIZ_API_KEY` |
 | OpenAI Query Lab | `OPENAI_API_KEY` or `FINWIZ_LLM_API_KEY` |
 | Massive (bars + Benzinga ratings/income) | `MASSIVE_API_KEY` (alias `POLYGON_API_KEY`) |
-| Alpaca bars | `ALPACA_API_KEY` / `ALPACA_API_SECRET` |
+| Alpaca **bars** (data only today) | `ALPACA_API_KEY` / `ALPACA_API_SECRET` |
 | Tiingo bars | `TIINGO_API_KEY` |
 | Benzinga (if used directly) | `BENZINGA_API_KEY` |
 | LeanData root override | `LEANDATA_ROOT` (default `F:\LeanData`) |
-| Paper bot | Local ledger only — no API key required |
+| Paper bot | Local ledger only — no broker API required |
+| Live unlock (blocked until broker adapter) | `FINWIZ_LIVE_TRADING=1` |
 
 Never commit `.env`, API tokens, or secrets. Prefer User-level Windows env vars.
 
@@ -37,6 +38,15 @@ Never commit `.env`, API tokens, or secrets. Prefer User-level Windows env vars.
 - LeanData reader: `scripts/lib_leandata.py` — DuckDB `F:\LeanData\data\depot.duckdb` + parquet under `MarketData/bars/{Day,1Hour,15Min,5Min,1Min}`
 - PIT eligibility: `scripts/lib_pit_eligibility.py` — Massive/Benzinga ratings + income (+ Lean statements fallback); advanced default `--fundamentals-mode pit`
 - Advanced backtest: `scripts/backtest_advanced.py` (IS/OOS + Monte Carlo); results → `data/backtests/advanced-latest.json`
+
+## Trading path (agreed 2026-07-22)
+
+- **Local paper fills** (`bot/broker_paper.py` → `bot/ledger/paper_ledger.json`) are **simulated only** — they do **not** appear on Alpaca Paper
+- Alpaca keys today = **market data**, not order routing (`bot/config.json` broker=`none`; no `broker_alpaca_paper.py` yet)
+- **Cursor MCP / Railway / LLM chat are research-only** — never the order path; execution stays rule-based (`action.rules.json` → signals → broker)
+- Always-on = Windows task `FinwizScreenerAutomation` / `scripts/run_automation.ps1`, not “keep dashboard open” and not MCP
+- **Agreed sequence:** local paper → **Alpaca Paper adapter (Phase 3)** with kill-switches → side-by-side compare → live only with explicit unlock + tiny size
+- Treat stack as disciplined **when/whether** screener+execution, not a beat-B&H alpha engine
 
 ## Backtest verdict (committed 2026-07-22)
 

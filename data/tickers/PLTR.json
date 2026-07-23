@@ -16,8 +16,8 @@
     }
   },
   "metrics": {
-    "price": 126.85,
-    "market_cap": 304087.08,
+    "price": 124.57,
+    "market_cap": 298633.19,
     "sales_growth_yoy": 67.71,
     "eps_growth_yoy": 283.83,
     "peg": 1.07,
@@ -27,7 +27,7 @@
     "debt_equity": 0.03,
     "recom": 1.94,
     "target_price": 190.08,
-    "pe": 142.91
+    "pe": 140.34
   },
   "technicals": {
     "rsi14": 52.83,
@@ -63,5 +63,5 @@
   "finviz_url": "https://finviz.com/quote.ashx?t=PLTR",
   "deep_dive_path": "deep-dives/PLTR-2026-08-03.md",
   "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T12:08:01"
+  "finviz_elite_sync": "2026-07-22T20:51:34"
 }
