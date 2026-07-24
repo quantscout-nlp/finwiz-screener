@@ -1,0 +1,61 @@
+{
+  "ticker": "CCJ",
+  "company": "Cameco Corp",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Uranium",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 89.5,
+    "market_cap": 38979.93,
+    "sales_growth_yoy": 13.18,
+    "eps_growth_yoy": 9.27,
+    "peg": 1.47,
+    "forward_pe": 46.76,
+    "gross_margin": 27.44,
+    "profit_margin": 18.37,
+    "debt_equity": 0.14,
+    "recom": null,
+    "target_price": null,
+    "pe": 82.99
+  },
+  "technicals": {
+    "rsi14": 38.77,
+    "sma20_pct": -4.32,
+    "sma50_pct": -12.06,
+    "sma200_pct": -14.44,
+    "perf_ytd": -2.18,
+    "from_52w_high_pct": -33.82,
+    "beta": 1.05,
+    "setup": "",
+    "perf_year": 11.99,
+    "perf_quarter": -27.74,
+    "perf_month": -16.07,
+    "perf_week": 4.53
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CCJ",
+  "deep_dive_path": "deep-dives/CCJ-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

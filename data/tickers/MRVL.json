@@ -1,0 +1,61 @@
+{
+  "ticker": "MRVL",
+  "company": "Marvell Technology Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 206.78,
+    "market_cap": 181090.98,
+    "sales_growth_yoy": 22.51,
+    "eps_growth_yoy": 42.65,
+    "peg": 0.69,
+    "forward_pe": 33.11,
+    "gross_margin": 50.64,
+    "profit_margin": 28.99,
+    "debt_equity": 0.3,
+    "recom": null,
+    "target_price": null,
+    "pe": 70.66
+  },
+  "technicals": {
+    "rsi14": 42.32,
+    "sma20_pct": -10.17,
+    "sma50_pct": -13.63,
+    "sma200_pct": 55.63,
+    "perf_ytd": 143.33,
+    "from_52w_high_pct": -37.32,
+    "beta": 2.25,
+    "setup": "",
+    "perf_year": 179.28,
+    "perf_quarter": 24.9,
+    "perf_month": -25.27,
+    "perf_week": 9.59
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MRVL",
+  "deep_dive_path": "deep-dives/MRVL-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

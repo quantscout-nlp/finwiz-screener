@@ -1,0 +1,60 @@
+{
+  "ticker": "ASTC",
+  "company": "Astrotech Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 7.64,
+    "market_cap": 15.35,
+    "sales_growth_yoy": 16.54,
+    "eps_growth_yoy": 26.69,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -88.1,
+    "profit_margin": -1397.82,
+    "debt_equity": 0.2,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 39.66,
+    "sma20_pct": -15.35,
+    "sma50_pct": -46.77,
+    "sma200_pct": 24.96,
+    "perf_ytd": 120.81,
+    "from_52w_high_pct": -88.9,
+    "beta": 4.9,
+    "setup": "",
+    "perf_year": 35.94,
+    "perf_quarter": 134.36,
+    "perf_month": -25.06,
+    "perf_week": -1.16
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ASTC",
+  "deep_dive_path": "deep-dives/ASTC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

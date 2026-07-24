@@ -1,0 +1,61 @@
+{
+  "ticker": "DVA",
+  "company": "DaVita Inc",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 234.27,
+    "market_cap": 15040.13,
+    "sales_growth_yoy": 3.39,
+    "eps_growth_yoy": 8.29,
+    "peg": 0.64,
+    "forward_pe": 13.52,
+    "gross_margin": 27.27,
+    "profit_margin": 5.47,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null,
+    "pe": 22.49
+  },
+  "technicals": {
+    "rsi14": 63.18,
+    "sma20_pct": 1.71,
+    "sma50_pct": 10.53,
+    "sma200_pct": 52.82,
+    "perf_ytd": 106.21,
+    "from_52w_high_pct": -2.24,
+    "beta": 0.88,
+    "setup": "",
+    "perf_year": 54.82,
+    "perf_quarter": 53.7,
+    "perf_month": 11.07,
+    "perf_week": 0.11
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=DVA",
+  "deep_dive_path": "deep-dives/DVA-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

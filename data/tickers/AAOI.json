@@ -1,0 +1,61 @@
+{
+  "ticker": "AAOI",
+  "company": "Applied Optoelectronics Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 111.12,
+    "market_cap": 8916.57,
+    "sales_growth_yoy": 14.2,
+    "eps_growth_yoy": 24.98,
+    "peg": null,
+    "forward_pe": 19.4,
+    "gross_margin": 29.54,
+    "profit_margin": -8.55,
+    "debt_equity": 0.25,
+    "recom": null,
+    "target_price": null,
+    "pe": 19.4
+  },
+  "technicals": {
+    "rsi14": 42.3,
+    "sma20_pct": -7.14,
+    "sma50_pct": -27.73,
+    "sma200_pct": 25.4,
+    "perf_ytd": 218.76,
+    "from_52w_high_pct": -52.45,
+    "beta": 3.76,
+    "setup": "",
+    "perf_year": 330.03,
+    "perf_quarter": -19.32,
+    "perf_month": -24.39,
+    "perf_week": 8.51
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=AAOI",
+  "deep_dive_path": "deep-dives/AAOI-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

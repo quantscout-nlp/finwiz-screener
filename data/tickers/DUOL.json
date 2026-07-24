@@ -1,0 +1,61 @@
+{
+  "ticker": "DUOL",
+  "company": "Duolingo Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 121.55,
+    "market_cap": 5663.39,
+    "sales_growth_yoy": 45.03,
+    "eps_growth_yoy": -66.51,
+    "peg": null,
+    "forward_pe": 35.03,
+    "gross_margin": 72.14,
+    "profit_margin": 38.44,
+    "debt_equity": 0.07,
+    "recom": null,
+    "target_price": null,
+    "pe": 14.15
+  },
+  "technicals": {
+    "rsi14": 46.87,
+    "sma20_pct": -3.47,
+    "sma50_pct": 1.31,
+    "sma200_pct": -19.76,
+    "perf_ytd": -30.74,
+    "from_52w_high_pct": -74.03,
+    "beta": 0.87,
+    "setup": "",
+    "perf_year": -66.32,
+    "perf_quarter": 21.2,
+    "perf_month": -8.02,
+    "perf_week": -9.19
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=DUOL",
+  "deep_dive_path": "deep-dives/DUOL-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

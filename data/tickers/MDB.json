@@ -1,0 +1,61 @@
+{
+  "ticker": "MDB",
+  "company": "MongoDB Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 302.0,
+    "market_cap": 24290.44,
+    "sales_growth_yoy": 33.07,
+    "eps_growth_yoy": 28.0,
+    "peg": 1.85,
+    "forward_pe": 41.25,
+    "gross_margin": 71.67,
+    "profit_margin": -1.12,
+    "debt_equity": 0.02,
+    "recom": null,
+    "target_price": null,
+    "pe": 41.25
+  },
+  "technicals": {
+    "rsi14": 39.57,
+    "sma20_pct": -9.58,
+    "sma50_pct": -9.83,
+    "sma200_pct": -9.42,
+    "perf_ytd": -28.04,
+    "from_52w_high_pct": -32.09,
+    "beta": 1.57,
+    "setup": "",
+    "perf_year": 28.42,
+    "perf_quarter": 17.0,
+    "perf_month": -0.15,
+    "perf_week": -3.31
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MDB",
+  "deep_dive_path": "deep-dives/MDB-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

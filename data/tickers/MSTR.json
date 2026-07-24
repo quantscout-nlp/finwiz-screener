@@ -1,0 +1,61 @@
+{
+  "ticker": "MSTR",
+  "company": "Strategy Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 95.35,
+    "market_cap": 33415.18,
+    "sales_growth_yoy": -0.15,
+    "eps_growth_yoy": -187.39,
+    "peg": null,
+    "forward_pe": 24.35,
+    "gross_margin": 68.11,
+    "profit_margin": -2604.72,
+    "debt_equity": 0.18,
+    "recom": null,
+    "target_price": null,
+    "pe": 24.35
+  },
+  "technicals": {
+    "rsi14": 42.45,
+    "sma20_pct": 0.29,
+    "sma50_pct": -20.97,
+    "sma200_pct": -41.67,
+    "perf_ytd": -37.25,
+    "from_52w_high_pct": -77.29,
+    "beta": 3.54,
+    "setup": "",
+    "perf_year": -77.02,
+    "perf_quarter": -44.72,
+    "perf_month": 1.3,
+    "perf_week": 0.53
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MSTR",
+  "deep_dive_path": "deep-dives/MSTR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "ZS",
+  "company": "Zscaler Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 140.85,
+    "market_cap": 22776.79,
+    "sales_growth_yoy": 44.03,
+    "eps_growth_yoy": 21.31,
+    "peg": 1.71,
+    "forward_pe": 30.76,
+    "gross_margin": 76.29,
+    "profit_margin": -2.44,
+    "debt_equity": 0.79,
+    "recom": null,
+    "target_price": null,
+    "pe": 30.76
+  },
+  "technicals": {
+    "rsi14": 48.21,
+    "sma20_pct": -2.68,
+    "sma50_pct": -1.7,
+    "sma200_pct": -27.37,
+    "perf_ytd": -37.38,
+    "from_52w_high_pct": -58.2,
+    "beta": 0.95,
+    "setup": "",
+    "perf_year": -50.46,
+    "perf_quarter": 5.93,
+    "perf_month": 10.67,
+    "perf_week": -6.06
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ZS",
+  "deep_dive_path": "deep-dives/ZS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

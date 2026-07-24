@@ -1,0 +1,61 @@
+{
+  "ticker": "QCOM",
+  "company": "Qualcomm Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 170.4,
+    "market_cap": 179601.59,
+    "sales_growth_yoy": 13.48,
+    "eps_growth_yoy": 2.08,
+    "peg": 4.04,
+    "forward_pe": 15.63,
+    "gross_margin": 54.8,
+    "profit_margin": 22.31,
+    "debt_equity": 0.56,
+    "recom": null,
+    "target_price": null,
+    "pe": 18.54
+  },
+  "technicals": {
+    "rsi14": 38.67,
+    "sma20_pct": -5.35,
+    "sma50_pct": -16.1,
+    "sma200_pct": 0.73,
+    "perf_ytd": -0.38,
+    "from_52w_high_pct": -34.44,
+    "beta": 1.64,
+    "setup": "",
+    "perf_year": 7.28,
+    "perf_quarter": 27.21,
+    "perf_month": -13.68,
+    "perf_week": -0.8
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=QCOM",
+  "deep_dive_path": "deep-dives/QCOM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "XLU",
+  "company": "State Street Utilities Select Sector SPDR ETF",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Exchange Traded Fund",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 46.13,
+    "market_cap": null,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": null,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 58.45,
+    "sma20_pct": 1.34,
+    "sma50_pct": 2.71,
+    "sma200_pct": 2.8,
+    "perf_ytd": 8.06,
+    "from_52w_high_pct": -3.49,
+    "beta": 0.59,
+    "setup": "",
+    "perf_year": 9.44,
+    "perf_quarter": 0.09,
+    "perf_month": 1.3,
+    "perf_week": 2.13
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=XLU",
+  "deep_dive_path": "deep-dives/XLU-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

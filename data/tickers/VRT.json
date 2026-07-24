@@ -1,0 +1,61 @@
+{
+  "ticker": "VRT",
+  "company": "Vertiv Holdings Co",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 302.2,
+    "market_cap": 116077.69,
+    "sales_growth_yoy": 18.54,
+    "eps_growth_yoy": 54.45,
+    "peg": 0.88,
+    "forward_pe": 34.27,
+    "gross_margin": 35.0,
+    "profit_margin": 14.37,
+    "debt_equity": 0.77,
+    "recom": null,
+    "target_price": null,
+    "pe": 75.86
+  },
+  "technicals": {
+    "rsi14": 47.42,
+    "sma20_pct": -1.62,
+    "sma50_pct": -4.54,
+    "sma200_pct": 23.68,
+    "perf_ytd": 86.53,
+    "from_52w_high_pct": -20.46,
+    "beta": 2.05,
+    "setup": "",
+    "perf_year": 130.92,
+    "perf_quarter": -6.08,
+    "perf_month": -4.5,
+    "perf_week": 4.37
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=VRT",
+  "deep_dive_path": "deep-dives/VRT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

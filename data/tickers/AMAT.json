@@ -1,0 +1,61 @@
+{
+  "ticker": "AMAT",
+  "company": "Applied Materials Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 560.06,
+    "market_cap": 444664.91,
+    "sales_growth_yoy": 10.52,
+    "eps_growth_yoy": 17.18,
+    "peg": 1.03,
+    "forward_pe": 33.09,
+    "gross_margin": 48.96,
+    "profit_margin": 29.31,
+    "debt_equity": 0.3,
+    "recom": null,
+    "target_price": null,
+    "pe": 52.62
+  },
+  "technicals": {
+    "rsi14": 48.94,
+    "sma20_pct": -5.2,
+    "sma50_pct": 4.11,
+    "sma200_pct": 52.7,
+    "perf_ytd": 117.93,
+    "from_52w_high_pct": -24.28,
+    "beta": 1.61,
+    "setup": "",
+    "perf_year": 197.71,
+    "perf_quarter": 38.66,
+    "perf_month": -4.91,
+    "perf_week": 5.74
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=AMAT",
+  "deep_dive_path": "deep-dives/AMAT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

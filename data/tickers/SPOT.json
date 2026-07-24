@@ -1,0 +1,61 @@
+{
+  "ticker": "SPOT",
+  "company": "Spotify Technology SA",
+  "status": "watch",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 472.58,
+    "market_cap": 97216.79,
+    "sales_growth_yoy": 16.64,
+    "eps_growth_yoy": 20.5,
+    "peg": 1.13,
+    "forward_pe": 26.32,
+    "gross_margin": 32.21,
+    "profit_margin": 15.56,
+    "debt_equity": 0.06,
+    "recom": null,
+    "target_price": null,
+    "pe": 37.65
+  },
+  "technicals": {
+    "rsi14": 47.19,
+    "sma20_pct": -1.23,
+    "sma50_pct": -1.13,
+    "sma200_pct": -10.49,
+    "perf_ytd": -18.62,
+    "from_52w_high_pct": -36.85,
+    "beta": 1.58,
+    "setup": "",
+    "perf_year": -30.65,
+    "perf_quarter": -8.4,
+    "perf_month": 3.86,
+    "perf_week": -1.16
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=SPOT",
+  "deep_dive_path": "deep-dives/SPOT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

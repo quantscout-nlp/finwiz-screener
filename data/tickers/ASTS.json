@@ -1,0 +1,60 @@
+{
+  "ticker": "ASTS",
+  "company": "AST SpaceMobile Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 59.31,
+    "market_cap": 23019.67,
+    "sales_growth_yoy": 64.06,
+    "eps_growth_yoy": -23.49,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -224.29,
+    "profit_margin": -573.67,
+    "debt_equity": 1.44,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 38.02,
+    "sma20_pct": -15.99,
+    "sma50_pct": -29.59,
+    "sma200_pct": -28.69,
+    "perf_ytd": -18.34,
+    "from_52w_high_pct": -55.69,
+    "beta": 2.77,
+    "setup": "",
+    "perf_year": -1.25,
+    "perf_quarter": -24.69,
+    "perf_month": -12.79,
+    "perf_week": 2.61
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ASTS",
+  "deep_dive_path": "deep-dives/ASTS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

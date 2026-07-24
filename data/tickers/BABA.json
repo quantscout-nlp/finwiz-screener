@@ -1,0 +1,61 @@
+{
+  "ticker": "BABA",
+  "company": "Alibaba Group Holding Ltd ADR",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 112.2,
+    "market_cap": 268950.12,
+    "sales_growth_yoy": 6.38,
+    "eps_growth_yoy": -4.77,
+    "peg": 0.3,
+    "forward_pe": 12.53,
+    "gross_margin": 39.26,
+    "profit_margin": 10.32,
+    "debt_equity": 0.27,
+    "recom": null,
+    "target_price": null,
+    "pe": 18.12
+  },
+  "technicals": {
+    "rsi14": 49.69,
+    "sma20_pct": 3.65,
+    "sma50_pct": -3.42,
+    "sma200_pct": -21.24,
+    "perf_ytd": -23.45,
+    "from_52w_high_pct": -41.77,
+    "beta": 0.48,
+    "setup": "",
+    "perf_year": -7.39,
+    "perf_quarter": -14.81,
+    "perf_month": 12.42,
+    "perf_week": -2.41
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=BABA",
+  "deep_dive_path": "deep-dives/BABA-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

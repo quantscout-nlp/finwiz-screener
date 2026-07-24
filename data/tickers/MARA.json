@@ -1,0 +1,60 @@
+{
+  "ticker": "MARA",
+  "company": "MARA Holdings Inc",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Capital Markets",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 12.86,
+    "market_cap": 4903.13,
+    "sales_growth_yoy": 190.86,
+    "eps_growth_yoy": -95.8,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -59.9,
+    "profit_margin": -234.83,
+    "debt_equity": 1.1,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 51.3,
+    "sma20_pct": 2.15,
+    "sma50_pct": -3.13,
+    "sma200_pct": 6.97,
+    "perf_ytd": 43.21,
+    "from_52w_high_pct": -45.16,
+    "beta": 5.39,
+    "setup": "",
+    "perf_year": -25.49,
+    "perf_quarter": 8.98,
+    "perf_month": -8.14,
+    "perf_week": 20.3
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MARA",
+  "deep_dive_path": "deep-dives/MARA-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

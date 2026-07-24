@@ -1,0 +1,61 @@
+{
+  "ticker": "DASH",
+  "company": "DoorDash Inc",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 169.77,
+    "market_cap": 73971.97,
+    "sales_growth_yoy": 36.58,
+    "eps_growth_yoy": 18.59,
+    "peg": 0.77,
+    "forward_pe": 38.01,
+    "gross_margin": 45.02,
+    "profit_margin": 6.29,
+    "debt_equity": 0.32,
+    "recom": null,
+    "target_price": null,
+    "pe": 80.87
+  },
+  "technicals": {
+    "rsi14": 40.01,
+    "sma20_pct": -8.81,
+    "sma50_pct": -0.65,
+    "sma200_pct": -12.06,
+    "perf_ytd": -25.04,
+    "from_52w_high_pct": -40.54,
+    "beta": 1.79,
+    "setup": "",
+    "perf_year": -30.33,
+    "perf_quarter": -4.08,
+    "perf_month": -4.59,
+    "perf_week": -7.8
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=DASH",
+  "deep_dive_path": "deep-dives/DASH-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

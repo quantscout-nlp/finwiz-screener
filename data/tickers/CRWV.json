@@ -1,0 +1,60 @@
+{
+  "ticker": "CRWV",
+  "company": "CoreWeave Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 80.74,
+    "market_cap": 44049.34,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -152.56,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 34.82,
+    "profit_margin": -25.58,
+    "debt_equity": 7.39,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 42.08,
+    "sma20_pct": -3.95,
+    "sma50_pct": -17.41,
+    "sma200_pct": -16.42,
+    "perf_ytd": 12.75,
+    "from_52w_high_pct": -47.3,
+    "beta": 7.28,
+    "setup": "",
+    "perf_year": -32.72,
+    "perf_quarter": -31.24,
+    "perf_month": -19.96,
+    "perf_week": 10.29
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CRWV",
+  "deep_dive_path": "deep-dives/CRWV-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

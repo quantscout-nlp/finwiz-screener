@@ -1,0 +1,61 @@
+{
+  "ticker": "TEAM",
+  "company": "Atlassian Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 81.5,
+    "market_cap": 20682.08,
+    "sales_growth_yoy": 26.43,
+    "eps_growth_yoy": 7.3,
+    "peg": 0.53,
+    "forward_pe": 13.38,
+    "gross_margin": 84.5,
+    "profit_margin": -3.5,
+    "debt_equity": 1.41,
+    "recom": null,
+    "target_price": null,
+    "pe": 13.38
+  },
+  "technicals": {
+    "rsi14": 43.24,
+    "sma20_pct": -6.24,
+    "sma50_pct": -8.36,
+    "sma200_pct": -26.0,
+    "perf_ytd": -49.73,
+    "from_52w_high_pct": -60.44,
+    "beta": 1.07,
+    "setup": "",
+    "perf_year": -59.22,
+    "perf_quarter": 20.53,
+    "perf_month": -0.06,
+    "perf_week": -12.64
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=TEAM",
+  "deep_dive_path": "deep-dives/TEAM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

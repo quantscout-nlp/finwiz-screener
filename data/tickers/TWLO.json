@@ -1,0 +1,61 @@
+{
+  "ticker": "TWLO",
+  "company": "Twilio Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 186.13,
+    "market_cap": 28249.78,
+    "sales_growth_yoy": 23.53,
+    "eps_growth_yoy": 16.91,
+    "peg": 1.72,
+    "forward_pe": 27.99,
+    "gross_margin": 47.91,
+    "profit_margin": 1.96,
+    "debt_equity": 0.14,
+    "recom": null,
+    "target_price": null,
+    "pe": 288.71
+  },
+  "technicals": {
+    "rsi14": 36.43,
+    "sma20_pct": -9.25,
+    "sma50_pct": -7.76,
+    "sma200_pct": 26.16,
+    "perf_ytd": 30.86,
+    "from_52w_high_pct": -21.95,
+    "beta": 1.38,
+    "setup": "",
+    "perf_year": 41.36,
+    "perf_quarter": 31.46,
+    "perf_month": -1.17,
+    "perf_week": -9.99
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=TWLO",
+  "deep_dive_path": "deep-dives/TWLO-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

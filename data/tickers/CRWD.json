@@ -1,0 +1,61 @@
+{
+  "ticker": "CRWD",
+  "company": "Crowdstrike Holdings Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 185.41,
+    "market_cap": 188794.63,
+    "sales_growth_yoy": 40.64,
+    "eps_growth_yoy": -8.78,
+    "peg": 4.09,
+    "forward_pe": 119.13,
+    "gross_margin": 74.89,
+    "profit_margin": -0.89,
+    "debt_equity": 0.18,
+    "recom": null,
+    "target_price": null,
+    "pe": 119.13
+  },
+  "technicals": {
+    "rsi14": 48.84,
+    "sma20_pct": -4.15,
+    "sma50_pct": 4.19,
+    "sma200_pct": 41.31,
+    "perf_ytd": 58.21,
+    "from_52w_high_pct": -14.75,
+    "beta": 1.25,
+    "setup": "",
+    "perf_year": 60.52,
+    "perf_quarter": 66.51,
+    "perf_month": 10.2,
+    "perf_week": -8.7
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CRWD",
+  "deep_dive_path": "deep-dives/CRWD-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

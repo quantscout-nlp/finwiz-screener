@@ -1,0 +1,60 @@
+{
+  "ticker": "WULF",
+  "company": "TeraWulf Inc",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Capital Markets",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 20.19,
+    "market_cap": 10004.81,
+    "sales_growth_yoy": 65.83,
+    "eps_growth_yoy": -49.56,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 3.62,
+    "profit_margin": -611.46,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 43.22,
+    "sma20_pct": -5.12,
+    "sma50_pct": -14.91,
+    "sma200_pct": 15.67,
+    "perf_ytd": 75.72,
+    "from_52w_high_pct": -32.34,
+    "beta": 3.8,
+    "setup": "",
+    "perf_year": 279.51,
+    "perf_quarter": -0.88,
+    "perf_month": -25.14,
+    "perf_week": 11.18
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=WULF",
+  "deep_dive_path": "deep-dives/WULF-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

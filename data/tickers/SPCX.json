@@ -1,0 +1,58 @@
+{
+  "ticker": "SPCX",
+  "company": "Space Exploration Technologies Corp",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 116.56,
+    "market_cap": 1546416.22,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": null,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": 0.74,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 35.21,
+    "sma20_pct": -17.41,
+    "sma50_pct": -22.7,
+    "sma200_pct": -22.7,
+    "perf_ytd": -22.29,
+    "from_52w_high_pct": -48.34,
+    "beta": null,
+    "setup": "",
+    "perf_month": -24.58,
+    "perf_week": -5.99
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=SPCX",
+  "deep_dive_path": "deep-dives/SPCX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

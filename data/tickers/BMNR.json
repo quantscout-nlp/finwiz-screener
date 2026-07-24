@@ -1,0 +1,61 @@
+{
+  "ticker": "BMNR",
+  "company": "BitMine Immersion Technologies Inc",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Capital Markets",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 16.81,
+    "market_cap": 10140.24,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -218.15,
+    "peg": null,
+    "forward_pe": 33.62,
+    "gross_margin": 81.88,
+    "profit_margin": -14335.1,
+    "debt_equity": 0.0,
+    "recom": null,
+    "target_price": null,
+    "pe": 33.62
+  },
+  "technicals": {
+    "rsi14": 54.57,
+    "sma20_pct": 9.55,
+    "sma50_pct": 0.78,
+    "sma200_pct": -36.18,
+    "perf_ytd": -38.08,
+    "from_52w_high_pct": -76.57,
+    "beta": 1.48,
+    "setup": "",
+    "perf_year": -59.74,
+    "perf_quarter": -23.59,
+    "perf_month": 19.9,
+    "perf_week": 7.14
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=BMNR",
+  "deep_dive_path": "deep-dives/BMNR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

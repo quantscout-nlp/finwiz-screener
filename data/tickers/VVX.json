@@ -1,0 +1,61 @@
+{
+  "ticker": "VVX",
+  "company": "V2X Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 84.0,
+    "market_cap": 2630.08,
+    "sales_growth_yoy": 26.27,
+    "eps_growth_yoy": -4.89,
+    "peg": 0.94,
+    "forward_pe": 12.38,
+    "gross_margin": 8.5,
+    "profit_margin": 1.88,
+    "debt_equity": 0.97,
+    "recom": null,
+    "target_price": null,
+    "pe": 30.05
+  },
+  "technicals": {
+    "rsi14": 64.63,
+    "sma20_pct": 10.27,
+    "sma50_pct": 6.87,
+    "sma200_pct": 25.32,
+    "perf_ytd": 53.99,
+    "from_52w_high_pct": -8.5,
+    "beta": 0.21,
+    "setup": "",
+    "perf_year": 73.77,
+    "perf_quarter": 31.91,
+    "perf_month": 10.48,
+    "perf_week": 11.1
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=VVX",
+  "deep_dive_path": "deep-dives/VVX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "TTD",
+  "company": "Trade Desk Inc",
+  "status": "watch",
+  "sector": "Communication Services",
+  "industry": "Advertising Agencies",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 16.92,
+    "market_cap": 7954.24,
+    "sales_growth_yoy": 28.21,
+    "eps_growth_yoy": 12.67,
+    "peg": 0.83,
+    "forward_pe": 14.18,
+    "gross_margin": 77.83,
+    "profit_margin": 14.57,
+    "debt_equity": 0.17,
+    "recom": null,
+    "target_price": null,
+    "pe": 19.07
+  },
+  "technicals": {
+    "rsi14": 33.99,
+    "sma20_pct": -9.56,
+    "sma50_pct": -13.68,
+    "sma200_pct": -43.87,
+    "perf_ytd": -55.43,
+    "from_52w_high_pct": -81.5,
+    "beta": 1.04,
+    "setup": "",
+    "perf_year": -80.09,
+    "perf_quarter": -25.2,
+    "perf_month": -4.41,
+    "perf_week": -8.98
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=TTD",
+  "deep_dive_path": "deep-dives/TTD-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "CRK",
+  "company": "Comstock Resources Inc",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 13.72,
+    "market_cap": 4029.51,
+    "sales_growth_yoy": 17.58,
+    "eps_growth_yoy": -22.94,
+    "peg": 0.5,
+    "forward_pe": 17.97,
+    "gross_margin": 24.34,
+    "profit_margin": 30.99,
+    "debt_equity": 1.1,
+    "recom": null,
+    "target_price": null,
+    "pe": 6.48
+  },
+  "technicals": {
+    "rsi14": 50.73,
+    "sma20_pct": -0.27,
+    "sma50_pct": 0.12,
+    "sma200_pct": -27.99,
+    "perf_ytd": -40.81,
+    "from_52w_high_pct": -51.17,
+    "beta": 0.13,
+    "setup": "",
+    "perf_year": -33.24,
+    "perf_quarter": -21.33,
+    "perf_month": 1.93,
+    "perf_week": 4.73
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CRK",
+  "deep_dive_path": "deep-dives/CRK-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

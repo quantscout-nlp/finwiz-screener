@@ -1,0 +1,61 @@
+{
+  "ticker": "COHR",
+  "company": "Coherent Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 311.95,
+    "market_cap": 61029.69,
+    "sales_growth_yoy": 19.54,
+    "eps_growth_yoy": 8.01,
+    "peg": 0.67,
+    "forward_pe": 37.26,
+    "gross_margin": 37.93,
+    "profit_margin": 6.07,
+    "debt_equity": 0.32,
+    "recom": null,
+    "target_price": null,
+    "pe": 148.93
+  },
+  "technicals": {
+    "rsi14": 44.35,
+    "sma20_pct": -4.0,
+    "sma50_pct": -13.63,
+    "sma200_pct": 23.91,
+    "perf_ytd": 69.01,
+    "from_52w_high_pct": -29.1,
+    "beta": 2.08,
+    "setup": "",
+    "perf_year": 215.99,
+    "perf_quarter": -7.62,
+    "perf_month": -20.52,
+    "perf_week": 12.37
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=COHR",
+  "deep_dive_path": "deep-dives/COHR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

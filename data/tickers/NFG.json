@@ -1,0 +1,61 @@
+{
+  "ticker": "NFG",
+  "company": "National Fuel Gas Co",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Oil & Gas Integrated",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 82.06,
+    "market_cap": 7798.6,
+    "sales_growth_yoy": 9.09,
+    "eps_growth_yoy": 6.66,
+    "peg": 2.99,
+    "forward_pe": 10.54,
+    "gross_margin": 43.29,
+    "profit_margin": 28.47,
+    "debt_equity": 0.63,
+    "recom": null,
+    "target_price": null,
+    "pe": 11.11
+  },
+  "technicals": {
+    "rsi14": 60.04,
+    "sma20_pct": 3.01,
+    "sma50_pct": 3.93,
+    "sma200_pct": -1.96,
+    "perf_ytd": 2.5,
+    "from_52w_high_pct": -15.45,
+    "beta": 0.38,
+    "setup": "",
+    "perf_year": -6.3,
+    "perf_quarter": -5.62,
+    "perf_month": 6.47,
+    "perf_week": 0.51
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NFG",
+  "deep_dive_path": "deep-dives/NFG-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

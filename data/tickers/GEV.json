@@ -1,0 +1,61 @@
+{
+  "ticker": "GEV",
+  "company": "GE Vernova Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 1030.19,
+    "market_cap": 274373.99,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 69.85,
+    "peg": 1.66,
+    "forward_pe": 41.67,
+    "gross_margin": 20.16,
+    "profit_margin": 23.05,
+    "debt_equity": 0.24,
+    "recom": null,
+    "target_price": null,
+    "pe": 29.49
+  },
+  "technicals": {
+    "rsi14": 47.35,
+    "sma20_pct": -4.17,
+    "sma50_pct": -0.31,
+    "sma200_pct": 24.4,
+    "perf_ytd": 57.62,
+    "from_52w_high_pct": -13.86,
+    "beta": 1.07,
+    "setup": "",
+    "perf_year": 65.1,
+    "perf_quarter": -10.38,
+    "perf_month": -2.6,
+    "perf_week": -2.61
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=GEV",
+  "deep_dive_path": "deep-dives/GEV-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

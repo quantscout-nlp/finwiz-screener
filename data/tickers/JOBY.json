@@ -1,0 +1,60 @@
+{
+  "ticker": "JOBY",
+  "company": "Joby Aviation Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Airports & Air Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 7.55,
+    "market_cap": 7431.42,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -0.49,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -16.06,
+    "profit_margin": -1232.62,
+    "debt_equity": 0.38,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 38.45,
+    "sma20_pct": -5.53,
+    "sma50_pct": -19.49,
+    "sma200_pct": -35.16,
+    "perf_ytd": -42.77,
+    "from_52w_high_pct": -63.94,
+    "beta": 2.73,
+    "setup": "",
+    "perf_year": -56.85,
+    "perf_quarter": -11.01,
+    "perf_month": -18.59,
+    "perf_week": 4.5
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=JOBY",
+  "deep_dive_path": "deep-dives/JOBY-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

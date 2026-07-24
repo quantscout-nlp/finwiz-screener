@@ -1,0 +1,61 @@
+{
+  "ticker": "SOC",
+  "company": "Sable Offshore Corp",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Oil & Gas Drilling",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 4.63,
+    "market_cap": 865.03,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 91.64,
+    "peg": null,
+    "forward_pe": 3.0,
+    "gross_margin": -1111.17,
+    "profit_margin": -39153.74,
+    "debt_equity": 2.27,
+    "recom": null,
+    "target_price": null,
+    "pe": 3.0
+  },
+  "technicals": {
+    "rsi14": 35.42,
+    "sma20_pct": 2.96,
+    "sma50_pct": -49.98,
+    "sma200_pct": -55.94,
+    "perf_ytd": -48.67,
+    "from_52w_high_pct": -85.41,
+    "beta": -0.17,
+    "setup": "",
+    "perf_year": -83.85,
+    "perf_quarter": -67.53,
+    "perf_month": -41.61,
+    "perf_week": 6.44
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=SOC",
+  "deep_dive_path": "deep-dives/SOC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

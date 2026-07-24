@@ -1,0 +1,61 @@
+{
+  "ticker": "COF",
+  "company": "Capital One Financial Corp",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Credit Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 199.97,
+    "market_cap": 122681.59,
+    "sales_growth_yoy": 16.93,
+    "eps_growth_yoy": -4.88,
+    "peg": 0.66,
+    "forward_pe": 8.37,
+    "gross_margin": null,
+    "profit_margin": 3.85,
+    "debt_equity": 0.46,
+    "recom": null,
+    "target_price": null,
+    "pe": 70.49
+  },
+  "technicals": {
+    "rsi14": 48.53,
+    "sma20_pct": -1.76,
+    "sma50_pct": 2.8,
+    "sma200_pct": -3.57,
+    "perf_ytd": -17.49,
+    "from_52w_high_pct": -22.98,
+    "beta": 1.02,
+    "setup": "",
+    "perf_year": -5.38,
+    "perf_quarter": 1.7,
+    "perf_month": -0.25,
+    "perf_week": -3.87
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=COF",
+  "deep_dive_path": "deep-dives/COF-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

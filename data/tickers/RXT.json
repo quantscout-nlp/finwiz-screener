@@ -1,0 +1,61 @@
+{
+  "ticker": "RXT",
+  "company": "Rackspace Technology Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 4.02,
+    "market_cap": 1020.58,
+    "sales_growth_yoy": -0.16,
+    "eps_growth_yoy": 7.12,
+    "peg": null,
+    "forward_pe": 23.37,
+    "gross_margin": 12.47,
+    "profit_margin": -5.41,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null,
+    "pe": 23.37
+  },
+  "technicals": {
+    "rsi14": 40.08,
+    "sma20_pct": -22.42,
+    "sma50_pct": -25.74,
+    "sma200_pct": 69.2,
+    "perf_ytd": 314.0,
+    "from_52w_high_pct": -53.26,
+    "beta": 3.08,
+    "setup": "",
+    "perf_year": 197.74,
+    "perf_quarter": 136.44,
+    "perf_month": -41.06,
+    "perf_week": -3.14
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RXT",
+  "deep_dive_path": "deep-dives/RXT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

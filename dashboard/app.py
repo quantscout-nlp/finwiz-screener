@@ -38,6 +38,7 @@ from dashboard.data_loader import (
 )
 from dashboard.llm_rerank import llm_rerank
 from dashboard.price_charts import build_normalized_compare_figure, render_price_chart
+from dashboard.robinhood_page import page_robinhood_watchlist
 from dashboard.styles import inject_styles
 
 st.set_page_config(
@@ -69,6 +70,7 @@ def auto_refresh_tick() -> None:
 
 PAGES = [
     "Command Center",
+    "Robinhood Watchlist · 193",
     "Growth Screener",
     "Capitulation",
     "Ticker Intel",
@@ -113,6 +115,17 @@ def sidebar() -> str:
     with st.sidebar:
         st.markdown('<div class="sidebar-brand">Finwiz Screener</div>', unsafe_allow_html=True)
         st.caption("Promising Growth Stocks")
+        rh_n = 0
+        rh_path = ROOT / "data" / "robinhood" / "positions.json"
+        if rh_path.exists():
+            try:
+                import json as _json
+
+                rh_n = len(_json.loads(rh_path.read_text(encoding="utf-8")))
+            except Exception:
+                rh_n = 0
+        if rh_n:
+            st.caption(f"Robinhood desk: **{rh_n}** mapped tickers")
         st.divider()
         page = st.radio("Navigate", PAGES, label_visibility="collapsed")
         st.divider()
@@ -170,13 +183,44 @@ def sidebar() -> str:
         except Exception:
             elite_on = False
         st.caption(f"Finviz Elite: {'connected' if elite_on else 'not configured'}")
+        try:
+            from lib_market_data import provider_status  # noqa: E402
+
+            alpaca_on = bool(provider_status().get("alpaca"))
+        except Exception:
+            alpaca_on = bool(
+                (os.environ.get("ALPACA_API_KEY") or os.environ.get("ALPACA_API_PAPER_KEY") or "").strip()
+                and (os.environ.get("ALPACA_API_SECRET") or os.environ.get("ALPACA_API_PAPER_SECRET") or "").strip()
+            )
+        st.caption(f"Alpaca data: {'connected' if alpaca_on else 'not configured'}")
+
         openai_on = bool(
-            (os.environ.get("OPENAI_API_KEY") or "").strip()
+            (st.session_state.get("openai_api_key") or "").strip()
+            or (os.environ.get("OPENAI_API_KEY") or "").strip()
             or (os.environ.get("FINWIZ_LLM_API_KEY") or "").strip()
         )
         st.caption(f"OpenAI LLM: {'ready' if openai_on else 'not set'}")
+        with st.expander("Set OpenAI LLM key (this session)", expanded=not openai_on):
+            llm_key = st.text_input(
+                "OPENAI_API_KEY",
+                type="password",
+                value="",
+                key="sidebar_openai_key_input",
+                placeholder="sk-…",
+                help="Applied to this Streamlit process only. For persistence, set a User env var and relaunch.",
+            )
+            if st.button("Apply LLM key for this session", use_container_width=True, key="sidebar_openai_apply"):
+                key = (llm_key or "").strip()
+                if key:
+                    os.environ["OPENAI_API_KEY"] = key
+                    os.environ["FINWIZ_LLM_API_KEY"] = key
+                    st.session_state.openai_api_key = key
+                    st.success("OpenAI LLM ready for this session (Query Lab).")
+                    st.rerun()
+                else:
+                    st.warning("Paste a key first.")
         if not elite_on or not openai_on:
-            st.caption("Restart dashboard via launch_dashboard.ps1 after setting User env vars.")
+            st.caption("Tip: User env vars load on launch_dashboard.ps1 restart.")
         if st.button("Rebuild index", use_container_width=True):
             refresh_index()
             st.session_state.last_sync = datetime.now().strftime("%H:%M:%S")
@@ -200,7 +244,7 @@ def sidebar() -> str:
             st.caption(f"Last sync: {st.session_state.get('last_sync', '—')}")
             auto_refresh_tick()
         st.divider()
-        st.caption("Data: Finviz Elite sync + yfinance charts")
+        st.caption("Data: Finviz Elite + Alpaca→yfinance bars")
     return page
 
 
@@ -214,6 +258,26 @@ def page_command_center() -> None:
         "Command Center",
         "Portfolio-level view of Finwiz growth ranks, gate status, and capitulation overlay.",
     )
+
+    rh_path = ROOT / "data" / "robinhood" / "positions.json"
+    rh_n = 0
+    if rh_path.exists():
+        try:
+            import json as _json
+
+            rh_n = len(_json.loads(rh_path.read_text(encoding="utf-8")))
+        except Exception:
+            rh_n = 0
+    if rh_n:
+        st.success(
+            f"**Robinhood Watchlist loaded — {rh_n} tickers.** "
+            "Open the sidebar page **Robinhood Watchlist · 193** "
+            "(2nd item, under Command Center) for positions + technicals + fundamentals + news + analyst ratings."
+        )
+    else:
+        st.warning(
+            "Robinhood positions not found. Run: `py -3 scripts\\enrich_robinhood_watchlist.py`"
+        )
 
     buys = [d for d in docs if d.get("action") == "BUY"]
     holds = [d for d in docs if d.get("action") == "HOLD"]
@@ -265,22 +329,32 @@ def page_command_center() -> None:
                 for d in docs
             ]
         )
-        fig2 = px.scatter(
-            scatter,
-            x="Composite",
-            y="Upside %",
-            color="Action",
-            hover_name="Ticker",
-            size="RSI",
-            color_discrete_map={
-                "BUY": "#3dd68c",
-                "HOLD": "#f5c842",
-                "SELL": "#ff9f43",
-                "AVOID": "#ff6b6b",
-            },
-        )
-        fig2.update_layout(margin=dict(l=10, r=10, t=30, b=10), height=320, title="Composite vs upside")
-        st.plotly_chart(fig2, use_container_width=True)
+        scatter["Composite"] = pd.to_numeric(scatter["Composite"], errors="coerce")
+        scatter["Upside %"] = pd.to_numeric(scatter["Upside %"], errors="coerce")
+        scatter["RSI"] = pd.to_numeric(scatter["RSI"], errors="coerce")
+        # Plotly marker size rejects NaN — use mid RSI when missing
+        scatter["MarkerSize"] = scatter["RSI"].fillna(50).clip(lower=5, upper=100)
+        scatter_plot = scatter.dropna(subset=["Composite", "Upside %"])
+        if scatter_plot.empty:
+            st.info("No composite/upside points to chart yet.")
+        else:
+            fig2 = px.scatter(
+                scatter_plot,
+                x="Composite",
+                y="Upside %",
+                color="Action",
+                hover_name="Ticker",
+                size="MarkerSize",
+                size_max=28,
+                color_discrete_map={
+                    "BUY": "#3dd68c",
+                    "HOLD": "#f5c842",
+                    "SELL": "#ff9f43",
+                    "AVOID": "#ff6b6b",
+                },
+            )
+            fig2.update_layout(margin=dict(l=10, r=10, t=30, b=10), height=320, title="Composite vs upside")
+            st.plotly_chart(fig2, use_container_width=True)
 
     st.subheader("Top BUY — ranked")
     buy_tickers = [d["ticker"] for d in buys]
@@ -512,10 +586,15 @@ def page_query_lab() -> None:
         api_key_input = st.text_input(
             "OpenAI API key",
             type="password",
-            placeholder="Or set OPENAI_API_KEY env var",
+            value=st.session_state.get("openai_api_key") or "",
+            placeholder="Or set OPENAI_API_KEY env var / sidebar session key",
             disabled=not use_llm,
-            help="Used only in this session; not saved to disk.",
+            help="Uses sidebar session key, then this field, then env vars.",
         )
+        if api_key_input.strip():
+            st.session_state.openai_api_key = api_key_input.strip()
+            os.environ["OPENAI_API_KEY"] = api_key_input.strip()
+            os.environ["FINWIZ_LLM_API_KEY"] = api_key_input.strip()
 
     if st.button("Run query", type="primary"):
         clauses = parse_structured_query(query) + apply_nl_hints(query)
@@ -536,7 +615,12 @@ def page_query_lab() -> None:
         hits = filtered[:limit]
         st.session_state.llm_rerank_note = None
         if use_llm and hits:
-            reranked, err = llm_rerank(hits, query, api_key=api_key_input or None, model=llm_model)
+            reranked, err = llm_rerank(
+                hits,
+                query,
+                api_key=(api_key_input or st.session_state.get("openai_api_key") or None),
+                model=llm_model,
+            )
             if err:
                 st.session_state.llm_rerank_note = err
             elif reranked:
@@ -907,6 +991,7 @@ def main() -> None:
     page = sidebar()
     routes = {
         "Command Center": page_command_center,
+        "Robinhood Watchlist · 193": page_robinhood_watchlist,
         "Growth Screener": page_growth_screener,
         "Capitulation": page_capitulation,
         "Ticker Intel": page_ticker_intel,

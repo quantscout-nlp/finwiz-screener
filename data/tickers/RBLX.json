@@ -1,0 +1,60 @@
+{
+  "ticker": "RBLX",
+  "company": "Roblox Corp",
+  "status": "watch",
+  "sector": "Communication Services",
+  "industry": "Electronic Gaming & Multimedia",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 48.02,
+    "market_cap": 34381.3,
+    "sales_growth_yoy": 39.56,
+    "eps_growth_yoy": -27.41,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 24.09,
+    "profit_margin": -20.69,
+    "debt_equity": 4.14,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 42.23,
+    "sma20_pct": -10.54,
+    "sma50_pct": -1.47,
+    "sma200_pct": -33.2,
+    "perf_ytd": -40.74,
+    "from_52w_high_pct": -68.11,
+    "beta": 1.45,
+    "setup": "",
+    "perf_year": -59.35,
+    "perf_quarter": -13.4,
+    "perf_month": 0.17,
+    "perf_week": -7.08
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RBLX",
+  "deep_dive_path": "deep-dives/RBLX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

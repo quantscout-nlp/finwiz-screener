@@ -1,0 +1,61 @@
+{
+  "ticker": "TASK",
+  "company": "TaskUs Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 5.35,
+    "market_cap": 489.94,
+    "sales_growth_yoy": 19.88,
+    "eps_growth_yoy": 25.37,
+    "peg": 1.8,
+    "forward_pe": 3.48,
+    "gross_margin": 32.0,
+    "profit_margin": 8.7,
+    "debt_equity": 1.99,
+    "recom": null,
+    "target_price": null,
+    "pe": 4.71
+  },
+  "technicals": {
+    "rsi14": 45.04,
+    "sma20_pct": -0.1,
+    "sma50_pct": -3.75,
+    "sma200_pct": -23.19,
+    "perf_ytd": -30.37,
+    "from_52w_high_pct": -55.36,
+    "beta": 1.87,
+    "setup": "",
+    "perf_year": -51.99,
+    "perf_quarter": -23.13,
+    "perf_month": 14.07,
+    "perf_week": -10.39
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=TASK",
+  "deep_dive_path": "deep-dives/TASK-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

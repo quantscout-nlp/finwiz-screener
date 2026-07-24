@@ -1,0 +1,61 @@
+{
+  "ticker": "APP",
+  "company": "Applovin Corp",
+  "status": "watch",
+  "sector": "Communication Services",
+  "industry": "Advertising Agencies",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 400.86,
+    "market_cap": 134664.9,
+    "sales_growth_yoy": 30.45,
+    "eps_growth_yoy": 64.96,
+    "peg": 0.43,
+    "forward_pe": 18.58,
+    "gross_margin": 87.47,
+    "profit_margin": 62.56,
+    "debt_equity": 1.49,
+    "recom": null,
+    "target_price": null,
+    "pe": 35.36
+  },
+  "technicals": {
+    "rsi14": 33.11,
+    "sma20_pct": -15.37,
+    "sma50_pct": -19.57,
+    "sma200_pct": -23.69,
+    "perf_ytd": -40.51,
+    "from_52w_high_pct": -46.24,
+    "beta": 2.55,
+    "setup": "",
+    "perf_year": 11.37,
+    "perf_quarter": -11.74,
+    "perf_month": -13.79,
+    "perf_week": -5.58
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=APP",
+  "deep_dive_path": "deep-dives/APP-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

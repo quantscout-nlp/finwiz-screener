@@ -1,0 +1,60 @@
+{
+  "ticker": "QBTS",
+  "company": "D-Wave Quantum Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 17.2,
+    "market_cap": 6371.65,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -8.63,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 32.92,
+    "profit_margin": -2957.23,
+    "debt_equity": 0.04,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 35.62,
+    "sma20_pct": -13.53,
+    "sma50_pct": -24.46,
+    "sma200_pct": -27.11,
+    "perf_ytd": -34.23,
+    "from_52w_high_pct": -63.21,
+    "beta": 2.17,
+    "setup": "",
+    "perf_year": -12.96,
+    "perf_quarter": -10.93,
+    "perf_month": -25.15,
+    "perf_week": 2.81
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=QBTS",
+  "deep_dive_path": "deep-dives/QBTS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "EPS",
+  "company": "WisdomTree U.S. LargeCap Fund",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Exchange Traded Fund",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 77.34,
+    "market_cap": null,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": null,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 45.05,
+    "sma20_pct": -0.85,
+    "sma50_pct": -0.67,
+    "sma200_pct": 6.43,
+    "perf_ytd": 9.14,
+    "from_52w_high_pct": -2.68,
+    "beta": 0.96,
+    "setup": "",
+    "perf_year": 17.61,
+    "perf_quarter": 4.06,
+    "perf_month": 0.48,
+    "perf_week": -1.57
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=EPS",
+  "deep_dive_path": "deep-dives/EPS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

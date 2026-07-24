@@ -1,0 +1,61 @@
+{
+  "ticker": "FMC",
+  "company": "FMC Corp",
+  "status": "watch",
+  "sector": "Basic Materials",
+  "industry": "Agricultural Inputs",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 11.69,
+    "market_cap": 1463.9,
+    "sales_growth_yoy": -5.67,
+    "eps_growth_yoy": -44.13,
+    "peg": null,
+    "forward_pe": 5.77,
+    "gross_margin": 32.54,
+    "profit_margin": -72.97,
+    "debt_equity": 2.56,
+    "recom": null,
+    "target_price": null,
+    "pe": 5.77
+  },
+  "technicals": {
+    "rsi14": 52.91,
+    "sma20_pct": 3.79,
+    "sma50_pct": -2.08,
+    "sma200_pct": -24.11,
+    "perf_ytd": -15.72,
+    "from_52w_high_pct": -73.22,
+    "beta": 0.38,
+    "setup": "",
+    "perf_year": -73.37,
+    "perf_quarter": -20.42,
+    "perf_month": 6.08,
+    "perf_week": 2.19
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=FMC",
+  "deep_dive_path": "deep-dives/FMC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

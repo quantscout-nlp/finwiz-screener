@@ -1,0 +1,61 @@
+{
+  "ticker": "AEO",
+  "company": "American Eagle Outfitters Inc",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 17.08,
+    "market_cap": 2862.15,
+    "sales_growth_yoy": 8.09,
+    "eps_growth_yoy": 17.2,
+    "peg": 0.59,
+    "forward_pe": 8.78,
+    "gross_margin": 34.76,
+    "profit_margin": 5.01,
+    "debt_equity": 1.14,
+    "recom": null,
+    "target_price": null,
+    "pe": 10.56
+  },
+  "technicals": {
+    "rsi14": 49.48,
+    "sma20_pct": 0.27,
+    "sma50_pct": 0.86,
+    "sma200_pct": -13.03,
+    "perf_ytd": -35.23,
+    "from_52w_high_pct": -39.99,
+    "beta": 1.29,
+    "setup": "",
+    "perf_year": 57.86,
+    "perf_quarter": -8.71,
+    "perf_month": -3.67,
+    "perf_week": -2.34
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=AEO",
+  "deep_dive_path": "deep-dives/AEO-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

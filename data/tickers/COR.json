@@ -1,0 +1,61 @@
+{
+  "ticker": "COR",
+  "company": "Cencora Inc",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Medical Distribution",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 305.06,
+    "market_cap": 59352.8,
+    "sales_growth_yoy": 11.09,
+    "eps_growth_yoy": 11.14,
+    "peg": 1.37,
+    "forward_pe": 15.39,
+    "gross_margin": 3.46,
+    "profit_margin": 0.78,
+    "debt_equity": 3.65,
+    "recom": null,
+    "target_price": null,
+    "pe": 23.4
+  },
+  "technicals": {
+    "rsi14": 59.33,
+    "sma20_pct": 2.12,
+    "sma50_pct": 8.15,
+    "sma200_pct": -5.99,
+    "perf_ytd": -9.68,
+    "from_52w_high_pct": -19.2,
+    "beta": 0.56,
+    "setup": "",
+    "perf_year": 3.96,
+    "perf_quarter": -1.05,
+    "perf_month": 8.52,
+    "perf_week": -0.95
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=COR",
+  "deep_dive_path": "deep-dives/COR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

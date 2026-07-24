@@ -1,0 +1,61 @@
+{
+  "ticker": "STX",
+  "company": "Seagate Technology Holdings Plc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 900.72,
+    "market_cap": 201967.53,
+    "sales_growth_yoy": -2.84,
+    "eps_growth_yoy": 12.31,
+    "peg": 0.41,
+    "forward_pe": 31.56,
+    "gross_margin": 41.54,
+    "profit_margin": 21.6,
+    "debt_equity": 3.82,
+    "recom": null,
+    "target_price": null,
+    "pe": 85.5
+  },
+  "technicals": {
+    "rsi14": 52.18,
+    "sma20_pct": 3.28,
+    "sma50_pct": 1.38,
+    "sma200_pct": 78.75,
+    "perf_ytd": 227.07,
+    "from_52w_high_pct": -21.33,
+    "beta": 2.09,
+    "setup": "",
+    "perf_year": 489.75,
+    "perf_quarter": 53.28,
+    "perf_month": -9.32,
+    "perf_week": 14.35
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=STX",
+  "deep_dive_path": "deep-dives/STX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

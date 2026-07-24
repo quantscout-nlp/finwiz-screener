@@ -1,0 +1,60 @@
+{
+  "ticker": "NXE",
+  "company": "NexGen Energy Ltd",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Uranium",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 9.23,
+    "market_cap": 6109.43,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -11.26,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": 0.42,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 44.69,
+    "sma20_pct": -0.88,
+    "sma50_pct": -9.29,
+    "sma200_pct": -12.91,
+    "perf_ytd": 0.33,
+    "from_52w_high_pct": -33.88,
+    "beta": 1.4,
+    "setup": "",
+    "perf_year": 24.23,
+    "perf_quarter": -27.38,
+    "perf_month": -8.34,
+    "perf_week": 4.89
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NXE",
+  "deep_dive_path": "deep-dives/NXE-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

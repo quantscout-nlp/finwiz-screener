@@ -1,0 +1,61 @@
+{
+  "ticker": "NFLX",
+  "company": "Netflix Inc",
+  "status": "watch",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 69.3,
+    "market_cap": 288556.03,
+    "sales_growth_yoy": 12.61,
+    "eps_growth_yoy": 32.98,
+    "peg": 0.84,
+    "forward_pe": 18.19,
+    "gross_margin": 49.53,
+    "profit_margin": 27.99,
+    "debt_equity": 0.55,
+    "recom": null,
+    "target_price": null,
+    "pe": 21.83
+  },
+  "technicals": {
+    "rsi14": 35.32,
+    "sma20_pct": -4.73,
+    "sma50_pct": -11.92,
+    "sma200_pct": -25.11,
+    "perf_ytd": -26.09,
+    "from_52w_high_pct": -45.31,
+    "beta": 1.53,
+    "setup": "",
+    "perf_year": -41.31,
+    "perf_quarter": -25.34,
+    "perf_month": -3.54,
+    "perf_week": 0.51
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NFLX",
+  "deep_dive_path": "deep-dives/NFLX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

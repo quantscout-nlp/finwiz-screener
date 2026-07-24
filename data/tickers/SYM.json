@@ -1,0 +1,61 @@
+{
+  "ticker": "SYM",
+  "company": "Symbotic Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 40.69,
+    "market_cap": 24524.14,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -278.76,
+    "peg": 0.83,
+    "forward_pe": 48.89,
+    "gross_margin": 19.24,
+    "profit_margin": -0.2,
+    "debt_equity": 0.04,
+    "recom": null,
+    "target_price": null,
+    "pe": 48.89
+  },
+  "technicals": {
+    "rsi14": 43.06,
+    "sma20_pct": -4.22,
+    "sma50_pct": -8.32,
+    "sma200_pct": -28.28,
+    "perf_ytd": -31.61,
+    "from_52w_high_pct": -53.7,
+    "beta": 1.96,
+    "setup": "",
+    "perf_year": -23.83,
+    "perf_quarter": -34.91,
+    "perf_month": 3.2,
+    "perf_week": -1.36
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=SYM",
+  "deep_dive_path": "deep-dives/SYM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

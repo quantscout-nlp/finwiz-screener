@@ -1,0 +1,61 @@
+{
+  "ticker": "NOW",
+  "company": "ServiceNow Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 94.28,
+    "market_cap": 97226.97,
+    "sales_growth_yoy": 24.05,
+    "eps_growth_yoy": 70.18,
+    "peg": 0.92,
+    "forward_pe": 18.77,
+    "gross_margin": 74.77,
+    "profit_margin": 11.34,
+    "debt_equity": 0.68,
+    "recom": null,
+    "target_price": null,
+    "pe": 58.87
+  },
+  "technicals": {
+    "rsi14": 39.79,
+    "sma20_pct": -8.88,
+    "sma50_pct": -9.37,
+    "sma200_pct": -25.58,
+    "perf_ytd": -38.46,
+    "from_52w_high_pct": -55.15,
+    "beta": 0.96,
+    "setup": "",
+    "perf_year": -52.68,
+    "perf_quarter": 11.2,
+    "perf_month": 0.51,
+    "perf_week": -8.68
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NOW",
+  "deep_dive_path": "deep-dives/NOW-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "WTI",
+  "company": "W & T Offshore Inc",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 3.88,
+    "market_cap": 577.25,
+    "sales_growth_yoy": 7.66,
+    "eps_growth_yoy": 85.57,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 10.49,
+    "profit_margin": -27.23,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 60.86,
+    "sma20_pct": 13.25,
+    "sma50_pct": 4.07,
+    "sma200_pct": 39.84,
+    "perf_ytd": 138.04,
+    "from_52w_high_pct": -23.62,
+    "beta": 0.22,
+    "setup": "",
+    "perf_year": 120.45,
+    "perf_quarter": 2.11,
+    "perf_month": 23.96,
+    "perf_week": 11.17
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=WTI",
+  "deep_dive_path": "deep-dives/WTI-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

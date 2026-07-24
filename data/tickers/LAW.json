@@ -1,0 +1,60 @@
+{
+  "ticker": "LAW",
+  "company": "CS Disco Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 3.52,
+    "market_cap": 225.75,
+    "sales_growth_yoy": 18.04,
+    "eps_growth_yoy": -12.23,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 74.88,
+    "profit_margin": -26.28,
+    "debt_equity": 0.05,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 38.66,
+    "sma20_pct": -9.77,
+    "sma50_pct": -7.12,
+    "sma200_pct": -32.16,
+    "perf_ytd": -54.64,
+    "from_52w_high_pct": -61.36,
+    "beta": 1.91,
+    "setup": "",
+    "perf_year": -14.98,
+    "perf_quarter": -20.54,
+    "perf_month": 0.57,
+    "perf_week": -16.39
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=LAW",
+  "deep_dive_path": "deep-dives/LAW-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

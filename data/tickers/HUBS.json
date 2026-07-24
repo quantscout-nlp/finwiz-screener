@@ -1,0 +1,61 @@
+{
+  "ticker": "HUBS",
+  "company": "HubSpot Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 194.36,
+    "market_cap": 9954.68,
+    "sales_growth_yoy": 28.81,
+    "eps_growth_yoy": 35.24,
+    "peg": 0.5,
+    "forward_pe": 12.44,
+    "gross_margin": 83.65,
+    "profit_margin": 3.04,
+    "debt_equity": 0.12,
+    "recom": null,
+    "target_price": null,
+    "pe": 101.92
+  },
+  "technicals": {
+    "rsi14": 45.21,
+    "sma20_pct": -4.56,
+    "sma50_pct": -3.03,
+    "sma200_pct": -33.33,
+    "perf_ytd": -51.57,
+    "from_52w_high_pct": -65.79,
+    "beta": 1.21,
+    "setup": "",
+    "perf_year": -64.8,
+    "perf_quarter": -9.47,
+    "perf_month": 7.54,
+    "perf_week": -13.33
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=HUBS",
+  "deep_dive_path": "deep-dives/HUBS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

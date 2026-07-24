@@ -1,0 +1,61 @@
+{
+  "ticker": "GAP",
+  "company": "Gap Inc",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 18.99,
+    "market_cap": 6836.0,
+    "sales_growth_yoy": 2.17,
+    "eps_growth_yoy": 11.0,
+    "peg": 0.69,
+    "forward_pe": 7.31,
+    "gross_margin": 40.45,
+    "profit_margin": 6.25,
+    "debt_equity": 1.54,
+    "recom": null,
+    "target_price": null,
+    "pe": 7.5
+  },
+  "technicals": {
+    "rsi14": 39.61,
+    "sma20_pct": -2.33,
+    "sma50_pct": -8.59,
+    "sma200_pct": -21.51,
+    "perf_ytd": -25.82,
+    "from_52w_high_pct": -35.32,
+    "beta": 2.03,
+    "setup": "",
+    "perf_year": -6.27,
+    "perf_quarter": -24.67,
+    "perf_month": -9.23,
+    "perf_week": -6.68
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=GAP",
+  "deep_dive_path": "deep-dives/GAP-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

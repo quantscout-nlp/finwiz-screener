@@ -1,0 +1,60 @@
+{
+  "ticker": "NTRA",
+  "company": "Natera Inc",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 264.6,
+    "market_cap": 37894.79,
+    "sales_growth_yoy": 42.61,
+    "eps_growth_yoy": 11.7,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 64.77,
+    "profit_margin": -9.05,
+    "debt_equity": 0.14,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 54.2,
+    "sma20_pct": -2.72,
+    "sma50_pct": 11.14,
+    "sma200_pct": 21.18,
+    "perf_ytd": 15.5,
+    "from_52w_high_pct": -8.14,
+    "beta": 1.51,
+    "setup": "",
+    "perf_year": 87.57,
+    "perf_quarter": 31.55,
+    "perf_month": 1.78,
+    "perf_week": -2.5
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NTRA",
+  "deep_dive_path": "deep-dives/NTRA-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

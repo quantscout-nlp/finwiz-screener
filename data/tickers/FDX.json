@@ -1,0 +1,61 @@
+{
+  "ticker": "FDX",
+  "company": "Fedex Corp",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 315.97,
+    "market_cap": 74752.55,
+    "sales_growth_yoy": 2.48,
+    "eps_growth_yoy": -1.01,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 21.77,
+    "profit_margin": 4.67,
+    "debt_equity": 1.36,
+    "recom": null,
+    "target_price": null,
+    "pe": 17.05
+  },
+  "technicals": {
+    "rsi14": 49.46,
+    "sma20_pct": 0.5,
+    "sma50_pct": -1.14,
+    "sma200_pct": 15.71,
+    "perf_ytd": 35.84,
+    "from_52w_high_pct": -8.51,
+    "beta": 1.31,
+    "setup": "",
+    "perf_year": 65.91,
+    "perf_quarter": -0.08,
+    "perf_month": -0.27,
+    "perf_week": 0.96
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=FDX",
+  "deep_dive_path": "deep-dives/FDX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

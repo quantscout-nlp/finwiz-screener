@@ -1,0 +1,61 @@
+{
+  "ticker": "GPOR",
+  "company": "Gulfport Energy Corp",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 158.0,
+    "market_cap": 2839.2,
+    "sales_growth_yoy": 10.56,
+    "eps_growth_yoy": 16.12,
+    "peg": 0.27,
+    "forward_pe": 5.63,
+    "gross_margin": 48.03,
+    "profit_margin": 35.08,
+    "debt_equity": 0.46,
+    "recom": null,
+    "target_price": null,
+    "pe": 5.4
+  },
+  "technicals": {
+    "rsi14": 46.75,
+    "sma20_pct": -0.83,
+    "sma50_pct": -4.95,
+    "sma200_pct": -16.94,
+    "perf_ytd": -24.03,
+    "from_52w_high_pct": -30.02,
+    "beta": 0.41,
+    "setup": "",
+    "perf_year": -6.51,
+    "perf_quarter": -16.79,
+    "perf_month": -2.18,
+    "perf_week": 3.01
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=GPOR",
+  "deep_dive_path": "deep-dives/GPOR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

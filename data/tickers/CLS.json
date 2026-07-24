@@ -1,0 +1,61 @@
+{
+  "ticker": "CLS",
+  "company": "Celestica Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 334.5,
+    "market_cap": 38457.46,
+    "sales_growth_yoy": 16.6,
+    "eps_growth_yoy": 72.48,
+    "peg": 0.47,
+    "forward_pe": 21.87,
+    "gross_margin": 11.51,
+    "profit_margin": 6.95,
+    "debt_equity": 0.45,
+    "recom": null,
+    "target_price": null,
+    "pe": 40.43
+  },
+  "technicals": {
+    "rsi14": 46.2,
+    "sma20_pct": -1.56,
+    "sma50_pct": -7.94,
+    "sma200_pct": 2.87,
+    "perf_ytd": 13.16,
+    "from_52w_high_pct": -29.43,
+    "beta": 2.08,
+    "setup": "",
+    "perf_year": 103.99,
+    "perf_quarter": -14.58,
+    "perf_month": -7.66,
+    "perf_week": 11.0
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CLS",
+  "deep_dive_path": "deep-dives/CLS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

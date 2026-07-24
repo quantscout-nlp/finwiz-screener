@@ -1,0 +1,61 @@
+{
+  "ticker": "SMTC",
+  "company": "Semtech Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 136.2,
+    "market_cap": 12687.19,
+    "sales_growth_yoy": 12.03,
+    "eps_growth_yoy": 55.5,
+    "peg": 0.69,
+    "forward_pe": 35.42,
+    "gross_margin": 51.47,
+    "profit_margin": -3.04,
+    "debt_equity": 0.9,
+    "recom": null,
+    "target_price": null,
+    "pe": 35.42
+  },
+  "technicals": {
+    "rsi14": 47.54,
+    "sma20_pct": -1.11,
+    "sma50_pct": -8.35,
+    "sma200_pct": 38.53,
+    "perf_ytd": 84.83,
+    "from_52w_high_pct": -23.2,
+    "beta": 2.35,
+    "setup": "",
+    "perf_year": 159.28,
+    "perf_quarter": 29.3,
+    "perf_month": -14.06,
+    "perf_week": 8.99
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=SMTC",
+  "deep_dive_path": "deep-dives/SMTC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

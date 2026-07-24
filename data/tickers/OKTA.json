@@ -1,0 +1,61 @@
+{
+  "ticker": "OKTA",
+  "company": "Okta Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 135.55,
+    "market_cap": 23559.59,
+    "sales_growth_yoy": 28.43,
+    "eps_growth_yoy": 9.89,
+    "peg": 2.8,
+    "forward_pe": 31.8,
+    "gross_margin": 77.44,
+    "profit_margin": 8.24,
+    "debt_equity": 0.06,
+    "recom": null,
+    "target_price": null,
+    "pe": 98.45
+  },
+  "technicals": {
+    "rsi14": 50.29,
+    "sma20_pct": -4.74,
+    "sma50_pct": 11.16,
+    "sma200_pct": 46.08,
+    "perf_ytd": 56.76,
+    "from_52w_high_pct": -13.66,
+    "beta": 0.77,
+    "setup": "",
+    "perf_year": 38.47,
+    "perf_quarter": 78.26,
+    "perf_month": 14.31,
+    "perf_week": -9.24
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=OKTA",
+  "deep_dive_path": "deep-dives/OKTA-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

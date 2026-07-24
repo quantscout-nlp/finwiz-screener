@@ -1,0 +1,60 @@
+{
+  "ticker": "RKLB",
+  "company": "Rocket Lab Corp",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 69.66,
+    "market_cap": 41669.23,
+    "sales_growth_yoy": 76.47,
+    "eps_growth_yoy": 11.84,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 33.77,
+    "profit_margin": -26.87,
+    "debt_equity": 0.06,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 34.95,
+    "sma20_pct": -13.95,
+    "sma50_pct": -32.56,
+    "sma200_pct": -10.49,
+    "perf_ytd": -0.14,
+    "from_52w_high_pct": -53.87,
+    "beta": 2.63,
+    "setup": "",
+    "perf_year": 44.73,
+    "perf_quarter": -17.66,
+    "perf_month": -18.44,
+    "perf_week": 3.02
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RKLB",
+  "deep_dive_path": "deep-dives/RKLB-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

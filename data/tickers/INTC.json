@@ -1,0 +1,61 @@
+{
+  "ticker": "INTC",
+  "company": "Intel Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 104.12,
+    "market_cap": 523330.26,
+    "sales_growth_yoy": -7.46,
+    "eps_growth_yoy": 202.94,
+    "peg": 0.67,
+    "forward_pe": 57.73,
+    "gross_margin": 55.28,
+    "profit_margin": -19.79,
+    "debt_equity": 0.58,
+    "recom": null,
+    "target_price": null,
+    "pe": 57.73
+  },
+  "technicals": {
+    "rsi14": 45.34,
+    "sma20_pct": -6.52,
+    "sma50_pct": -9.85,
+    "sma200_pct": 58.19,
+    "perf_ytd": 182.17,
+    "from_52w_high_pct": -26.86,
+    "beta": 2.24,
+    "setup": "",
+    "perf_year": 360.1,
+    "perf_quarter": 55.92,
+    "perf_month": -20.91,
+    "perf_week": 9.56
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=INTC",
+  "deep_dive_path": "deep-dives/INTC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

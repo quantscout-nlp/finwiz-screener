@@ -1,0 +1,61 @@
+{
+  "ticker": "GOOG",
+  "company": "Alphabet Inc",
+  "status": "watch",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 320.79,
+    "market_cap": 3900804.97,
+    "sales_growth_yoy": 17.18,
+    "eps_growth_yoy": 29.82,
+    "peg": 1.22,
+    "forward_pe": 21.44,
+    "gross_margin": 60.94,
+    "profit_margin": 54.7,
+    "debt_equity": 0.18,
+    "recom": null,
+    "target_price": null,
+    "pe": 16.11
+  },
+  "technicals": {
+    "rsi14": 33.93,
+    "sma20_pct": -8.46,
+    "sma50_pct": -11.48,
+    "sma200_pct": -0.74,
+    "perf_ytd": 2.23,
+    "from_52w_high_pct": -20.69,
+    "beta": 1.25,
+    "setup": "",
+    "perf_year": 66.04,
+    "perf_quarter": -5.02,
+    "perf_month": -7.03,
+    "perf_week": -7.32
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=GOOG",
+  "deep_dive_path": "deep-dives/GOOG-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

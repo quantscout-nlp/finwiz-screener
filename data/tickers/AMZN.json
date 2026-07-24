@@ -1,0 +1,61 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon.com Inc",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 234.51,
+    "market_cap": 2522649.66,
+    "sales_growth_yoy": 13.18,
+    "eps_growth_yoy": 27.96,
+    "peg": 1.05,
+    "forward_pe": 23.3,
+    "gross_margin": 50.6,
+    "profit_margin": 12.22,
+    "debt_equity": 0.51,
+    "recom": null,
+    "target_price": null,
+    "pe": 28.03
+  },
+  "technicals": {
+    "rsi14": 39.62,
+    "sma20_pct": -3.87,
+    "sma50_pct": -5.92,
+    "sma200_pct": -0.04,
+    "perf_ytd": 1.6,
+    "from_52w_high_pct": -15.81,
+    "beta": 1.47,
+    "setup": "",
+    "perf_year": 0.98,
+    "perf_quarter": -8.06,
+    "perf_month": 0.1,
+    "perf_week": -5.15
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=AMZN",
+  "deep_dive_path": "deep-dives/AMZN-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "UMC",
+  "company": "United Micro Electronics ADR",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 19.87,
+    "market_cap": 49981.0,
+    "sales_growth_yoy": 4.89,
+    "eps_growth_yoy": 5.48,
+    "peg": 0.61,
+    "forward_pe": 20.87,
+    "gross_margin": 27.65,
+    "profit_margin": 20.82,
+    "debt_equity": 0.19,
+    "recom": null,
+    "target_price": null,
+    "pe": 30.8
+  },
+  "technicals": {
+    "rsi14": 39.45,
+    "sma20_pct": -15.94,
+    "sma50_pct": -10.36,
+    "sma200_pct": 58.7,
+    "perf_ytd": 152.8,
+    "from_52w_high_pct": -31.39,
+    "beta": 1.53,
+    "setup": "",
+    "perf_year": 171.45,
+    "perf_quarter": 65.58,
+    "perf_month": -29.06,
+    "perf_week": -6.49
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=UMC",
+  "deep_dive_path": "deep-dives/UMC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

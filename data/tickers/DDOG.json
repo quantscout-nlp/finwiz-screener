@@ -1,0 +1,61 @@
+{
+  "ticker": "DDOG",
+  "company": "Datadog Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 244.53,
+    "market_cap": 87042.94,
+    "sales_growth_yoy": 41.53,
+    "eps_growth_yoy": 18.05,
+    "peg": 4.42,
+    "forward_pe": 85.83,
+    "gross_margin": 79.86,
+    "profit_margin": 3.69,
+    "debt_equity": 0.32,
+    "recom": null,
+    "target_price": null,
+    "pe": 652.6
+  },
+  "technicals": {
+    "rsi14": 47.56,
+    "sma20_pct": -4.9,
+    "sma50_pct": 2.07,
+    "sma200_pct": 48.42,
+    "perf_ytd": 79.81,
+    "from_52w_high_pct": -12.26,
+    "beta": 1.55,
+    "setup": "",
+    "perf_year": 66.85,
+    "perf_quarter": 91.25,
+    "perf_month": 9.83,
+    "perf_week": -5.47
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=DDOG",
+  "deep_dive_path": "deep-dives/DDOG-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

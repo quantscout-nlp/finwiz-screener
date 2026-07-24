@@ -16,30 +16,32 @@
     }
   },
   "metrics": {
-    "price": 174.87,
-    "market_cap": 220196.76,
-    "sales_growth_yoy": 30.57,
-    "eps_growth_yoy": 22.96,
-    "peg": 1.74,
-    "forward_pe": 39.08,
+    "price": 177.44,
+    "market_cap": 223429.77,
+    "sales_growth_yoy": 31.19,
+    "eps_growth_yoy": 40.7,
+    "peg": 1.77,
+    "forward_pe": 39.72,
     "gross_margin": 63.54,
     "profit_margin": 38.32,
     "debt_equity": 0.0,
     "recom": 1.12,
     "target_price": 192.1,
-    "pe": 59.88
+    "pe": 60.76
   },
   "technicals": {
-    "rsi14": 53.75,
-    "sma20_pct": 2.19,
-    "sma50_pct": 7.92,
-    "sma200_pct": 20.42,
-    "perf_ytd": 33.24,
-    "from_52w_high_pct": -8.03,
+    "rsi14": 55.86,
+    "sma20_pct": 2.68,
+    "sma50_pct": 8.24,
+    "sma200_pct": 22.01,
+    "perf_ytd": 35.42,
+    "from_52w_high_pct": -6.52,
     "beta": 1.6,
     "setup": "Constructive uptrend above all SMAs; RSI neutral",
-    "perf_month": 2.89,
-    "perf_quarter": 4.63
+    "perf_month": 9.71,
+    "perf_quarter": 2.83,
+    "perf_year": 55.59,
+    "perf_week": 5.24
   },
   "news": {
     "headline_bullets": [
@@ -59,6 +61,6 @@
   ],
   "finviz_url": "https://finviz.com/quote.ashx?t=ANET",
   "deep_dive_path": "deep-dives/ANET-2026-08-04.md",
-  "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T20:53:01"
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
 }

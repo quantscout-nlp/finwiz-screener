@@ -1,0 +1,61 @@
+{
+  "ticker": "FN",
+  "company": "Fabrinet",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 515.0,
+    "market_cap": 18452.32,
+    "sales_growth_yoy": 15.8,
+    "eps_growth_yoy": 24.42,
+    "peg": 1.06,
+    "forward_pe": 29.89,
+    "gross_margin": 11.95,
+    "profit_margin": 9.94,
+    "debt_equity": 0.0,
+    "recom": null,
+    "target_price": null,
+    "pe": 44.28
+  },
+  "technicals": {
+    "rsi14": 47.24,
+    "sma20_pct": 2.84,
+    "sma50_pct": -12.43,
+    "sma200_pct": -2.57,
+    "perf_ytd": 13.12,
+    "from_52w_high_pct": -31.23,
+    "beta": 1.22,
+    "setup": "",
+    "perf_year": 68.94,
+    "perf_quarter": -25.3,
+    "perf_month": -9.36,
+    "perf_week": 7.65
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=FN",
+  "deep_dive_path": "deep-dives/FN-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

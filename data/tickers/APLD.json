@@ -1,0 +1,60 @@
+{
+  "ticker": "APLD",
+  "company": "Applied Digital Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 29.91,
+    "market_cap": 8547.37,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -46.17,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 27.07,
+    "profit_margin": -54.12,
+    "debt_equity": 1.72,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 39.95,
+    "sma20_pct": -4.78,
+    "sma50_pct": -23.38,
+    "sma200_pct": -8.73,
+    "perf_ytd": 21.98,
+    "from_52w_high_pct": -41.03,
+    "beta": 5.76,
+    "setup": "",
+    "perf_year": 167.05,
+    "perf_quarter": -17.72,
+    "perf_month": -28.75,
+    "perf_week": 15.98
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=APLD",
+  "deep_dive_path": "deep-dives/APLD-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

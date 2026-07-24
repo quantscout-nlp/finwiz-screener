@@ -1,0 +1,60 @@
+{
+  "ticker": "FCEL",
+  "company": "Fuelcell Energy Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 23.71,
+    "market_cap": 1895.71,
+    "sales_growth_yoy": 17.42,
+    "eps_growth_yoy": 9.89,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -18.2,
+    "profit_margin": -134.32,
+    "debt_equity": 0.19,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 53.29,
+    "sma20_pct": -1.1,
+    "sma50_pct": 7.55,
+    "sma200_pct": 101.61,
+    "perf_ytd": 224.35,
+    "from_52w_high_pct": -37.41,
+    "beta": 2.4,
+    "setup": "",
+    "perf_year": 318.9,
+    "perf_quarter": 94.82,
+    "perf_month": 9.97,
+    "perf_week": 28.2
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=FCEL",
+  "deep_dive_path": "deep-dives/FCEL-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

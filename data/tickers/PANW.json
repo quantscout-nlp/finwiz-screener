@@ -1,0 +1,61 @@
+{
+  "ticker": "PANW",
+  "company": "Palo Alto Networks Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 329.17,
+    "market_cap": 268273.56,
+    "sales_growth_yoy": 22.03,
+    "eps_growth_yoy": 12.98,
+    "peg": 6.08,
+    "forward_pe": 80.0,
+    "gross_margin": 71.05,
+    "profit_margin": 7.95,
+    "debt_equity": 0.07,
+    "recom": null,
+    "target_price": null,
+    "pe": 270.77
+  },
+  "technicals": {
+    "rsi14": 52.67,
+    "sma20_pct": -3.01,
+    "sma50_pct": 10.78,
+    "sma200_pct": 55.54,
+    "perf_ytd": 78.7,
+    "from_52w_high_pct": -10.75,
+    "beta": 0.92,
+    "setup": "",
+    "perf_year": 63.64,
+    "perf_quarter": 90.04,
+    "perf_month": 15.39,
+    "perf_week": -8.23
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=PANW",
+  "deep_dive_path": "deep-dives/PANW-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

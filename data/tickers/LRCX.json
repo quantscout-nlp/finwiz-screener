@@ -1,0 +1,61 @@
+{
+  "ticker": "LRCX",
+  "company": "Lam Research Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 318.73,
+    "market_cap": 398594.53,
+    "sales_growth_yoy": 12.92,
+    "eps_growth_yoy": 22.42,
+    "peg": 1.1,
+    "forward_pe": 38.76,
+    "gross_margin": 49.98,
+    "profit_margin": 30.94,
+    "debt_equity": 0.35,
+    "recom": null,
+    "target_price": null,
+    "pe": 60.16
+  },
+  "technicals": {
+    "rsi14": 44.29,
+    "sma20_pct": -7.76,
+    "sma50_pct": -5.9,
+    "sma200_pct": 34.15,
+    "perf_ytd": 86.2,
+    "from_52w_high_pct": -27.31,
+    "beta": 1.86,
+    "setup": "",
+    "perf_year": 225.97,
+    "perf_quarter": 23.27,
+    "perf_month": -14.96,
+    "perf_week": 1.73
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=LRCX",
+  "deep_dive_path": "deep-dives/LRCX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

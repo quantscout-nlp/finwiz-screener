@@ -1,0 +1,61 @@
+{
+  "ticker": "AXP",
+  "company": "American Express Co",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Credit Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 345.05,
+    "market_cap": 235436.72,
+    "sales_growth_yoy": 16.08,
+    "eps_growth_yoy": 32.49,
+    "peg": 1.2,
+    "forward_pe": 17.11,
+    "gross_margin": 60.19,
+    "profit_margin": 13.45,
+    "debt_equity": 1.78,
+    "recom": null,
+    "target_price": null,
+    "pe": 21.52
+  },
+  "technicals": {
+    "rsi14": 50.77,
+    "sma20_pct": -1.15,
+    "sma50_pct": 4.08,
+    "sma200_pct": 1.72,
+    "perf_ytd": -6.73,
+    "from_52w_high_pct": -10.95,
+    "beta": 1.04,
+    "setup": "",
+    "perf_year": 11.94,
+    "perf_quarter": 8.32,
+    "perf_month": 0.73,
+    "perf_week": -2.9
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=AXP",
+  "deep_dive_path": "deep-dives/AXP-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

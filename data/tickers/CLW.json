@@ -1,0 +1,60 @@
+{
+  "ticker": "CLW",
+  "company": "Clearwater Paper Corp",
+  "status": "watch",
+  "sector": "Basic Materials",
+  "industry": "Paper & Paper Products",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 16.4,
+    "market_cap": 264.45,
+    "sales_growth_yoy": -3.6,
+    "eps_growth_yoy": -2691.67,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 5.07,
+    "profit_margin": -1.76,
+    "debt_equity": 0.46,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 54.26,
+    "sma20_pct": 2.78,
+    "sma50_pct": 4.51,
+    "sma200_pct": -0.6,
+    "perf_ytd": -5.75,
+    "from_52w_high_pct": -47.03,
+    "beta": 0.26,
+    "setup": "",
+    "perf_year": -44.8,
+    "perf_quarter": 12.25,
+    "perf_month": 4.99,
+    "perf_week": 0.61
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CLW",
+  "deep_dive_path": "deep-dives/CLW-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

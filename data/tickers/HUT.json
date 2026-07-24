@@ -1,0 +1,60 @@
+{
+  "ticker": "HUT",
+  "company": "Hut 8 Corp",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Capital Markets",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 118.0,
+    "market_cap": 13286.11,
+    "sales_growth_yoy": 50.6,
+    "eps_growth_yoy": -46.8,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 15.55,
+    "profit_margin": -109.56,
+    "debt_equity": 0.31,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 58.3,
+    "sma20_pct": 11.63,
+    "sma50_pct": 5.72,
+    "sma200_pct": 71.87,
+    "perf_ytd": 156.86,
+    "from_52w_high_pct": -16.19,
+    "beta": 4.64,
+    "setup": "",
+    "perf_year": 458.18,
+    "perf_quarter": 49.8,
+    "perf_month": 1.64,
+    "perf_week": 29.03
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=HUT",
+  "deep_dive_path": "deep-dives/HUT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

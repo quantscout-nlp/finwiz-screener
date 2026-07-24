@@ -1,0 +1,61 @@
+{
+  "ticker": "LYFT",
+  "company": "Lyft Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 14.05,
+    "market_cap": 5334.54,
+    "sales_growth_yoy": 21.71,
+    "eps_growth_yoy": -91.36,
+    "peg": null,
+    "forward_pe": 14.16,
+    "gross_margin": 35.62,
+    "profit_margin": 43.82,
+    "debt_equity": 0.43,
+    "recom": null,
+    "target_price": null,
+    "pe": 1.97
+  },
+  "technicals": {
+    "rsi14": 39.76,
+    "sma20_pct": -7.58,
+    "sma50_pct": -2.3,
+    "sma200_pct": -15.2,
+    "perf_ytd": -27.47,
+    "from_52w_high_pct": -44.99,
+    "beta": 1.81,
+    "setup": "",
+    "perf_year": -2.29,
+    "perf_quarter": 0.14,
+    "perf_month": -2.43,
+    "perf_week": -9.47
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=LYFT",
+  "deep_dive_path": "deep-dives/LYFT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

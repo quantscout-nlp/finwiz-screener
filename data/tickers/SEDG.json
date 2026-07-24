@@ -1,0 +1,61 @@
+{
+  "ticker": "SEDG",
+  "company": "Solaredge Technologies Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Solar",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 45.06,
+    "market_cap": 2740.46,
+    "sales_growth_yoy": -4.09,
+    "eps_growth_yoy": 101.59,
+    "peg": null,
+    "forward_pe": 28.81,
+    "gross_margin": 18.12,
+    "profit_margin": -28.56,
+    "debt_equity": 0.98,
+    "recom": null,
+    "target_price": null,
+    "pe": 28.81
+  },
+  "technicals": {
+    "rsi14": 37.7,
+    "sma20_pct": -14.26,
+    "sma50_pct": -22.1,
+    "sma200_pct": 5.9,
+    "perf_ytd": 56.19,
+    "from_52w_high_pct": -44.54,
+    "beta": 1.49,
+    "setup": "",
+    "perf_year": 58.27,
+    "perf_quarter": -4.86,
+    "perf_month": -9.41,
+    "perf_week": -15.73
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=SEDG",
+  "deep_dive_path": "deep-dives/SEDG-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

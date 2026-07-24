@@ -1,0 +1,60 @@
+{
+  "ticker": "FIG",
+  "company": "Figma Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 20.38,
+    "market_cap": 10768.31,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -39.3,
+    "peg": 76.57,
+    "forward_pe": 59.72,
+    "gross_margin": 79.78,
+    "profit_margin": -126.19,
+    "debt_equity": 0.04,
+    "recom": null,
+    "target_price": null,
+    "pe": 59.72
+  },
+  "technicals": {
+    "rsi14": 45.25,
+    "sma20_pct": -5.45,
+    "sma50_pct": -4.34,
+    "sma200_pct": -31.8,
+    "perf_ytd": -45.46,
+    "from_52w_high_pct": -85.74,
+    "beta": 0.98,
+    "setup": "",
+    "perf_quarter": 17.67,
+    "perf_month": 9.33,
+    "perf_week": -14.91
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=FIG",
+  "deep_dive_path": "deep-dives/FIG-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

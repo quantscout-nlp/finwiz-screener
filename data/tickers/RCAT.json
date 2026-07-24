@@ -1,0 +1,60 @@
+{
+  "ticker": "RCAT",
+  "company": "Red Cat Holdings Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 8.05,
+    "market_cap": 1225.33,
+    "sales_growth_yoy": 52.12,
+    "eps_growth_yoy": -5.42,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 7.5,
+    "profit_margin": -138.36,
+    "debt_equity": 0.06,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 40.09,
+    "sma20_pct": -9.92,
+    "sma50_pct": -21.82,
+    "sma200_pct": -28.72,
+    "perf_ytd": 1.53,
+    "from_52w_high_pct": -57.13,
+    "beta": 1.34,
+    "setup": "",
+    "perf_year": -18.67,
+    "perf_quarter": -35.8,
+    "perf_month": -13.8,
+    "perf_week": 5.38
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RCAT",
+  "deep_dive_path": "deep-dives/RCAT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

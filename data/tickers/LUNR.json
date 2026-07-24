@@ -1,0 +1,61 @@
+{
+  "ticker": "LUNR",
+  "company": "Intuitive Machines Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 13.71,
+    "market_cap": 2975.36,
+    "sales_growth_yoy": 36.54,
+    "eps_growth_yoy": -83.76,
+    "peg": null,
+    "forward_pe": 293.76,
+    "gross_margin": 4.91,
+    "profit_margin": -32.88,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null,
+    "pe": 293.76
+  },
+  "technicals": {
+    "rsi14": 29.77,
+    "sma20_pct": -17.05,
+    "sma50_pct": -45.8,
+    "sma200_pct": -28.4,
+    "perf_ytd": -15.53,
+    "from_52w_high_pct": -70.67,
+    "beta": 1.86,
+    "setup": "",
+    "perf_year": 7.19,
+    "perf_quarter": -50.25,
+    "perf_month": -28.33,
+    "perf_week": 1.41
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=LUNR",
+  "deep_dive_path": "deep-dives/LUNR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

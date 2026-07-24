@@ -1,0 +1,61 @@
+{
+  "ticker": "WYNN",
+  "company": "Wynn Resorts Ltd",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Resorts & Casinos",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 96.77,
+    "market_cap": 10043.44,
+    "sales_growth_yoy": 27.77,
+    "eps_growth_yoy": 7.78,
+    "peg": 1.44,
+    "forward_pe": 19.0,
+    "gross_margin": 32.33,
+    "profit_margin": 5.14,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null,
+    "pe": 27.69
+  },
+  "technicals": {
+    "rsi14": 45.38,
+    "sma20_pct": -0.41,
+    "sma50_pct": -3.22,
+    "sma200_pct": -12.6,
+    "perf_ytd": -19.58,
+    "from_52w_high_pct": -28.17,
+    "beta": 1.01,
+    "setup": "",
+    "perf_year": -10.1,
+    "perf_quarter": -9.26,
+    "perf_month": -7.09,
+    "perf_week": -1.37
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=WYNN",
+  "deep_dive_path": "deep-dives/WYNN-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

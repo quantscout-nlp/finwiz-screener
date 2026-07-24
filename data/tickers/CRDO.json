@@ -1,7 +1,7 @@
 {
   "ticker": "CRDO",
   "company": "Credo Technology Group Holding Ltd",
-  "status": "core",
+  "status": "watch",
   "sector": "Technology",
   "industry": "Semiconductors",
   "deep_dive": {
@@ -12,34 +12,37 @@
       "news_flow": 82,
       "technicals": 62,
       "fundamentals": 88,
-      "composite": 77
+      "analyst": 96.5,
+      "composite": 81.4
     }
   },
   "metrics": {
-    "price": 228.27,
-    "market_cap": 42567.3,
-    "sales_growth_yoy": 205.68,
-    "eps_growth_yoy": 755.03,
-    "peg": 0.52,
-    "forward_pe": 24.76,
+    "price": 232.2,
+    "market_cap": 43300.16,
+    "sales_growth_yoy": 86.8,
+    "eps_growth_yoy": 76.76,
+    "peg": 0.54,
+    "forward_pe": 25.69,
     "gross_margin": 68.01,
     "profit_margin": 35.37,
     "debt_equity": 0.01,
     "recom": 1.14,
     "target_price": 290.14,
-    "pe": 92.05
+    "pe": 93.64
   },
   "technicals": {
-    "rsi14": 46.38,
-    "sma20_pct": -8.74,
-    "sma50_pct": -2.64,
-    "sma200_pct": 36.87,
-    "perf_ytd": 55.58,
-    "from_52w_high_pct": -27.47,
-    "beta": 3.22,
+    "rsi14": 48.98,
+    "sma20_pct": -3.13,
+    "sma50_pct": 0.12,
+    "sma200_pct": 40.86,
+    "perf_ytd": 61.37,
+    "from_52w_high_pct": -24.77,
+    "beta": 3.23,
     "setup": "Pullback bounce; elevated ATR/beta \u2014 size small",
-    "perf_month": -17.64,
-    "perf_quarter": 28.27
+    "perf_month": -13.68,
+    "perf_quarter": 25.15,
+    "perf_year": 129.51,
+    "perf_week": 14.56
   },
   "news": {
     "headline_bullets": [
@@ -58,7 +61,7 @@
     "growth"
   ],
   "finviz_url": "https://finviz.com/quote.ashx?t=CRDO",
-  "deep_dive_path": "deep-dives/CRDO-auto-2026-07-22.md",
-  "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T20:53:01"
+  "deep_dive_path": "deep-dives/CRDO-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
 }

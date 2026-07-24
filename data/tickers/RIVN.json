@@ -1,0 +1,60 @@
+{
+  "ticker": "RIVN",
+  "company": "Rivian Automotive Inc",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 16.52,
+    "market_cap": 23910.53,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -22.15,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -4.41,
+    "profit_margin": -63.62,
+    "debt_equity": 1.19,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 47.65,
+    "sma20_pct": -4.73,
+    "sma50_pct": 2.0,
+    "sma200_pct": 3.26,
+    "perf_ytd": -16.18,
+    "from_52w_high_pct": -27.19,
+    "beta": 1.6,
+    "setup": "",
+    "perf_year": 19.54,
+    "perf_quarter": -2.54,
+    "perf_month": 12.84,
+    "perf_week": -5.36
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RIVN",
+  "deep_dive_path": "deep-dives/RIVN-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

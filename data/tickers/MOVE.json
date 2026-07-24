@@ -1,0 +1,60 @@
+{
+  "ticker": "MOVE",
+  "company": "Corvex Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 12.69,
+    "market_cap": 350.7,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 26.66,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -235.01,
+    "profit_margin": -2470.56,
+    "debt_equity": 0.03,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 35.63,
+    "sma20_pct": -24.69,
+    "sma50_pct": -33.13,
+    "sma200_pct": 11.51,
+    "perf_ytd": 107.38,
+    "from_52w_high_pct": -52.51,
+    "beta": 1.23,
+    "setup": "",
+    "perf_year": 127.89,
+    "perf_quarter": -26.9,
+    "perf_month": -40.78,
+    "perf_week": -4.37
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MOVE",
+  "deep_dive_path": "deep-dives/MOVE-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

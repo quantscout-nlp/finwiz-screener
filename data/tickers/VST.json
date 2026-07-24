@@ -1,0 +1,61 @@
+{
+  "ticker": "VST",
+  "company": "Vistra Corp",
+  "status": "watch",
+  "sector": "Utilities",
+  "industry": "Utilities - Independent Power Producers",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 168.05,
+    "market_cap": 56663.51,
+    "sales_growth_yoy": 8.94,
+    "eps_growth_yoy": 10.93,
+    "peg": 0.18,
+    "forward_pe": 14.82,
+    "gross_margin": 14.65,
+    "profit_margin": 12.45,
+    "debt_equity": 3.56,
+    "recom": null,
+    "target_price": null,
+    "pe": 28.06
+  },
+  "technicals": {
+    "rsi14": 61.11,
+    "sma20_pct": 5.62,
+    "sma50_pct": 8.25,
+    "sma200_pct": 1.72,
+    "perf_ytd": 4.17,
+    "from_52w_high_pct": -23.55,
+    "beta": 1.4,
+    "setup": "",
+    "perf_year": -14.37,
+    "perf_quarter": 7.14,
+    "perf_month": 3.18,
+    "perf_week": 8.11
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=VST",
+  "deep_dive_path": "deep-dives/VST-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

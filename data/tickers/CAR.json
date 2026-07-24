@@ -1,0 +1,61 @@
+{
+  "ticker": "CAR",
+  "company": "Avis Budget Group Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 159.04,
+    "market_cap": 5618.09,
+    "sales_growth_yoy": 16.62,
+    "eps_growth_yoy": -21.09,
+    "peg": 0.45,
+    "forward_pe": 18.14,
+    "gross_margin": 25.59,
+    "profit_margin": -5.68,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null,
+    "pe": 18.14
+  },
+  "technicals": {
+    "rsi14": 45.56,
+    "sma20_pct": 0.45,
+    "sma50_pct": -4.33,
+    "sma200_pct": 0.69,
+    "perf_ytd": 23.94,
+    "from_52w_high_pct": -81.24,
+    "beta": 1.9,
+    "setup": "",
+    "perf_year": -23.35,
+    "perf_quarter": -64.18,
+    "perf_month": -16.5,
+    "perf_week": 1.72
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CAR",
+  "deep_dive_path": "deep-dives/CAR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

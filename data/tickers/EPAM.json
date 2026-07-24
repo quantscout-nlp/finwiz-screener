@@ -1,0 +1,61 @@
+{
+  "ticker": "EPAM",
+  "company": "EPAM Systems Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 86.14,
+    "market_cap": 4500.34,
+    "sales_growth_yoy": 15.46,
+    "eps_growth_yoy": 3.71,
+    "peg": 0.58,
+    "forward_pe": 6.07,
+    "gross_margin": 26.44,
+    "profit_margin": 6.96,
+    "debt_equity": 0.08,
+    "recom": null,
+    "target_price": null,
+    "pe": 12.36
+  },
+  "technicals": {
+    "rsi14": 46.35,
+    "sma20_pct": 0.81,
+    "sma50_pct": -5.42,
+    "sma200_pct": -41.25,
+    "perf_ytd": -57.96,
+    "from_52w_high_pct": -61.29,
+    "beta": 1.4,
+    "setup": "",
+    "perf_year": -49.64,
+    "perf_quarter": -33.29,
+    "perf_month": 12.03,
+    "perf_week": -1.75
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=EPAM",
+  "deep_dive_path": "deep-dives/EPAM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "LEU",
+  "company": "Centrus Energy Corp",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Uranium",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 171.0,
+    "market_cap": 3364.05,
+    "sales_growth_yoy": 12.66,
+    "eps_growth_yoy": 46.79,
+    "peg": null,
+    "forward_pe": 61.5,
+    "gross_margin": 22.6,
+    "profit_margin": 13.4,
+    "debt_equity": 1.52,
+    "recom": null,
+    "target_price": null,
+    "pe": 56.64
+  },
+  "technicals": {
+    "rsi14": 52.09,
+    "sma20_pct": 3.89,
+    "sma50_pct": -0.24,
+    "sma200_pct": -27.3,
+    "perf_ytd": -29.56,
+    "from_52w_high_pct": -63.17,
+    "beta": 1.38,
+    "setup": "",
+    "perf_year": -29.44,
+    "perf_quarter": -22.12,
+    "perf_month": -0.08,
+    "perf_week": 9.58
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=LEU",
+  "deep_dive_path": "deep-dives/LEU-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

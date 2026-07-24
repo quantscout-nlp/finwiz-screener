@@ -1,0 +1,61 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 385.3,
+    "market_cap": 2862175.75,
+    "sales_growth_yoy": 14.52,
+    "eps_growth_yoy": 18.8,
+    "peg": 1.06,
+    "forward_pe": 19.8,
+    "gross_margin": 68.31,
+    "profit_margin": 39.34,
+    "debt_equity": 0.3,
+    "recom": null,
+    "target_price": null,
+    "pe": 22.95
+  },
+  "technicals": {
+    "rsi14": 46.89,
+    "sma20_pct": -0.46,
+    "sma50_pct": -3.49,
+    "sma200_pct": -11.66,
+    "perf_ytd": -20.33,
+    "from_52w_high_pct": -30.63,
+    "beta": 1.12,
+    "setup": "",
+    "perf_year": -24.58,
+    "perf_quarter": -7.32,
+    "perf_month": 5.43,
+    "perf_week": -2.16
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MSFT",
+  "deep_dive_path": "deep-dives/MSFT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

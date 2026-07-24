@@ -1,0 +1,61 @@
+{
+  "ticker": "TSEM",
+  "company": "Tower Semiconductor Ltd",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 258.0,
+    "market_cap": 28833.21,
+    "sales_growth_yoy": 4.35,
+    "eps_growth_yoy": 20.39,
+    "peg": 0.75,
+    "forward_pe": 44.18,
+    "gross_margin": 24.77,
+    "profit_margin": 15.13,
+    "debt_equity": 0.05,
+    "recom": null,
+    "target_price": null,
+    "pe": 119.83
+  },
+  "technicals": {
+    "rsi14": 54.37,
+    "sma20_pct": 7.91,
+    "sma50_pct": 0.77,
+    "sma200_pct": 56.65,
+    "perf_ytd": 119.72,
+    "from_52w_high_pct": -19.36,
+    "beta": 0.89,
+    "setup": "",
+    "perf_year": 447.77,
+    "perf_quarter": 28.19,
+    "perf_month": -6.29,
+    "perf_week": 10.21
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=TSEM",
+  "deep_dive_path": "deep-dives/TSEM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

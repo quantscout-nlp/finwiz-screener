@@ -1,0 +1,61 @@
+{
+  "ticker": "NXT",
+  "company": "Nextpower Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Solar",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 102.72,
+    "market_cap": 15577.82,
+    "sales_growth_yoy": 24.38,
+    "eps_growth_yoy": 7.19,
+    "peg": 1.18,
+    "forward_pe": 18.0,
+    "gross_margin": 32.19,
+    "profit_margin": 16.46,
+    "debt_equity": 0.02,
+    "recom": null,
+    "target_price": null,
+    "pe": 26.79
+  },
+  "technicals": {
+    "rsi14": 41.56,
+    "sma20_pct": -5.11,
+    "sma50_pct": -15.69,
+    "sma200_pct": -5.46,
+    "perf_ytd": 17.92,
+    "from_52w_high_pct": -37.03,
+    "beta": 1.93,
+    "setup": "",
+    "perf_year": 61.99,
+    "perf_quarter": -17.4,
+    "perf_month": -11.96,
+    "perf_week": -0.37
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NXT",
+  "deep_dive_path": "deep-dives/NXT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

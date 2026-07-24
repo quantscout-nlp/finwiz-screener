@@ -15,8 +15,10 @@ from urllib.request import Request, urlopen
 from lib_finwiz import TICKERS_DIR, load_all_tickers, load_json, save_json
 
 ELITE_EXPORT = "https://elite.finviz.com/export/screener.ashx"
-# Views: 141=performance, 152=valuation, 171=technical
-DEFAULT_VIEWS = ("152", "141", "171")
+# Views (Elite CSV headers differ by view id):
+# 152 overview (company/sector/mktcap/pe), 121 valuation (PEG/Fwd PE/growth),
+# 161 financials (margins/D/E), 141 performance, 171 technicals (RSI/SMAs)
+DEFAULT_VIEWS = ("152", "121", "161", "141", "171")
 
 
 def api_key() -> str | None:
@@ -108,7 +110,7 @@ def merge_finviz_rows(rows_by_view: dict[str, list[dict[str, str]]]) -> dict[str
     merged: dict[str, dict[str, Any]] = {}
 
     def ensure(t: str) -> dict[str, Any]:
-        return merged.setdefault(t.upper(), {"metrics": {}, "technicals": {}})
+        return merged.setdefault(t.upper(), {"metrics": {}, "technicals": {}, "profile": {}})
 
     for _view, rows in rows_by_view.items():
         for row in rows:
@@ -116,7 +118,17 @@ def merge_finviz_rows(rows_by_view: dict[str, list[dict[str, str]]]) -> dict[str
             if not ticker:
                 continue
             slot = ensure(ticker)
-            m, tech = slot["metrics"], slot["technicals"]
+            m, tech, prof = slot["metrics"], slot["technicals"], slot["profile"]
+
+            company = _pick(row, "company", "name")
+            if company:
+                prof["company"] = company
+            sector = _pick(row, "sector")
+            if sector:
+                prof["sector"] = sector
+            industry = _pick(row, "industry")
+            if industry:
+                prof["industry"] = industry
 
             price = _parse_num(_pick(row, "price"))
             if price is not None:
@@ -129,35 +141,51 @@ def merge_finviz_rows(rows_by_view: dict[str, list[dict[str, str]]]) -> dict[str
                 ("market cap", "market_cap"),
                 ("gross margin", "gross_margin"),
                 ("oper. margin", "profit_margin"),
+                ("operating margin", "profit_margin"),
                 ("profit margin", "profit_margin"),
                 ("debt/eq", "debt_equity"),
+                ("lt debt/equity", "debt_equity"),
+                ("total debt/equity", "debt_equity"),
+                ("sales growth past 5 years", "sales_growth_yoy"),
                 ("sales growthpast 5y", "sales_growth_yoy"),
                 ("sales growthqoq", "sales_growth_yoy"),
+                ("eps growth this year", "eps_growth_yoy"),
                 ("eps growthpast 5y", "eps_growth_yoy"),
+                ("eps growth past 5 years", "eps_growth_yoy"),
                 ("eps growthqoq", "eps_growth_yoy"),
                 ("eps growththis year", "eps_growth_yoy"),
                 ("target price", "target_price"),
+                ("target", "target_price"),
+                ("recom", "recom"),
+                ("analyst recom", "recom"),
+                ("recommendation", "recom"),
             ):
                 val = _parse_num(_pick(row, src))
                 if val is not None:
                     m[dst] = val
 
-            recom = _parse_num(_pick(row, "recom"))
-            if recom is not None:
-                m["recom"] = recom
-
             cap_raw = _pick(row, "market cap")
-            if cap_raw and not cap_raw.replace(".", "").replace(",", "").isdigit():
-                m["market_cap"] = cap_raw
+            if cap_raw and m.get("market_cap") is None:
+                # Keep numeric parse above; also accept already-normalized millions strings
+                parsed = _parse_num(cap_raw)
+                if parsed is not None:
+                    m["market_cap"] = parsed
 
             for src, dst in (
                 ("rsi (14)", "rsi14"),
+                ("relative strength index (14)", "rsi14"),
                 ("perf year", "perf_ytd"),
                 ("perf ytd", "perf_ytd"),
+                ("performance (ytd)", "perf_ytd"),
+                ("performance (year)", "perf_year"),
                 ("perf quarter", "perf_quarter"),
+                ("performance (quarter)", "perf_quarter"),
                 ("perf month", "perf_month"),
+                ("performance (month)", "perf_month"),
                 ("perf week", "perf_week"),
+                ("performance (week)", "perf_week"),
                 ("52w high", "from_52w_high_pct"),
+                ("52-week high", "from_52w_high_pct"),
                 ("beta", "beta"),
             ):
                 val = _parse_num(_pick(row, src))
@@ -168,6 +196,9 @@ def merge_finviz_rows(rows_by_view: dict[str, list[dict[str, str]]]) -> dict[str
                 ("sma20", "sma20_pct"),
                 ("sma50", "sma50_pct"),
                 ("sma200", "sma200_pct"),
+                ("20-day simple moving average", "sma20_pct"),
+                ("50-day simple moving average", "sma50_pct"),
+                ("200-day simple moving average", "sma200_pct"),
             ):
                 val = _parse_num(_pick(row, src))
                 if val is not None:
@@ -186,6 +217,13 @@ def apply_updates_to_ticker(ticker_data: dict, updates: dict[str, Any]) -> dict:
         technicals = dict(out.get("technicals") or {})
         technicals.update({k: v for k, v in updates["technicals"].items() if v is not None})
         out["technicals"] = technicals
+    prof = updates.get("profile") or {}
+    if prof.get("company") and (not out.get("company") or out.get("company") == "Company Name"):
+        out["company"] = prof["company"]
+    if prof.get("sector"):
+        out["sector"] = prof["sector"]
+    if prof.get("industry"):
+        out["industry"] = prof["industry"]
     out["updated"] = date.today().isoformat()
     out["finviz_elite_sync"] = datetime_now_iso()
     return out
@@ -207,7 +245,11 @@ def sync_tickers(tickers: list[str] | None = None, views: tuple[str, ...] = DEFA
     tickers = [t.upper() for t in tickers if t]
 
     rows_by_view: dict[str, list[dict[str, str]]] = {}
-    for view in views:
+    import time
+
+    for i, view in enumerate(views):
+        if i:
+            time.sleep(1.25)  # Elite rate-limit guard
         rows_by_view[view] = fetch_export_csv(tickers, view=view)
 
     merged = merge_finviz_rows(rows_by_view)

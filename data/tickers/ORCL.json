@@ -1,0 +1,61 @@
+{
+  "ticker": "ORCL",
+  "company": "Oracle Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 123.53,
+    "market_cap": 355824.58,
+    "sales_growth_yoy": 10.72,
+    "eps_growth_yoy": 5.08,
+    "peg": 0.43,
+    "forward_pe": 11.33,
+    "gross_margin": 63.34,
+    "profit_margin": 25.21,
+    "debt_equity": 3.94,
+    "recom": null,
+    "target_price": null,
+    "pe": 21.21
+  },
+  "technicals": {
+    "rsi14": 33.34,
+    "sma20_pct": -8.39,
+    "sma50_pct": -28.06,
+    "sma200_pct": -34.1,
+    "perf_ytd": -36.62,
+    "from_52w_high_pct": -64.27,
+    "beta": 1.73,
+    "setup": "",
+    "perf_year": -49.13,
+    "perf_quarter": -29.92,
+    "perf_month": -21.58,
+    "perf_week": -2.28
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ORCL",
+  "deep_dive_path": "deep-dives/ORCL-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

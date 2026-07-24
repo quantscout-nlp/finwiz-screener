@@ -1,0 +1,60 @@
+{
+  "ticker": "RXRX",
+  "company": "Recursion Pharmaceuticals Inc",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 3.01,
+    "market_cap": 1597.86,
+    "sales_growth_yoy": 79.91,
+    "eps_growth_yoy": -22.39,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -69.58,
+    "profit_margin": -842.93,
+    "debt_equity": 0.07,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 40.44,
+    "sma20_pct": -11.55,
+    "sma50_pct": -8.59,
+    "sma200_pct": -24.23,
+    "perf_ytd": -26.39,
+    "from_52w_high_pct": -58.07,
+    "beta": 1.04,
+    "setup": "",
+    "perf_year": -51.91,
+    "perf_quarter": -13.99,
+    "perf_month": -6.8,
+    "perf_week": 2.22
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RXRX",
+  "deep_dive_path": "deep-dives/RXRX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

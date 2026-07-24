@@ -1,0 +1,60 @@
+{
+  "ticker": "TEM",
+  "company": "Tempus AI Inc",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 46.26,
+    "market_cap": 8338.08,
+    "sales_growth_yoy": 46.57,
+    "eps_growth_yoy": 1.21,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 62.22,
+    "profit_margin": -22.2,
+    "debt_equity": 3.17,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 37.5,
+    "sma20_pct": -16.39,
+    "sma50_pct": -9.78,
+    "sma200_pct": -23.88,
+    "perf_ytd": -21.66,
+    "from_52w_high_pct": -55.66,
+    "beta": 3.6,
+    "setup": "",
+    "perf_year": -26.97,
+    "perf_quarter": -10.07,
+    "perf_month": -10.94,
+    "perf_week": -11.84
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=TEM",
+  "deep_dive_path": "deep-dives/TEM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

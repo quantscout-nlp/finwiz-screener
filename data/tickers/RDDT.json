@@ -1,0 +1,61 @@
+{
+  "ticker": "RDDT",
+  "company": "Reddit Inc",
+  "status": "watch",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 170.4,
+    "market_cap": 32803.53,
+    "sales_growth_yoy": 57.27,
+    "eps_growth_yoy": 88.98,
+    "peg": 0.54,
+    "forward_pe": 26.04,
+    "gross_margin": 90.72,
+    "profit_margin": 28.6,
+    "debt_equity": 0.01,
+    "recom": null,
+    "target_price": null,
+    "pe": 48.32
+  },
+  "technicals": {
+    "rsi14": 43.0,
+    "sma20_pct": -8.98,
+    "sma50_pct": -1.97,
+    "sma200_pct": -5.82,
+    "perf_ytd": -25.87,
+    "from_52w_high_pct": -39.78,
+    "beta": 1.97,
+    "setup": "",
+    "perf_year": 15.03,
+    "perf_quarter": 11.4,
+    "perf_month": 6.02,
+    "perf_week": -5.95
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RDDT",
+  "deep_dive_path": "deep-dives/RDDT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

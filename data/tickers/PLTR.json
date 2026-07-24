@@ -1,7 +1,7 @@
 {
   "ticker": "PLTR",
   "company": "Palantir Technologies Inc",
-  "status": "core",
+  "status": "watch",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
   "deep_dive": {
@@ -12,34 +12,37 @@
       "news_flow": 94,
       "technicals": 66,
       "fundamentals": 78,
-      "composite": 79
+      "analyst": 76.5,
+      "composite": 79.5
     }
   },
   "metrics": {
-    "price": 124.57,
-    "market_cap": 298633.19,
-    "sales_growth_yoy": 67.71,
-    "eps_growth_yoy": 283.83,
-    "peg": 1.07,
-    "forward_pe": 63.83,
+    "price": 124.74,
+    "market_cap": 299040.73,
+    "sales_growth_yoy": 32.58,
+    "eps_growth_yoy": 94.3,
+    "peg": 1.0,
+    "forward_pe": 59.96,
     "gross_margin": 84.07,
     "profit_margin": 43.67,
     "debt_equity": 0.03,
     "recom": 1.94,
     "target_price": 190.08,
-    "pe": 140.34
+    "pe": 140.54
   },
   "technicals": {
-    "rsi14": 52.83,
-    "sma20_pct": 5.09,
-    "sma50_pct": 0.19,
-    "sma200_pct": -14.49,
-    "perf_ytd": -25.37,
-    "from_52w_high_pct": -36.07,
+    "rsi14": 44.37,
+    "sma20_pct": -2.54,
+    "sma50_pct": -5.25,
+    "sma200_pct": -19.16,
+    "perf_ytd": -29.82,
+    "from_52w_high_pct": -39.89,
     "beta": 1.58,
     "setup": "Short-term bounce inside larger correction; below SMA200",
-    "perf_month": 3.26,
-    "perf_quarter": -9.07
+    "perf_month": 9.9,
+    "perf_quarter": -11.89,
+    "perf_year": -19.45,
+    "perf_week": -5.77
   },
   "news": {
     "headline_bullets": [
@@ -62,6 +65,6 @@
   ],
   "finviz_url": "https://finviz.com/quote.ashx?t=PLTR",
   "deep_dive_path": "deep-dives/PLTR-2026-08-03.md",
-  "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T20:53:01"
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
 }

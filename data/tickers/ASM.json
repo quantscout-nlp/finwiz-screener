@@ -1,0 +1,61 @@
+{
+  "ticker": "ASM",
+  "company": "Avino Silver & Gold Mines Ltd",
+  "status": "watch",
+  "sector": "Basic Materials",
+  "industry": "Other Precious Metals & Mining",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 5.78,
+    "market_cap": 983.76,
+    "sales_growth_yoy": 40.96,
+    "eps_growth_yoy": 104.41,
+    "peg": 0.27,
+    "forward_pe": 9.97,
+    "gross_margin": 53.48,
+    "profit_margin": 33.16,
+    "debt_equity": 0.03,
+    "recom": null,
+    "target_price": null,
+    "pe": 25.83
+  },
+  "technicals": {
+    "rsi14": 45.78,
+    "sma20_pct": -3.89,
+    "sma50_pct": -9.42,
+    "sma200_pct": -13.12,
+    "perf_ytd": -6.92,
+    "from_52w_high_pct": -51.79,
+    "beta": 1.77,
+    "setup": "",
+    "perf_year": 63.28,
+    "perf_quarter": -17.31,
+    "perf_month": 2.48,
+    "perf_week": 5.09
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ASM",
+  "deep_dive_path": "deep-dives/ASM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

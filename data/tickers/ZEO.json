@@ -1,0 +1,60 @@
+{
+  "ticker": "ZEO",
+  "company": "Zeo Energy Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Solar",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 0.52,
+    "market_cap": 30.02,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": null,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 47.64,
+    "profit_margin": -15.13,
+    "debt_equity": 0.11,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 28.18,
+    "sma20_pct": -15.06,
+    "sma50_pct": -30.09,
+    "sma200_pct": -49.3,
+    "perf_ytd": -52.74,
+    "from_52w_high_pct": -81.27,
+    "beta": 0.7,
+    "setup": "",
+    "perf_year": -79.64,
+    "perf_quarter": -42.7,
+    "perf_month": -28.01,
+    "perf_week": -11.19
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ZEO",
+  "deep_dive_path": "deep-dives/ZEO-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase Global Inc",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Financial Data & Stock Exchanges",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 162.95,
+    "market_cap": 42931.01,
+    "sales_growth_yoy": 41.24,
+    "eps_growth_yoy": 52.26,
+    "peg": 2.35,
+    "forward_pe": 33.35,
+    "gross_margin": 79.87,
+    "profit_margin": 12.09,
+    "debt_equity": 0.59,
+    "recom": null,
+    "target_price": null,
+    "pe": 61.28
+  },
+  "technicals": {
+    "rsi14": 49.74,
+    "sma20_pct": 1.49,
+    "sma50_pct": -3.11,
+    "sma200_pct": -25.17,
+    "perf_ytd": -27.94,
+    "from_52w_high_pct": -59.8,
+    "beta": 3.34,
+    "setup": "",
+    "perf_year": -58.92,
+    "perf_quarter": -17.67,
+    "perf_month": 8.55,
+    "perf_week": 3.71
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=COIN",
+  "deep_dive_path": "deep-dives/COIN-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "UBS",
+  "company": "UBS Group AG",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Banks - Diversified",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 52.16,
+    "market_cap": 158548.67,
+    "sales_growth_yoy": 19.62,
+    "eps_growth_yoy": 6.13,
+    "peg": 0.63,
+    "forward_pe": 12.47,
+    "gross_margin": null,
+    "profit_margin": 11.44,
+    "debt_equity": 4.23,
+    "recom": null,
+    "target_price": null,
+    "pe": 18.69
+  },
+  "technicals": {
+    "rsi14": 54.7,
+    "sma20_pct": 0.81,
+    "sma50_pct": 5.42,
+    "sma200_pct": 20.29,
+    "perf_ytd": 14.08,
+    "from_52w_high_pct": -5.42,
+    "beta": 1.18,
+    "setup": "",
+    "perf_year": 38.27,
+    "perf_quarter": 27.1,
+    "perf_month": 5.59,
+    "perf_week": -1.08
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=UBS",
+  "deep_dive_path": "deep-dives/UBS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "SNDK",
+  "company": "Sandisk Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 1579.49,
+    "market_cap": 233906.31,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 2136.6,
+    "peg": null,
+    "forward_pe": 7.66,
+    "gross_margin": 56.04,
+    "profit_margin": 34.19,
+    "debt_equity": 0.02,
+    "recom": null,
+    "target_price": null,
+    "pe": 54.91
+  },
+  "technicals": {
+    "rsi14": 46.05,
+    "sma20_pct": -8.8,
+    "sma50_pct": -8.88,
+    "sma200_pct": 93.2,
+    "perf_ytd": 565.38,
+    "from_52w_high_pct": -32.91,
+    "beta": 5.25,
+    "setup": "",
+    "perf_year": 3655.33,
+    "perf_quarter": 69.4,
+    "perf_month": -17.5,
+    "perf_week": 16.58
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=SNDK",
+  "deep_dive_path": "deep-dives/SNDK-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

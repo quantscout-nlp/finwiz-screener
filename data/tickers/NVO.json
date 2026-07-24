@@ -1,0 +1,61 @@
+{
+  "ticker": "NVO",
+  "company": "Novo Nordisk ADR",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 48.5,
+    "market_cap": 162862.03,
+    "sales_growth_yoy": 19.21,
+    "eps_growth_yoy": 20.36,
+    "peg": null,
+    "forward_pe": 14.79,
+    "gross_margin": 81.84,
+    "profit_margin": 37.23,
+    "debt_equity": 0.72,
+    "recom": null,
+    "target_price": null,
+    "pe": 11.38
+  },
+  "technicals": {
+    "rsi14": 52.11,
+    "sma20_pct": -1.45,
+    "sma50_pct": 4.67,
+    "sma200_pct": 2.87,
+    "perf_ytd": -4.68,
+    "from_52w_high_pct": -32.45,
+    "beta": 0.77,
+    "setup": "",
+    "perf_year": -31.43,
+    "perf_quarter": 25.91,
+    "perf_month": 2.3,
+    "perf_week": -3.62
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NVO",
+  "deep_dive_path": "deep-dives/NVO-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

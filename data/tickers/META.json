@@ -1,0 +1,61 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms Inc",
+  "status": "watch",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 609.9,
+    "market_cap": 1548184.32,
+    "sales_growth_yoy": 18.51,
+    "eps_growth_yoy": 18.41,
+    "peg": 0.86,
+    "forward_pe": 17.34,
+    "gross_margin": 81.94,
+    "profit_margin": 32.84,
+    "debt_equity": 0.36,
+    "recom": null,
+    "target_price": null,
+    "pe": 22.17
+  },
+  "technicals": {
+    "rsi14": 47.34,
+    "sma20_pct": -1.9,
+    "sma50_pct": 0.58,
+    "sma200_pct": -4.43,
+    "perf_ytd": -7.6,
+    "from_52w_high_pct": -23.4,
+    "beta": 1.23,
+    "setup": "",
+    "perf_year": -14.68,
+    "perf_quarter": -7.47,
+    "perf_month": 9.37,
+    "perf_week": -5.59
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=META",
+  "deep_dive_path": "deep-dives/META-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

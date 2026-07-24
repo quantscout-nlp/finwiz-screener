@@ -1,0 +1,60 @@
+{
+  "ticker": "UEC",
+  "company": "Uranium Energy Corp",
+  "status": "watch",
+  "sector": "Energy",
+  "industry": "Uranium",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 9.85,
+    "market_cap": 4874.5,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -20.77,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -99.39,
+    "profit_margin": -513.24,
+    "debt_equity": 0.0,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 42.11,
+    "sma20_pct": -2.6,
+    "sma50_pct": -15.05,
+    "sma200_pct": -27.84,
+    "perf_ytd": -15.67,
+    "from_52w_high_pct": -51.57,
+    "beta": 1.23,
+    "setup": "",
+    "perf_year": 12.31,
+    "perf_quarter": -34.11,
+    "perf_month": -9.63,
+    "perf_week": 6.14
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=UEC",
+  "deep_dive_path": "deep-dives/UEC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

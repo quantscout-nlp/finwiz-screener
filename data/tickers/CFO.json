@@ -1,0 +1,60 @@
+{
+  "ticker": "CFO",
+  "company": "VictoryShares US 500 Enhanced Volatility Wtd ETF",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Exchange Traded Fund",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 80.0,
+    "market_cap": null,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": null,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 52.19,
+    "sma20_pct": -0.3,
+    "sma50_pct": 1.3,
+    "sma200_pct": 5.22,
+    "perf_ytd": 8.34,
+    "from_52w_high_pct": -1.59,
+    "beta": 0.64,
+    "setup": "",
+    "perf_year": 9.88,
+    "perf_quarter": 3.37,
+    "perf_month": 1.49,
+    "perf_week": -1.02
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CFO",
+  "deep_dive_path": "deep-dives/CFO-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

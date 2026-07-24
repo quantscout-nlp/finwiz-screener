@@ -1,0 +1,61 @@
+{
+  "ticker": "SOFI",
+  "company": "SoFi Technologies Inc",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Credit Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 16.77,
+    "market_cap": 21485.91,
+    "sales_growth_yoy": 44.73,
+    "eps_growth_yoy": 53.03,
+    "peg": 0.54,
+    "forward_pe": 20.68,
+    "gross_margin": 61.74,
+    "profit_margin": 11.22,
+    "debt_equity": 0.18,
+    "recom": null,
+    "target_price": null,
+    "pe": 37.99
+  },
+  "technicals": {
+    "rsi14": 43.58,
+    "sma20_pct": -5.91,
+    "sma50_pct": -2.05,
+    "sma200_pct": -22.34,
+    "perf_ytd": -36.02,
+    "from_52w_high_pct": -48.76,
+    "beta": 2.18,
+    "setup": "",
+    "perf_year": -22.13,
+    "perf_quarter": -8.57,
+    "perf_month": -3.24,
+    "perf_week": -3.07
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=SOFI",
+  "deep_dive_path": "deep-dives/SOFI-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "NET",
+  "company": "Cloudflare Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 265.0,
+    "market_cap": 94107.53,
+    "sales_growth_yoy": 38.13,
+    "eps_growth_yoy": 5.92,
+    "peg": 5.02,
+    "forward_pe": 167.02,
+    "gross_margin": 73.3,
+    "profit_margin": -3.72,
+    "debt_equity": 2.31,
+    "recom": null,
+    "target_price": null,
+    "pe": 167.02
+  },
+  "technicals": {
+    "rsi14": 55.1,
+    "sma20_pct": 0.68,
+    "sma50_pct": 9.53,
+    "sma200_pct": 25.02,
+    "perf_ytd": 34.42,
+    "from_52w_high_pct": -8.93,
+    "beta": 1.65,
+    "setup": "",
+    "perf_year": 38.32,
+    "perf_quarter": 29.27,
+    "perf_month": 18.58,
+    "perf_week": -4.56
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NET",
+  "deep_dive_path": "deep-dives/NET-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

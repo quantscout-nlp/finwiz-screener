@@ -1,0 +1,61 @@
+{
+  "ticker": "CAMT",
+  "company": "Camtek Ltd",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 156.0,
+    "market_cap": 7278.42,
+    "sales_growth_yoy": 26.06,
+    "eps_growth_yoy": 13.57,
+    "peg": 2.22,
+    "forward_pe": 34.48,
+    "gross_margin": 50.23,
+    "profit_margin": 9.63,
+    "debt_equity": 0.71,
+    "recom": null,
+    "target_price": null,
+    "pe": 186.87
+  },
+  "technicals": {
+    "rsi14": 50.09,
+    "sma20_pct": 4.85,
+    "sma50_pct": -4.68,
+    "sma200_pct": 5.87,
+    "perf_ytd": 46.69,
+    "from_52w_high_pct": -27.77,
+    "beta": 1.58,
+    "setup": "",
+    "perf_year": 65.53,
+    "perf_quarter": -20.36,
+    "perf_month": -6.53,
+    "perf_week": 6.74
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CAMT",
+  "deep_dive_path": "deep-dives/CAMT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

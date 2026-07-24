@@ -1,7 +1,7 @@
 {
   "ticker": "AVGO",
   "company": "Broadcom Inc",
-  "status": "core",
+  "status": "watch",
   "sector": "Technology",
   "industry": "Semiconductors",
   "deep_dive": {
@@ -12,34 +12,37 @@
       "news_flow": 80,
       "technicals": 70,
       "fundamentals": 85,
-      "composite": 78
+      "analyst": 92.0,
+      "composite": 81.2
     }
   },
   "metrics": {
-    "price": 396.81,
-    "market_cap": 1887855.34,
-    "sales_growth_yoy": 32.29,
-    "eps_growth_yoy": 125.17,
+    "price": 390.81,
+    "market_cap": 1859309.86,
+    "sales_growth_yoy": 21.74,
+    "eps_growth_yoy": 49.76,
     "peg": 0.35,
-    "forward_pe": 19.82,
+    "forward_pe": 20.04,
     "gross_margin": 65.66,
     "profit_margin": 38.85,
     "debt_equity": 0.74,
     "recom": 1.32,
     "target_price": 528.6,
-    "pe": 66.06
+    "pe": 65.06
   },
   "technicals": {
-    "rsi14": 49.9,
-    "sma20_pct": 1.74,
-    "sma50_pct": -3.73,
-    "sma200_pct": 6.14,
-    "perf_ytd": 11.67,
-    "from_52w_high_pct": -21.92,
-    "beta": 1.47,
+    "rsi14": 51.17,
+    "sma20_pct": 2.35,
+    "sma50_pct": -2.18,
+    "sma200_pct": 7.08,
+    "perf_ytd": 12.92,
+    "from_52w_high_pct": -21.05,
+    "beta": 1.46,
     "setup": "Mid-range after selloff; neutral RSI above SMA200",
-    "perf_month": -6.04,
-    "perf_quarter": -3.29
+    "perf_month": 2.29,
+    "perf_quarter": -6.94,
+    "perf_year": 35.36,
+    "perf_week": 5.39
   },
   "news": {
     "headline_bullets": [
@@ -59,7 +62,7 @@
     "manual-override"
   ],
   "finviz_url": "https://finviz.com/quote.ashx?t=AVGO",
-  "deep_dive_path": "deep-dives/AVGO-auto-2026-07-22.md",
-  "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T20:53:01"
+  "deep_dive_path": "deep-dives/AVGO-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
 }

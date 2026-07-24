@@ -1,0 +1,60 @@
+{
+  "ticker": "Q",
+  "company": "Qnity Electronics Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 137.91,
+    "market_cap": 28869.97,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 25.09,
+    "peg": 1.69,
+    "forward_pe": 28.15,
+    "gross_margin": 41.97,
+    "profit_margin": 13.13,
+    "debt_equity": 0.63,
+    "recom": null,
+    "target_price": null,
+    "pe": 44.48
+  },
+  "technicals": {
+    "rsi14": 42.54,
+    "sma20_pct": -4.06,
+    "sma50_pct": -8.6,
+    "sma200_pct": 17.07,
+    "perf_ytd": 68.9,
+    "from_52w_high_pct": -22.21,
+    "beta": null,
+    "setup": "",
+    "perf_quarter": -1.58,
+    "perf_month": -13.12,
+    "perf_week": 1.14
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=Q",
+  "deep_dive_path": "deep-dives/Q-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

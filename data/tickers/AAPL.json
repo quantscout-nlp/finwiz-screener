@@ -1,0 +1,61 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 322.19,
+    "market_cap": 4732119.41,
+    "sales_growth_yoy": 8.71,
+    "eps_growth_yoy": 17.91,
+    "peg": 2.57,
+    "forward_pe": 33.3,
+    "gross_margin": 47.86,
+    "profit_margin": 27.15,
+    "debt_equity": 0.8,
+    "recom": null,
+    "target_price": null,
+    "pe": 38.98
+  },
+  "technicals": {
+    "rsi14": 58.5,
+    "sma20_pct": 2.66,
+    "sma50_pct": 5.29,
+    "sma200_pct": 16.77,
+    "perf_ytd": 18.51,
+    "from_52w_high_pct": -3.82,
+    "beta": 1.07,
+    "setup": "",
+    "perf_year": 50.73,
+    "perf_quarter": 17.83,
+    "perf_month": 9.93,
+    "perf_week": -3.46
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=AAPL",
+  "deep_dive_path": "deep-dives/AAPL-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "ON",
+  "company": "ON Semiconductor Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 89.14,
+    "market_cap": 34693.56,
+    "sales_growth_yoy": 2.67,
+    "eps_growth_yoy": -12.08,
+    "peg": 0.6,
+    "forward_pe": 20.72,
+    "gross_margin": 36.66,
+    "profit_margin": 9.46,
+    "debt_equity": 0.44,
+    "recom": null,
+    "target_price": null,
+    "pe": 63.54
+  },
+  "technicals": {
+    "rsi14": 41.82,
+    "sma20_pct": -2.81,
+    "sma50_pct": -17.53,
+    "sma200_pct": 20.2,
+    "perf_ytd": 64.62,
+    "from_52w_high_pct": -33.93,
+    "beta": 2.02,
+    "setup": "",
+    "perf_year": 60.79,
+    "perf_quarter": -8.83,
+    "perf_month": -22.98,
+    "perf_week": 2.03
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ON",
+  "deep_dive_path": "deep-dives/ON-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

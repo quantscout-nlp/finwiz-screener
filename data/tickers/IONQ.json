@@ -1,0 +1,60 @@
+{
+  "ticker": "IONQ",
+  "company": "IonQ Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 34.29,
+    "market_cap": 12800.4,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -69.38,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -28.8,
+    "profit_margin": 164.87,
+    "debt_equity": 0.01,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 28.18,
+    "sma20_pct": -18.57,
+    "sma50_pct": -34.63,
+    "sma200_pct": -27.58,
+    "perf_ytd": -23.57,
+    "from_52w_high_pct": -59.48,
+    "beta": 3.31,
+    "setup": "",
+    "perf_year": -21.88,
+    "perf_quarter": -21.4,
+    "perf_month": -36.02,
+    "perf_week": -1.4
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=IONQ",
+  "deep_dive_path": "deep-dives/IONQ-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

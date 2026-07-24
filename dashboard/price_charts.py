@@ -1,6 +1,9 @@
-"""Plotly price charts — yfinance OHLC with SMA overlays and analyst target."""
+"""Plotly price charts — Alpaca (paid) → yfinance OHLC with SMA overlays."""
 
 from __future__ import annotations
+
+import sys
+from pathlib import Path
 
 import pandas as pd
 import plotly.graph_objects as go
@@ -8,15 +11,32 @@ import streamlit as st
 
 SMA_COLORS = {9: "#a78bfa", 20: "#60a5fa", 50: "#fbbf24", 100: "#fb923c", 200: "#f87171"}
 
+_SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+_PERIOD_DAYS = {"3mo": 100, "6mo": 200, "1y": 400, "2y": 780, "5y": 1900}
+
 
 @st.cache_data(ttl=300, show_spinner=False)
 def fetch_price_history(ticker: str, period: str = "6mo") -> pd.DataFrame:
+    """Load OHLC preferring Alpaca, falling back to yfinance."""
+    lookback = _PERIOD_DAYS.get(period, 200)
+    try:
+        from lib_market_data import fetch_dashboard_bars
+
+        df, _provider = fetch_dashboard_bars(ticker, lookback_days=lookback)
+        if df is not None and not df.empty:
+            out = df.copy()
+            out["Date"] = pd.to_datetime(out["Date"])
+            return out
+    except Exception:
+        pass
+
+    # Last-resort direct yfinance (full OHLC)
     try:
         import yfinance as yf
-    except ImportError:
-        return pd.DataFrame()
 
-    try:
         raw = yf.download(ticker, period=period, progress=False, auto_adjust=True, threads=False)
     except Exception:
         return pd.DataFrame()
@@ -174,7 +194,10 @@ def render_price_chart(
 
     df = fetch_price_history(ticker, period)
     if df.empty:
-        st.warning(f"Could not load price history for {ticker}. Install yfinance and check your connection.")
+        st.warning(
+            f"Could not load price history for {ticker}. "
+            "Check Alpaca keys / yfinance connectivity."
+        )
         return
 
     fig = build_price_figure(

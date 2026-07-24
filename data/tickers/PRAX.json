@@ -1,0 +1,60 @@
+{
+  "ticker": "PRAX",
+  "company": "Praxis Precision Medicines Inc",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 322.4,
+    "market_cap": 8988.12,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 13.34,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": 0.0,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 53.35,
+    "sma20_pct": 0.0,
+    "sma50_pct": 3.67,
+    "sma200_pct": 16.47,
+    "perf_ytd": 9.38,
+    "from_52w_high_pct": -12.04,
+    "beta": 2.8,
+    "setup": "",
+    "perf_year": 464.72,
+    "perf_quarter": -4.41,
+    "perf_month": 5.58,
+    "perf_week": 4.61
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=PRAX",
+  "deep_dive_path": "deep-dives/PRAX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

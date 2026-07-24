@@ -1,0 +1,61 @@
+{
+  "ticker": "NUTX",
+  "company": "Nutex Health Inc",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 153.56,
+    "market_cap": 1056.7,
+    "sales_growth_yoy": 253.48,
+    "eps_growth_yoy": 105.34,
+    "peg": null,
+    "forward_pe": 6.67,
+    "gross_margin": 47.47,
+    "profit_margin": 10.95,
+    "debt_equity": 1.01,
+    "recom": null,
+    "target_price": null,
+    "pe": 11.86
+  },
+  "technicals": {
+    "rsi14": 42.42,
+    "sma20_pct": -11.52,
+    "sma50_pct": 2.56,
+    "sma200_pct": 16.67,
+    "perf_ytd": -6.72,
+    "from_52w_high_pct": -24.73,
+    "beta": 0.25,
+    "setup": "",
+    "perf_year": 65.3,
+    "perf_quarter": 41.67,
+    "perf_month": 4.3,
+    "perf_week": -6.59
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NUTX",
+  "deep_dive_path": "deep-dives/NUTX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

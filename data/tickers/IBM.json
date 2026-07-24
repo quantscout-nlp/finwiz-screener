@@ -1,0 +1,61 @@
+{
+  "ticker": "IBM",
+  "company": "International Business Machines Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 208.32,
+    "market_cap": 195796.9,
+    "sales_growth_yoy": 4.12,
+    "eps_growth_yoy": 12.36,
+    "peg": 2.11,
+    "forward_pe": 15.77,
+    "gross_margin": 57.56,
+    "profit_margin": 15.52,
+    "debt_equity": 1.89,
+    "recom": null,
+    "target_price": null,
+    "pe": 18.49
+  },
+  "technicals": {
+    "rsi14": 31.41,
+    "sma20_pct": -18.17,
+    "sma50_pct": -19.86,
+    "sma200_pct": -23.42,
+    "perf_ytd": -29.67,
+    "from_52w_high_pct": -37.34,
+    "beta": 0.72,
+    "setup": "",
+    "perf_year": -20.03,
+    "perf_quarter": -9.85,
+    "perf_month": -20.78,
+    "perf_week": -2.05
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=IBM",
+  "deep_dive_path": "deep-dives/IBM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "RDW",
+  "company": "Redwire Corp",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 9.32,
+    "market_cap": 2225.85,
+    "sales_growth_yoy": 42.32,
+    "eps_growth_yoy": -40.08,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 9.18,
+    "profit_margin": -93.17,
+    "debt_equity": 0.19,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 39.42,
+    "sma20_pct": -7.78,
+    "sma50_pct": -33.36,
+    "sma200_pct": -7.32,
+    "perf_ytd": 22.63,
+    "from_52w_high_pct": -65.02,
+    "beta": 3.07,
+    "setup": "",
+    "perf_year": -41.82,
+    "perf_quarter": -7.17,
+    "perf_month": -18.1,
+    "perf_week": 10.3
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RDW",
+  "deep_dive_path": "deep-dives/RDW-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

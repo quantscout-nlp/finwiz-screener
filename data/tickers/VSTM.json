@@ -1,0 +1,60 @@
+{
+  "ticker": "VSTM",
+  "company": "Verastem Inc",
+  "status": "watch",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 6.18,
+    "market_cap": 543.06,
+    "sales_growth_yoy": 10.8,
+    "eps_growth_yoy": 10.63,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 82.91,
+    "profit_margin": -391.16,
+    "debt_equity": 1.05,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 70.78,
+    "sma20_pct": 22.28,
+    "sma50_pct": 37.44,
+    "sma200_pct": -5.38,
+    "perf_ytd": -19.95,
+    "from_52w_high_pct": -45.04,
+    "beta": 0.2,
+    "setup": "",
+    "perf_year": 15.51,
+    "perf_quarter": 1.81,
+    "perf_month": 46.79,
+    "perf_week": 7.11
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=VSTM",
+  "deep_dive_path": "deep-dives/VSTM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

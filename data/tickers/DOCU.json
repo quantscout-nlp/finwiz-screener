@@ -1,0 +1,61 @@
+{
+  "ticker": "DOCU",
+  "company": "DocuSign Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 47.23,
+    "market_cap": 9018.31,
+    "sales_growth_yoy": 17.25,
+    "eps_growth_yoy": 17.83,
+    "peg": 0.71,
+    "forward_pe": 9.27,
+    "gross_margin": 79.06,
+    "profit_margin": 9.59,
+    "debt_equity": 0.1,
+    "recom": null,
+    "target_price": null,
+    "pe": 30.67
+  },
+  "technicals": {
+    "rsi14": 46.39,
+    "sma20_pct": -2.36,
+    "sma50_pct": -1.1,
+    "sma200_pct": -14.18,
+    "perf_ytd": -30.95,
+    "from_52w_high_pct": -45.49,
+    "beta": 0.88,
+    "setup": "",
+    "perf_year": -41.21,
+    "perf_quarter": 4.91,
+    "perf_month": 6.76,
+    "perf_week": -10.45
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=DOCU",
+  "deep_dive_path": "deep-dives/DOCU-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

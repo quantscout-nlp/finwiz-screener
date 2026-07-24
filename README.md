@@ -103,11 +103,20 @@ Opens at **http://localhost:8501** with these pages:
 |------|---------|
 | **Command Center** | KPIs, action mix chart, composite vs upside scatter, top BUY cards |
 | **Growth Screener** | Sortable/filterable table + ticker detail cards (mirrors CLI output) |
+| **Robinhood Watchlist** | Maps `NEW Robinhood.com Trading Watchlist` positions → technicals, fundamentals, news, analyst ratings |
 | **Capitulation** | Mean-reversion hits, drawdown chart, Finviz links |
 | **Ticker Intel** | Full profile, news bullets, markdown deep dives |
 | **Query Lab** | Same NL/structured query engine as `scripts/query.py` |
 | **Controls & Export** | Toggle SMA/tight BUY/capitulation in UI, rebuild index, Finviz URLs |
 | **Backtest** | Retro yfinance simulation vs equal-weight buy&hold |
+
+Refresh Robinhood positions + Finviz Elite enrichment:
+
+```powershell
+py -3 scripts\enrich_robinhood_watchlist.py --sync-elite
+```
+
+Positions live at `data/robinhood/positions.json`; watchlist at `watchlists/robinhood-retail.json`.
 
 Sidebar + **Controls & Export**: switchable **SMA ON/OFF** and period **9 / 20 / 50 / 100 / 200**, plus **Tight BUY ON/OFF**.
 

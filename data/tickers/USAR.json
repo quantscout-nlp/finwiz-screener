@@ -1,0 +1,60 @@
+{
+  "ticker": "USAR",
+  "company": "USA Rare Earth Inc",
+  "status": "watch",
+  "sector": "Basic Materials",
+  "industry": "Other Industrial Metals & Mining",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 15.18,
+    "market_cap": 3713.72,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 37.35,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -45.28,
+    "profit_margin": -5889.17,
+    "debt_equity": 0.01,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 33.32,
+    "sma20_pct": -14.87,
+    "sma50_pct": -29.92,
+    "sma200_pct": -24.41,
+    "perf_ytd": 27.55,
+    "from_52w_high_pct": -65.49,
+    "beta": 2.63,
+    "setup": "",
+    "perf_year": 23.4,
+    "perf_quarter": -34.26,
+    "perf_month": -29.14,
+    "perf_week": -3.01
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=USAR",
+  "deep_dive_path": "deep-dives/USAR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

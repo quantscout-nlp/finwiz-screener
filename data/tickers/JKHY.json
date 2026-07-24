@@ -1,0 +1,61 @@
+{
+  "ticker": "JKHY",
+  "company": "Jack Henry & Associates Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 148.23,
+    "market_cap": 10531.86,
+    "sales_growth_yoy": 6.96,
+    "eps_growth_yoy": 10.1,
+    "peg": 2.53,
+    "forward_pe": 20.45,
+    "gross_margin": 44.06,
+    "profit_margin": 20.64,
+    "debt_equity": 0.06,
+    "recom": null,
+    "target_price": null,
+    "pe": 20.73
+  },
+  "technicals": {
+    "rsi14": 56.43,
+    "sma20_pct": 1.7,
+    "sma50_pct": 7.26,
+    "sma200_pct": -6.91,
+    "perf_ytd": -18.77,
+    "from_52w_high_pct": -23.35,
+    "beta": 0.55,
+    "setup": "",
+    "perf_year": -17.89,
+    "perf_quarter": -4.91,
+    "perf_month": 18.35,
+    "perf_week": -3.65
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=JKHY",
+  "deep_dive_path": "deep-dives/JKHY-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

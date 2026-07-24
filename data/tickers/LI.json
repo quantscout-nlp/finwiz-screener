@@ -1,0 +1,61 @@
+{
+  "ticker": "LI",
+  "company": "Li Auto Inc ADR",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 12.33,
+    "market_cap": 10512.06,
+    "sales_growth_yoy": 62.71,
+    "eps_growth_yoy": -78.31,
+    "peg": 0.51,
+    "forward_pe": 18.7,
+    "gross_margin": 15.91,
+    "profit_margin": -1.73,
+    "debt_equity": 0.25,
+    "recom": null,
+    "target_price": null,
+    "pe": 18.7
+  },
+  "technicals": {
+    "rsi14": 42.21,
+    "sma20_pct": 1.0,
+    "sma50_pct": -11.21,
+    "sma200_pct": -28.69,
+    "perf_ytd": -27.17,
+    "from_52w_high_pct": -60.35,
+    "beta": 0.54,
+    "setup": "",
+    "perf_year": -58.33,
+    "perf_quarter": -33.89,
+    "perf_month": -0.48,
+    "perf_week": -0.48
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=LI",
+  "deep_dive_path": "deep-dives/LI-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

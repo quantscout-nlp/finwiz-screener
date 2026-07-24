@@ -1,0 +1,61 @@
+{
+  "ticker": "RUN",
+  "company": "Sunrun Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Solar",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 10.42,
+    "market_cap": 2485.68,
+    "sales_growth_yoy": 26.24,
+    "eps_growth_yoy": -28.83,
+    "peg": null,
+    "forward_pe": 22.31,
+    "gross_margin": 28.71,
+    "profit_margin": 17.94,
+    "debt_equity": 4.45,
+    "recom": null,
+    "target_price": null,
+    "pe": 4.87
+  },
+  "technicals": {
+    "rsi14": 30.14,
+    "sma20_pct": -14.9,
+    "sma50_pct": -21.38,
+    "sma200_pct": -35.03,
+    "perf_ytd": -43.37,
+    "from_52w_high_pct": -53.57,
+    "beta": 2.36,
+    "setup": "",
+    "perf_year": -1.51,
+    "perf_quarter": -19.6,
+    "perf_month": -27.74,
+    "perf_week": -12.07
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=RUN",
+  "deep_dive_path": "deep-dives/RUN-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

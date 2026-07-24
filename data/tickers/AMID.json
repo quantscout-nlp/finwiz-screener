@@ -1,0 +1,60 @@
+{
+  "ticker": "AMID",
+  "company": "Argent Mid Cap ETF",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Exchange Traded Fund",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 35.99,
+    "market_cap": null,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": null,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 53.39,
+    "sma20_pct": 0.32,
+    "sma50_pct": 1.55,
+    "sma200_pct": 4.34,
+    "perf_ytd": 7.34,
+    "from_52w_high_pct": -1.52,
+    "beta": 1.02,
+    "setup": "",
+    "perf_year": 5.04,
+    "perf_quarter": 2.29,
+    "perf_month": 0.82,
+    "perf_week": -0.01
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=AMID",
+  "deep_dive_path": "deep-dives/AMID-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

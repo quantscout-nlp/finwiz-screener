@@ -1,0 +1,60 @@
+{
+  "ticker": "BURU",
+  "company": "Nuburu Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 0.07,
+    "market_cap": 18.11,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 8.13,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -46.8,
+    "profit_margin": -15551.27,
+    "debt_equity": 17.15,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 26.53,
+    "sma20_pct": -45.37,
+    "sma50_pct": -56.09,
+    "sma200_pct": -89.61,
+    "perf_ytd": -90.85,
+    "from_52w_high_pct": -98.29,
+    "beta": 1.42,
+    "setup": "",
+    "perf_year": -95.26,
+    "perf_quarter": -74.14,
+    "perf_month": -50.68,
+    "perf_week": -39.21
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=BURU",
+  "deep_dive_path": "deep-dives/BURU-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

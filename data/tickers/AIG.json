@@ -1,0 +1,61 @@
+{
+  "ticker": "AIG",
+  "company": "American International Group Inc",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Insurance - Diversified",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 78.16,
+    "market_cap": 41440.92,
+    "sales_growth_yoy": -9.35,
+    "eps_growth_yoy": 12.7,
+    "peg": 0.87,
+    "forward_pe": 8.82,
+    "gross_margin": null,
+    "profit_margin": 11.86,
+    "debt_equity": 0.23,
+    "recom": null,
+    "target_price": null,
+    "pe": 13.81
+  },
+  "technicals": {
+    "rsi14": 50.79,
+    "sma20_pct": -0.21,
+    "sma50_pct": 1.99,
+    "sma200_pct": 0.68,
+    "perf_ytd": -8.64,
+    "from_52w_high_pct": -10.46,
+    "beta": 0.53,
+    "setup": "",
+    "perf_year": -1.7,
+    "perf_quarter": 2.8,
+    "perf_month": 2.13,
+    "perf_week": 0.17
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=AIG",
+  "deep_dive_path": "deep-dives/AIG-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

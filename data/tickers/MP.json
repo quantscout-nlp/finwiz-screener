@@ -1,0 +1,61 @@
+{
+  "ticker": "MP",
+  "company": "MP Materials Corp",
+  "status": "watch",
+  "sector": "Basic Materials",
+  "industry": "Other Industrial Metals & Mining",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 44.84,
+    "market_cap": 7982.51,
+    "sales_growth_yoy": 15.45,
+    "eps_growth_yoy": -13.01,
+    "peg": null,
+    "forward_pe": 47.94,
+    "gross_margin": 8.12,
+    "profit_margin": -20.48,
+    "debt_equity": 0.44,
+    "recom": null,
+    "target_price": null,
+    "pe": 47.94
+  },
+  "technicals": {
+    "rsi14": 32.44,
+    "sma20_pct": -10.35,
+    "sma50_pct": -20.69,
+    "sma200_pct": -25.46,
+    "perf_ytd": -11.24,
+    "from_52w_high_pct": -55.27,
+    "beta": 1.9,
+    "setup": "",
+    "perf_year": -27.16,
+    "perf_quarter": -29.19,
+    "perf_month": -20.65,
+    "perf_week": -0.88
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MP",
+  "deep_dive_path": "deep-dives/MP-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

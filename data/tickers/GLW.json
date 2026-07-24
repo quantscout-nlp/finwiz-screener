@@ -1,0 +1,61 @@
+{
+  "ticker": "GLW",
+  "company": "Corning Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 155.39,
+    "market_cap": 133734.51,
+    "sales_growth_yoy": 6.68,
+    "eps_growth_yoy": 27.86,
+    "peg": 1.13,
+    "forward_pe": 36.46,
+    "gross_margin": 35.64,
+    "profit_margin": 11.09,
+    "debt_equity": 0.84,
+    "recom": null,
+    "target_price": null,
+    "pe": 74.58
+  },
+  "technicals": {
+    "rsi14": 39.15,
+    "sma20_pct": -16.82,
+    "sma50_pct": -17.58,
+    "sma200_pct": 15.88,
+    "perf_ytd": 77.47,
+    "from_52w_high_pct": -42.83,
+    "beta": 1.16,
+    "setup": "",
+    "perf_year": 178.88,
+    "perf_quarter": -8.32,
+    "perf_month": -24.51,
+    "perf_week": 0.5
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=GLW",
+  "deep_dive_path": "deep-dives/GLW-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

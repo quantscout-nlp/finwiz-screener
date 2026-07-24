@@ -1,0 +1,61 @@
+{
+  "ticker": "S",
+  "company": "SentinelOne Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 17.47,
+    "market_cap": 5988.78,
+    "sales_growth_yoy": 60.83,
+    "eps_growth_yoy": -27.12,
+    "peg": 0.66,
+    "forward_pe": 35.01,
+    "gross_margin": 73.0,
+    "profit_margin": -30.38,
+    "debt_equity": 0.0,
+    "recom": null,
+    "target_price": null,
+    "pe": 35.01
+  },
+  "technicals": {
+    "rsi14": 47.67,
+    "sma20_pct": -4.05,
+    "sma50_pct": 2.28,
+    "sma200_pct": 12.98,
+    "perf_ytd": 16.47,
+    "from_52w_high_pct": -15.64,
+    "beta": 0.8,
+    "setup": "",
+    "perf_year": -10.27,
+    "perf_quarter": 25.5,
+    "perf_month": 15.54,
+    "perf_week": -10.73
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=S",
+  "deep_dive_path": "deep-dives/S-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

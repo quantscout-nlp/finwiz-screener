@@ -1,0 +1,60 @@
+{
+  "ticker": "OPEN",
+  "company": "Opendoor Technologies Inc",
+  "status": "watch",
+  "sector": "Real Estate",
+  "industry": "Real Estate Services",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 3.89,
+    "market_cap": 3752.82,
+    "sales_growth_yoy": 11.09,
+    "eps_growth_yoy": 6.03,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": 8.2,
+    "profit_margin": -35.25,
+    "debt_equity": 1.4,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 36.15,
+    "sma20_pct": -15.49,
+    "sma50_pct": -15.16,
+    "sma200_pct": -31.6,
+    "perf_ytd": -33.28,
+    "from_52w_high_pct": -64.21,
+    "beta": 3.61,
+    "setup": "",
+    "perf_year": 60.74,
+    "perf_quarter": -25.48,
+    "perf_month": -9.11,
+    "perf_week": -13.56
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=OPEN",
+  "deep_dive_path": "deep-dives/OPEN-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

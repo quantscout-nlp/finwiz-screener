@@ -25,6 +25,14 @@ from lib_finwiz import (  # noqa: E402
 DEEP_DIVES = ROOT / "deep-dives"
 SCREENERS = ROOT / "screeners"
 PAPER_LEDGER = ROOT / "bot" / "ledger" / "paper_ledger.json"
+RH_POSITIONS = ROOT / "data" / "robinhood" / "positions.json"
+
+
+def load_robinhood_positions() -> list[dict]:
+    if not RH_POSITIONS.exists():
+        return []
+    data = load_json(RH_POSITIONS)
+    return data if isinstance(data, list) else []
 
 
 def project_root() -> Path:

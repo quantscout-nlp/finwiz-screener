@@ -1,0 +1,61 @@
+{
+  "ticker": "IOT",
+  "company": "Samsara Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 31.66,
+    "market_cap": 18505.7,
+    "sales_growth_yoy": 45.3,
+    "eps_growth_yoy": 48.51,
+    "peg": 1.3,
+    "forward_pe": 34.75,
+    "gross_margin": 76.25,
+    "profit_margin": 3.32,
+    "debt_equity": 0.05,
+    "recom": null,
+    "target_price": null,
+    "pe": 326.06
+  },
+  "technicals": {
+    "rsi14": 39.02,
+    "sma20_pct": -10.42,
+    "sma50_pct": -5.38,
+    "sma200_pct": -5.7,
+    "perf_ytd": -10.69,
+    "from_52w_high_pct": -33.31,
+    "beta": 1.35,
+    "setup": "",
+    "perf_year": -16.95,
+    "perf_quarter": 8.13,
+    "perf_month": 1.34,
+    "perf_week": -17.38
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=IOT",
+  "deep_dive_path": "deep-dives/IOT-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

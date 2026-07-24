@@ -1,0 +1,61 @@
+{
+  "ticker": "VSEC",
+  "company": "VSE Corp",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 196.47,
+    "market_cap": 5512.39,
+    "sales_growth_yoy": 10.95,
+    "eps_growth_yoy": 11.38,
+    "peg": 1.61,
+    "forward_pe": 33.96,
+    "gross_margin": 12.22,
+    "profit_margin": 5.32,
+    "debt_equity": 0.15,
+    "recom": null,
+    "target_price": null,
+    "pe": 75.62
+  },
+  "technicals": {
+    "rsi14": 44.16,
+    "sma20_pct": -7.07,
+    "sma50_pct": 0.04,
+    "sma200_pct": 2.94,
+    "perf_ytd": 13.72,
+    "from_52w_high_pct": -18.33,
+    "beta": 1.24,
+    "setup": "",
+    "perf_year": 46.53,
+    "perf_quarter": 6.91,
+    "perf_month": -9.74,
+    "perf_week": -1.57
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=VSEC",
+  "deep_dive_path": "deep-dives/VSEC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "ASML",
+  "company": "ASML Holding NV",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 1803.94,
+    "market_cap": 695274.53,
+    "sales_growth_yoy": 18.27,
+    "eps_growth_yoy": 23.58,
+    "peg": 0.82,
+    "forward_pe": 30.32,
+    "gross_margin": 52.73,
+    "profit_margin": 30.11,
+    "debt_equity": 0.09,
+    "recom": null,
+    "target_price": null,
+    "pe": 56.16
+  },
+  "technicals": {
+    "rsi14": 52.13,
+    "sma20_pct": 0.16,
+    "sma50_pct": 3.52,
+    "sma200_pct": 31.06,
+    "perf_ytd": 68.61,
+    "from_52w_high_pct": -9.8,
+    "beta": 1.79,
+    "setup": "",
+    "perf_year": 148.79,
+    "perf_quarter": 27.24,
+    "perf_month": 2.34,
+    "perf_week": 3.23
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ASML",
+  "deep_dive_path": "deep-dives/ASML-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

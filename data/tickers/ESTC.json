@@ -1,0 +1,61 @@
+{
+  "ticker": "ESTC",
+  "company": "Elastic N.V",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 57.46,
+    "market_cap": 5972.8,
+    "sales_growth_yoy": 23.37,
+    "eps_growth_yoy": 26.2,
+    "peg": 0.66,
+    "forward_pe": 14.92,
+    "gross_margin": 76.07,
+    "profit_margin": 21.14,
+    "debt_equity": 0.46,
+    "recom": null,
+    "target_price": null,
+    "pe": 16.42
+  },
+  "technicals": {
+    "rsi14": 43.1,
+    "sma20_pct": -3.77,
+    "sma50_pct": -2.5,
+    "sma200_pct": -11.44,
+    "perf_ytd": -23.84,
+    "from_52w_high_pct": -40.19,
+    "beta": 0.99,
+    "setup": "",
+    "perf_year": -35.23,
+    "perf_quarter": 25.59,
+    "perf_month": -2.13,
+    "perf_week": -6.71
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ESTC",
+  "deep_dive_path": "deep-dives/ESTC-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

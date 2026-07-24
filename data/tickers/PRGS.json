@@ -1,0 +1,61 @@
+{
+  "ticker": "PRGS",
+  "company": "Progress Software Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 36.92,
+    "market_cap": 1514.2,
+    "sales_growth_yoy": 17.2,
+    "eps_growth_yoy": -1.14,
+    "peg": null,
+    "forward_pe": 5.86,
+    "gross_margin": 71.41,
+    "profit_margin": 8.87,
+    "debt_equity": 2.62,
+    "recom": null,
+    "target_price": null,
+    "pe": 17.83
+  },
+  "technicals": {
+    "rsi14": 52.41,
+    "sma20_pct": -1.46,
+    "sma50_pct": 11.44,
+    "sma200_pct": -0.71,
+    "perf_ytd": -14.06,
+    "from_52w_high_pct": -28.0,
+    "beta": 0.8,
+    "setup": "",
+    "perf_year": -25.35,
+    "perf_quarter": 21.57,
+    "perf_month": 28.02,
+    "perf_week": -8.5
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=PRGS",
+  "deep_dive_path": "deep-dives/PRGS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "CORZ",
+  "company": "Core Scientific Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 23.99,
+    "market_cap": 7627.5,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -435.73,
+    "peg": null,
+    "forward_pe": 54.48,
+    "gross_margin": 16.58,
+    "profit_margin": -87.41,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null,
+    "pe": 54.48
+  },
+  "technicals": {
+    "rsi14": 50.11,
+    "sma20_pct": 2.89,
+    "sma50_pct": -5.5,
+    "sma200_pct": 22.05,
+    "perf_ytd": 64.8,
+    "from_52w_high_pct": -21.23,
+    "beta": 5.51,
+    "setup": "",
+    "perf_year": 75.27,
+    "perf_quarter": 15.3,
+    "perf_month": -13.66,
+    "perf_week": 14.59
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CORZ",
+  "deep_dive_path": "deep-dives/CORZ-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

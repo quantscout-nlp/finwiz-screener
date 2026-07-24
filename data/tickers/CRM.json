@@ -1,0 +1,61 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 159.1,
+    "market_cap": 130302.9,
+    "sales_growth_yoy": 14.34,
+    "eps_growth_yoy": 12.24,
+    "peg": 0.8,
+    "forward_pe": 10.18,
+    "gross_margin": 75.12,
+    "profit_margin": 18.73,
+    "debt_equity": 1.24,
+    "recom": null,
+    "target_price": null,
+    "pe": 18.42
+  },
+  "technicals": {
+    "rsi14": 42.85,
+    "sma20_pct": -3.63,
+    "sma50_pct": -6.46,
+    "sma200_pct": -22.98,
+    "perf_ytd": -39.94,
+    "from_52w_high_pct": -41.93,
+    "beta": 1.17,
+    "setup": "",
+    "perf_year": -40.57,
+    "perf_quarter": -8.19,
+    "perf_month": 4.15,
+    "perf_week": -6.83
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CRM",
+  "deep_dive_path": "deep-dives/CRM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

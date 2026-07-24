@@ -1,7 +1,7 @@
 {
   "ticker": "TSM",
   "company": "Taiwan Semiconductor Manufacturing ADR",
-  "status": "core",
+  "status": "watch",
   "sector": "Technology",
   "industry": "Semiconductors",
   "deep_dive": {
@@ -12,34 +12,37 @@
       "news_flow": 94,
       "technicals": 68,
       "fundamentals": 90,
-      "analyst": 94.8
+      "analyst": 94.8,
+      "composite": 86.7
     }
   },
   "metrics": {
-    "price": 421.21,
-    "market_cap": 2184597.2,
-    "sales_growth_yoy": 34.6,
-    "eps_growth_yoy": 54.8,
-    "peg": 0.54,
-    "forward_pe": 19.81,
+    "price": 413.66,
+    "market_cap": 2145439.34,
+    "sales_growth_yoy": 21.86,
+    "eps_growth_yoy": 25.67,
+    "peg": 0.52,
+    "forward_pe": 19.27,
     "gross_margin": 63.38,
     "profit_margin": 50.31,
     "debt_equity": 0.15,
     "recom": 1.21,
     "target_price": 523.9,
-    "pe": 30.4
+    "pe": 29.86
   },
   "technicals": {
-    "rsi14": 49.41,
-    "sma20_pct": -1.76,
-    "sma50_pct": -0.22,
-    "sma200_pct": 20.27,
-    "perf_ytd": 39.72,
-    "from_52w_high_pct": -11.35,
-    "beta": 1.39,
+    "rsi14": 45.67,
+    "sma20_pct": -3.61,
+    "sma50_pct": -2.96,
+    "sma200_pct": 16.56,
+    "perf_ytd": 36.12,
+    "from_52w_high_pct": -13.64,
+    "beta": 1.4,
     "setup": "Post-earnings digests; above SMA200; RSI neutral after +5.5% bounce",
-    "perf_month": -8.12,
-    "perf_quarter": 15.94
+    "perf_month": -6.16,
+    "perf_quarter": 8.1,
+    "perf_year": 71.22,
+    "perf_week": 3.84
   },
   "news": {
     "headline_bullets": [
@@ -59,7 +62,7 @@
     "growth"
   ],
   "finviz_url": "https://finviz.com/quote.ashx?t=TSM",
-  "deep_dive_path": "deep-dives/TSM-auto-2026-07-22.md",
-  "updated": "2026-07-22",
-  "finviz_elite_sync": "2026-07-22T20:53:01"
+  "deep_dive_path": "deep-dives/TSM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
 }

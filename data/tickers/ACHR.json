@@ -1,0 +1,60 @@
+{
+  "ticker": "ACHR",
+  "company": "Archer Aviation Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 5.12,
+    "market_cap": 3889.15,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -36.0,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -1205.26,
+    "profit_margin": -39078.95,
+    "debt_equity": 0.06,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 50.48,
+    "sma20_pct": 4.48,
+    "sma50_pct": -6.81,
+    "sma200_pct": -28.71,
+    "perf_ytd": -31.91,
+    "from_52w_high_pct": -64.98,
+    "beta": 3.18,
+    "setup": "",
+    "perf_year": -53.41,
+    "perf_quarter": -11.27,
+    "perf_month": 1.39,
+    "perf_week": 15.32
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ACHR",
+  "deep_dive_path": "deep-dives/ACHR-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

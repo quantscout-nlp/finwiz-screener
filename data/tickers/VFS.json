@@ -1,0 +1,60 @@
+{
+  "ticker": "VFS",
+  "company": "VinFast Auto Ltd",
+  "status": "watch",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 3.13,
+    "market_cap": 7322.75,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": -76.22,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": -51.16,
+    "profit_margin": -110.54,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 48.12,
+    "sma20_pct": 1.18,
+    "sma50_pct": -3.82,
+    "sma200_pct": -8.74,
+    "perf_ytd": -6.29,
+    "from_52w_high_pct": -40.78,
+    "beta": 0.92,
+    "setup": "",
+    "perf_year": -11.58,
+    "perf_quarter": -29.02,
+    "perf_month": 0.0,
+    "perf_week": -0.63
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=VFS",
+  "deep_dive_path": "deep-dives/VFS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

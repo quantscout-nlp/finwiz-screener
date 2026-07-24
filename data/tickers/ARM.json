@@ -1,0 +1,61 @@
+{
+  "ticker": "ARM",
+  "company": "Arm Holdings Plc ADR",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 285.38,
+    "market_cap": 303644.33,
+    "sales_growth_yoy": 19.4,
+    "eps_growth_yoy": 17.48,
+    "peg": 2.98,
+    "forward_pe": 93.96,
+    "gross_margin": 94.08,
+    "profit_margin": 18.37,
+    "debt_equity": 0.06,
+    "recom": null,
+    "target_price": null,
+    "pe": 337.17
+  },
+  "technicals": {
+    "rsi14": 43.98,
+    "sma20_pct": -5.77,
+    "sma50_pct": -11.58,
+    "sma200_pct": 51.77,
+    "perf_ytd": 161.07,
+    "from_52w_high_pct": -36.96,
+    "beta": 3.88,
+    "setup": "",
+    "perf_year": 78.37,
+    "perf_quarter": 39.48,
+    "perf_month": -20.52,
+    "perf_week": 6.81
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=ARM",
+  "deep_dive_path": "deep-dives/ARM-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

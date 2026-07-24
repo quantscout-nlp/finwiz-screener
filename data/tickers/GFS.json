@@ -1,0 +1,61 @@
+{
+  "ticker": "GFS",
+  "company": "GlobalFoundries Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 56.56,
+    "market_cap": 31034.52,
+    "sales_growth_yoy": 6.96,
+    "eps_growth_yoy": 10.09,
+    "peg": 0.93,
+    "forward_pe": 22.72,
+    "gross_margin": 26.11,
+    "profit_margin": 11.37,
+    "debt_equity": 0.15,
+    "recom": null,
+    "target_price": null,
+    "pe": 40.63
+  },
+  "technicals": {
+    "rsi14": 32.13,
+    "sma20_pct": -14.58,
+    "sma50_pct": -24.01,
+    "sma200_pct": 10.49,
+    "perf_ytd": 61.97,
+    "from_52w_high_pct": -38.89,
+    "beta": 1.81,
+    "setup": "",
+    "perf_year": 44.18,
+    "perf_quarter": -8.09,
+    "perf_month": -32.43,
+    "perf_week": -1.6
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=GFS",
+  "deep_dive_path": "deep-dives/GFS-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "NNE",
+  "company": "Nano Nuclear Energy Inc",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 16.96,
+    "market_cap": 883.34,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 15.25,
+    "peg": null,
+    "forward_pe": null,
+    "gross_margin": null,
+    "profit_margin": null,
+    "debt_equity": 0.0,
+    "recom": null,
+    "target_price": null
+  },
+  "technicals": {
+    "rsi14": 36.9,
+    "sma20_pct": -8.43,
+    "sma50_pct": -25.44,
+    "sma200_pct": -41.22,
+    "perf_ytd": -29.36,
+    "from_52w_high_pct": -72.14,
+    "beta": 5.41,
+    "setup": "",
+    "perf_year": -56.46,
+    "perf_quarter": -33.04,
+    "perf_month": -26.74,
+    "perf_week": 5.8
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NNE",
+  "deep_dive_path": "deep-dives/NNE-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

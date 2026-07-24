@@ -1,0 +1,61 @@
+{
+  "ticker": "CIEN",
+  "company": "CIENA Corp",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 405.84,
+    "market_cap": 57447.84,
+    "sales_growth_yoy": 6.19,
+    "eps_growth_yoy": -18.19,
+    "peg": 0.56,
+    "forward_pe": 42.07,
+    "gross_margin": 40.49,
+    "profit_margin": 7.87,
+    "debt_equity": 0.55,
+    "recom": null,
+    "target_price": null,
+    "pe": 135.09
+  },
+  "technicals": {
+    "rsi14": 42.41,
+    "sma20_pct": -5.87,
+    "sma50_pct": -16.06,
+    "sma200_pct": 17.2,
+    "perf_ytd": 73.53,
+    "from_52w_high_pct": -36.34,
+    "beta": 1.31,
+    "setup": "",
+    "perf_year": 365.47,
+    "perf_quarter": -21.33,
+    "perf_month": -12.44,
+    "perf_week": 8.39
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CIEN",
+  "deep_dive_path": "deep-dives/CIEN-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

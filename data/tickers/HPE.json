@@ -1,0 +1,61 @@
+{
+  "ticker": "HPE",
+  "company": "Hewlett Packard Enterprise Co",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 47.45,
+    "market_cap": 62833.45,
+    "sales_growth_yoy": 4.96,
+    "eps_growth_yoy": 29.09,
+    "peg": 0.38,
+    "forward_pe": 11.83,
+    "gross_margin": 31.38,
+    "profit_margin": 3.7,
+    "debt_equity": 0.84,
+    "recom": null,
+    "target_price": null,
+    "pe": 44.63
+  },
+  "technicals": {
+    "rsi14": 54.08,
+    "sma20_pct": 3.49,
+    "sma50_pct": 6.42,
+    "sma200_pct": 64.09,
+    "perf_ytd": 97.54,
+    "from_52w_high_pct": -26.15,
+    "beta": 1.43,
+    "setup": "",
+    "perf_year": 131.35,
+    "perf_quarter": 69.89,
+    "perf_month": -2.67,
+    "perf_week": 3.56
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=HPE",
+  "deep_dive_path": "deep-dives/HPE-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

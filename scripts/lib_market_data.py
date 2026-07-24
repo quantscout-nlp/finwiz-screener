@@ -61,8 +61,15 @@ def _normalize_ohlc(df: pd.DataFrame) -> pd.DataFrame:
     out = df.copy()
     out["Date"] = pd.to_datetime(out["Date"]).dt.tz_localize(None)
     out["Close"] = out["Close"].astype(float)
+    for col in ("Open", "High", "Low", "Volume"):
+        if col in out.columns:
+            out[col] = pd.to_numeric(out[col], errors="coerce")
     out = out.dropna(subset=["Close"]).sort_values("Date").drop_duplicates("Date").reset_index(drop=True)
-    return out[["Date", "Close"]]
+    cols = ["Date", "Close"]
+    for col in ("Open", "High", "Low", "Volume"):
+        if col in out.columns:
+            cols.append(col)
+    return out[cols]
 
 
 # ---- Massive / Polygon-compatible aggregates ----
@@ -149,7 +156,16 @@ def fetch_alpaca_daily(ticker: str, start: str, end: str | None = None) -> pd.Da
         except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
             break
         for b in payload.get("bars") or []:
-            rows.append({"Date": b.get("t"), "Close": b.get("c")})
+            rows.append(
+                {
+                    "Date": b.get("t"),
+                    "Open": b.get("o"),
+                    "High": b.get("h"),
+                    "Low": b.get("l"),
+                    "Close": b.get("c"),
+                    "Volume": b.get("v"),
+                }
+            )
         page_token = payload.get("next_page_token")
         if not page_token:
             break
@@ -197,7 +213,11 @@ def fetch_yfinance_daily(ticker: str, start: str, end: str | None = None) -> pd.
     close = df["Close"] if "Close" in df.columns else None
     if close is None:
         return pd.DataFrame()
-    return _normalize_ohlc(pd.DataFrame({"Date": df[date_col], "Close": close}))
+    row = {"Date": df[date_col], "Close": close}
+    for src, dst in (("Open", "Open"), ("High", "High"), ("Low", "Low"), ("Volume", "Volume")):
+        if src in df.columns:
+            row[dst] = df[src]
+    return _normalize_ohlc(pd.DataFrame(row))
 
 
 # ---- Benzinga news count (enrichment only) ----
@@ -277,6 +297,20 @@ def fetch_daily_bars(
             used = name
         if df is not None and not df.empty and len(df) >= 50:
             return df, used
+    return pd.DataFrame(), "none"
+
+
+def fetch_dashboard_bars(ticker: str, lookback_days: int = 420) -> tuple[pd.DataFrame, str]:
+    """Paid Alpaca bars first, then yfinance — for dashboard technicals/charts."""
+    end = date.today().isoformat()
+    start = (date.today() - timedelta(days=max(lookback_days, 60))).isoformat()
+    for name, fn in (("alpaca", fetch_alpaca_daily), ("yfinance", fetch_yfinance_daily)):
+        try:
+            df = fn(ticker, start, end)
+        except Exception:
+            df = pd.DataFrame()
+        if df is not None and not df.empty and len(df) >= 30:
+            return df, name
     return pd.DataFrame(), "none"
 
 

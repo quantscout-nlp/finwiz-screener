@@ -1,0 +1,61 @@
+{
+  "ticker": "NTNX",
+  "company": "Nutanix Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 52.87,
+    "market_cap": 14291.85,
+    "sales_growth_yoy": 14.18,
+    "eps_growth_yoy": 8.25,
+    "peg": 1.91,
+    "forward_pe": 24.15,
+    "gross_margin": 87.08,
+    "profit_margin": 10.03,
+    "debt_equity": null,
+    "recom": null,
+    "target_price": null,
+    "pe": 55.4
+  },
+  "technicals": {
+    "rsi14": 51.82,
+    "sma20_pct": -1.09,
+    "sma50_pct": 4.25,
+    "sma200_pct": 6.84,
+    "perf_ytd": 2.28,
+    "from_52w_high_pct": -35.85,
+    "beta": 0.61,
+    "setup": "",
+    "perf_year": -28.55,
+    "perf_quarter": 35.04,
+    "perf_month": 11.31,
+    "perf_week": -4.01
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=NTNX",
+  "deep_dive_path": "deep-dives/NTNX-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -17,24 +17,27 @@ alwaysApply: true
 | Purpose | Env var |
 |---------|---------|
 | Finviz Elite export | `FINVIZ_API_KEY` |
-| OpenAI Query Lab | `OPENAI_API_KEY` or `FINWIZ_LLM_API_KEY` |
+| OpenAI Query Lab | `OPENAI_API_KEY` or `FINWIZ_LLM_API_KEY` (User-level Windows env; dashboard sidebar can set session-only) |
 | Massive (bars + Benzinga ratings/income) | `MASSIVE_API_KEY` (alias `POLYGON_API_KEY`) |
-| Alpaca **bars** (data only today) | `ALPACA_API_KEY` / `ALPACA_API_SECRET` |
+| Alpaca **bars** (data only today) | `ALPACA_API_KEY` / `ALPACA_API_SECRET` (User-level; already configured) |
 | Tiingo bars | `TIINGO_API_KEY` |
 | Benzinga (if used directly) | `BENZINGA_API_KEY` |
 | LeanData root override | `LEANDATA_ROOT` (default `F:\LeanData`) |
 | Paper bot | Local ledger only — no broker API required |
 | Live unlock (blocked until broker adapter) | `FINWIZ_LIVE_TRADING=1` |
 
-Never commit `.env`, API tokens, or secrets. Prefer User-level Windows env vars.
+Never commit `.env`, API tokens, or secrets. Prefer User-level Windows env vars. Restart dashboard after changing User env so Streamlit inherits them.
 
 ## Architecture reminders
 
 - Finwiz = this local project; Finviz = data source (finviz.com / Elite)
 - Core data: `data/tickers/*.json`, `data/index/search_index.json`, `config/toggles.json`
 - Dashboard: Streamlit multi-page app in `dashboard/app.py`
-- Elite sync: `scripts/sync_finviz_elite.py` / `scripts/finviz_elite.py`
+- **Robinhood Watchlist · 193:** `dashboard/robinhood_page.py` + `data/robinhood/positions.json` + `watchlists/robinhood-retail.json` (OCR retail watchlist → Finwiz research desk; not RH order routing)
+- Enrich/resync: `scripts/enrich_robinhood_watchlist.py`, `scripts/resync_robinhood_elite.py`
+- Elite sync: `scripts/sync_finviz_elite.py` / `scripts/finviz_elite.py` (`DEFAULT_VIEWS = 152,121,161,141,171`)
 - Price providers (`scripts/lib_market_data.py`): **LeanData → Massive → Alpaca → Tiingo → yfinance**
+- **Dashboard live bars** (`fetch_dashboard_bars`): **Alpaca → yfinance** for SMAs/RSI/charts (paid Alpaca first)
 - LeanData reader: `scripts/lib_leandata.py` — DuckDB `F:\LeanData\data\depot.duckdb` + parquet under `MarketData/bars/{Day,1Hour,15Min,5Min,1Min}`
 - PIT eligibility: `scripts/lib_pit_eligibility.py` — Massive/Benzinga ratings + income (+ Lean statements fallback); advanced default `--fundamentals-mode pit`
 - Advanced backtest: `scripts/backtest_advanced.py` (IS/OOS + Monte Carlo); results → `data/backtests/advanced-latest.json`

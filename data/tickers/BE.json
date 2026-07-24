@@ -1,0 +1,61 @@
+{
+  "ticker": "BE",
+  "company": "Bloom Energy Corp",
+  "status": "watch",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 218.26,
+    "market_cap": 62082.72,
+    "sales_growth_yoy": 20.57,
+    "eps_growth_yoy": 20.18,
+    "peg": 0.43,
+    "forward_pe": 48.99,
+    "gross_margin": 31.08,
+    "profit_margin": 0.25,
+    "debt_equity": 3.2,
+    "recom": null,
+    "target_price": null,
+    "pe": 48.99
+  },
+  "technicals": {
+    "rsi14": 42.21,
+    "sma20_pct": -11.38,
+    "sma50_pct": -19.32,
+    "sma200_pct": 23.65,
+    "perf_ytd": 151.19,
+    "from_52w_high_pct": -37.87,
+    "beta": 3.82,
+    "setup": "",
+    "perf_year": 560.19,
+    "perf_quarter": -8.13,
+    "perf_month": -33.09,
+    "perf_week": 1.54
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=BE",
+  "deep_dive_path": "deep-dives/BE-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

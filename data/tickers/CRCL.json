@@ -1,0 +1,61 @@
+{
+  "ticker": "CRCL",
+  "company": "Circle Internet Group Inc",
+  "status": "watch",
+  "sector": "Financial",
+  "industry": "Capital Markets",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 63.3,
+    "market_cap": 15734.42,
+    "sales_growth_yoy": null,
+    "eps_growth_yoy": 306.81,
+    "peg": null,
+    "forward_pe": 39.07,
+    "gross_margin": 4.98,
+    "profit_margin": -2.76,
+    "debt_equity": 0.0,
+    "recom": null,
+    "target_price": null,
+    "pe": 39.07
+  },
+  "technicals": {
+    "rsi14": 42.35,
+    "sma20_pct": -3.13,
+    "sma50_pct": -23.75,
+    "sma200_pct": -30.98,
+    "perf_ytd": -20.18,
+    "from_52w_high_pct": -68.55,
+    "beta": 0.2,
+    "setup": "",
+    "perf_year": -67.22,
+    "perf_quarter": -36.71,
+    "perf_month": -10.82,
+    "perf_week": 4.69
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=CRCL",
+  "deep_dive_path": "deep-dives/CRCL-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "MCHP",
+  "company": "Microchip Technology Inc",
+  "status": "watch",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "deep_dive": {
+    "news_flow": "moderate",
+    "technicals": "workable",
+    "included_reason": "Auto-added candidate \u2014 review before promoting to core.",
+    "scores": {
+      "news_flow": 50,
+      "technicals": 65,
+      "fundamentals": 70,
+      "analyst": 50.0,
+      "composite": 58.8
+    }
+  },
+  "metrics": {
+    "price": 80.66,
+    "market_cap": 43799.06,
+    "sales_growth_yoy": -2.82,
+    "eps_growth_yoy": -19.53,
+    "peg": 0.48,
+    "forward_pe": 19.34,
+    "gross_margin": 43.55,
+    "profit_margin": 2.52,
+    "debt_equity": 0.88,
+    "recom": null,
+    "target_price": null,
+    "pe": 373.6
+  },
+  "technicals": {
+    "rsi14": 40.88,
+    "sma20_pct": -5.48,
+    "sma50_pct": -11.25,
+    "sma200_pct": 7.27,
+    "perf_ytd": 26.59,
+    "from_52w_high_pct": -23.84,
+    "beta": 1.75,
+    "setup": "",
+    "perf_year": 18.95,
+    "perf_quarter": -11.01,
+    "perf_month": -12.78,
+    "perf_week": -0.37
+  },
+  "news": {
+    "headline_bullets": [],
+    "next_catalyst": "",
+    "catalyst_date": null
+  },
+  "tags": [
+    "growth",
+    "candidate",
+    "auto-added"
+  ],
+  "finviz_url": "https://finviz.com/quote.ashx?t=MCHP",
+  "deep_dive_path": "deep-dives/MCHP-auto-2026-07-24.md",
+  "updated": "2026-07-24",
+  "finviz_elite_sync": "2026-07-24T04:38:08"
+}
